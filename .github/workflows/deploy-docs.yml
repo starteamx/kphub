@@ -55,8 +55,9 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "src/.vuepress/dist/"
+          source: "src/.vuepress/dist/*"
           target: "/opt/1panel/apps/openresty/openresty/www/sites/studyup.tech/index"
+          strip_components: 3
           overwrite: true
 
       - name: 执行部署后命令
