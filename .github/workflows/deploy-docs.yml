@@ -35,19 +35,26 @@ jobs:
           corepack enable
           pnpm install --frozen-lockfile
 
-      - name: 构建文档
+      - name: 构建文档 (GitHub Pages)
         env:
           NODE_OPTIONS: --max_old_space_size=8192
+          DEPLOY_TARGET: gh-pages
         run: |-
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
-          
-      - name: 部署文档
+
+      - name: 部署到 GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
+
+      # 重新构建用于服务器部署的版本
+      - name: 构建文档 (服务器)
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+          DEPLOY_TARGET: server
+        run: pnpm run docs:build
 
       - name: 部署到服务器
         uses: burnett01/rsync-deployments@5.2.1

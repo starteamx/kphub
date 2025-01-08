@@ -2,8 +2,11 @@ import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";
 
+// 根据环境变量设置 base
+const base = process.env.DEPLOY_TARGET === 'gh-pages' ? '/kphub/' : '/';
+
 export default defineUserConfig({
-  base: "/kphub/",
+  base,  // 动态设置 base
 
   locales: {
     "/": {
