@@ -1,4 +1,3 @@
-
 name: 部署文档
 
 on:
@@ -42,6 +41,13 @@ jobs:
         run: |-
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
+          
+      - name: 部署文档
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # 部署文档
+          branch: gh-pages
+          folder: src/.vuepress/dist
 
       - name: 部署到服务器
         uses: appleboy/scp-action@master
@@ -49,9 +55,9 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "src/.vuepress/dist/*"
+          source: "src/.vuepress/dist/"
           target: "/opt/1panel/apps/openresty/openresty/www/sites/studyup.tech/index"
-          strip_components: 3
+          overwrite: true
 
       - name: 执行部署后命令
         uses: appleboy/ssh-action@master
@@ -62,9 +68,4 @@ jobs:
           script: |
             docker exec 1Panel-openresty-063y nginx -s reload
 
-      - name: 部署文档
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          # 部署文档
-          branch: gh-pages
-          folder: src/.vuepress/dist
+
