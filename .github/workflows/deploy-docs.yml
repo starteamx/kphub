@@ -50,15 +50,14 @@ jobs:
           folder: src/.vuepress/dist
 
       - name: 部署到服务器
-        uses: appleboy/scp-action@master
+        uses: burnett01/rsync-deployments@5.2.1
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "src/.vuepress/dist/*"
-          target: "/opt/1panel/apps/openresty/openresty/www/sites/studyup.tech/index"
-          strip_components: 3
-          overwrite: true
+          switches: -avzr --delete
+          path: src/.vuepress/dist/
+          remote_path: /opt/1panel/apps/openresty/openresty/www/sites/studyup.tech/index/
+          remote_host: ${{ secrets.SSH_HOST }}
+          remote_user: deploy
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: 执行部署后命令
         uses: appleboy/ssh-action@master
