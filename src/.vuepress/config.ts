@@ -11,8 +11,8 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "文档演示",
-      description: "vuepress-theme-hope 的文档演示",
+      title: "全栈开发知识库",
+      description: "全栈开发知识库",
     },
   },
 

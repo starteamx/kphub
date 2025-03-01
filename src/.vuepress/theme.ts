@@ -8,12 +8,12 @@ export default hopeTheme({
 
   author: {
     name: "Kpsmart",
-    url: "https://mister-hope.com",
+    url: "https://studyup.tech",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "starteamx/kphub",
 
   docsDir: "src",
 
@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: '<div style="font-size: 13px; color: rgba(60, 60, 67, 0.78);"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style="color: rgba(60, 60, 67, 0.78); text-decoration: none;">粤ICP备2022047750</a> | <a href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank" rel="noopener noreferrer" style="color: rgba(60, 60, 67, 0.78); text-decoration: none;"><span style="vertical-align: middle; margin-right: 3px;">粤公网安备44011302003525</span></a></div>',
   displayFooter: true,
 
   // 多语言配置
@@ -32,7 +32,7 @@ export default hopeTheme({
     editLink: "在 GitHub 上编辑此页",
   },
 
-  // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
+  // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大的负面影响
   // hotReload: true,
 
   // 此处开启了很多功能用于演示，你应仅保留用到的功能。
