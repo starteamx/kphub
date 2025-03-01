@@ -1,7 +1,5 @@
 import { defineUserConfig } from "vuepress";
-
 import theme from "./theme.js";
-import { iconPlugin } from "@vuepress/plugin-icon";  // 添加这行
 
 
 // 根据环境变量设置 base

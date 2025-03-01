@@ -7,7 +7,7 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
+    name: "Kpsmart",
     url: "https://mister-hope.com",
   },
 
@@ -18,7 +18,7 @@ export default hopeTheme({
   docsDir: "src",
 
   // 导航栏
-  navbar,
+  navbar: false,
 
   // 侧边栏
   sidebar,
@@ -26,13 +26,6 @@ export default hopeTheme({
   // 页脚
   footer: "默认页脚",
   displayFooter: true,
-
-  // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
 
   // 多语言配置
   metaLocales: {
@@ -120,9 +113,9 @@ export default hopeTheme({
     comment: {
       provider: "Giscus",
       repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repoId: "R_kgDONnF8_g",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDONnF8_s4CndDL",
     },
 
     components: {
