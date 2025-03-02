@@ -3,7 +3,7 @@ title: HTML
 icon: code
 index: false
 dir:
-  expanded: true
+  expanded: false
   order: 1
   link: true
 ---

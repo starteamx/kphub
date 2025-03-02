@@ -2,6 +2,10 @@
 title: 前端开发
 icon: html5
 index: false
+dir:
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # 前端开发
