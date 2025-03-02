@@ -23,12 +23,13 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           version: 8
-
+          
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: pnpm
+          cache: 'pnpm'
+          # 移除了 cache: pnpm 并改为明确的字符串格式 'pnpm'
 
       - name: 安装依赖
         run: |
