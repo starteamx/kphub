@@ -1,5 +1,5 @@
 ---
-title: CSS视觉效果
+title: 视觉效果
 icon: folder
 index: false
 dir:

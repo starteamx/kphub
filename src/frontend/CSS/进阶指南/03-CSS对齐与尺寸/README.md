@@ -1,5 +1,5 @@
 ---
-title: CSS对齐与尺寸
+title: 对齐与尺寸
 icon: folder
 index: false
 dir:

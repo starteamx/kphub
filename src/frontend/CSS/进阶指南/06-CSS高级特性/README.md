@@ -1,5 +1,5 @@
 ---
-title: CSS高级特性
+title: 高级特性
 icon: folder
 index: false
 dir:

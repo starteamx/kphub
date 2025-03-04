@@ -1,5 +1,5 @@
 ---
-title: CSS响应式设计
+title: 响应式设计
 icon: folder
 index: false
 dir:

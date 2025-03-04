@@ -1,5 +1,5 @@
 ---
-title: CSS基础布局
+title: 基础布局
 icon: folder
 index: false
 dir:

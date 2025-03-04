@@ -1,5 +1,5 @@
 ---
-title: CSS现代布局
+title: 现代布局
 icon: folder
 index: false
 dir:

@@ -1,5 +1,5 @@
 ---
-title: CSS嵌套规则
+title: 嵌套规则
 icon: code
 order: 1
 ---

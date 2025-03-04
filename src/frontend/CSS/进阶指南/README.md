@@ -1,5 +1,5 @@
 ---
-title: CSS进阶指南
+title: 进阶指南
 icon: css
 index: false
 dir:
