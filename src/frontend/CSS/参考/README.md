@@ -1,7 +1,11 @@
 ---
-title: CSS 参考
+title: 参考
 icon: css
-order: 7
+index: false
+dir:
+  expanded: false
+  order: 3
+  link: true
 ---
 
 # CSS 参考

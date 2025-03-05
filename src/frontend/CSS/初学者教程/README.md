@@ -3,7 +3,7 @@ title: 基础教程
 icon: book
 index: false
 dir:
-  expanded: true
+  expanded: false
   order: 1
   link: true
 ---
