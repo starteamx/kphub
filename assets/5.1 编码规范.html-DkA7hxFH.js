@@ -1,0 +1,37 @@
+import{_ as n}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as a,b as e,g as i,o as p}from"./app-BnW4YUM-.js";const l={};function c(t,s){return p(),a("div",null,[s[0]||(s[0]=e(`<h1 id="编码规范" tabindex="-1"><a class="header-anchor" href="#编码规范"><span>编码规范</span></a></h1><h2 id="_7-1模式目录结构" tabindex="-1"><a class="header-anchor" href="#_7-1模式目录结构"><span>7-1模式目录结构</span></a></h2><p>7-1模式是一种流行的Sass项目结构组织方式，包含7个文件夹和1个主文件：</p><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34;"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>sass/</span></span>
+<span class="line"><span>|</span></span>
+<span class="line"><span>|– abstracts/</span></span>
+<span class="line"><span>|   |– _variables.scss    # 变量</span></span>
+<span class="line"><span>|   |– _functions.scss    # 函数</span></span>
+<span class="line"><span>|   |– _mixins.scss       # 混入</span></span>
+<span class="line"><span>|   |– _placeholders.scss # 占位符</span></span>
+<span class="line"><span>|</span></span>
+<span class="line"><span>|– base/</span></span>
+<span class="line"><span>|   |– _reset.scss        # 重置/标准化</span></span>
+<span class="line"><span>|   |– _typography.scss   # 排版规则</span></span>
+<span class="line"><span>|</span></span>
+<span class="line"><span>|– components/</span></span>
+<span class="line"><span>|   |– _buttons.scss      # 按钮</span></span>
+<span class="line"><span>|   |– _carousel.scss     # 轮播</span></span>
+<span class="line"><span>|   |– _dropdown.scss     # 下拉菜单</span></span>
+<span class="line"><span>|</span></span>
+<span class="line"><span>|– layout/</span></span>
+<span class="line"><span>|   |– _navigation.scss   # 导航</span></span>
+<span class="line"><span>|   |– _grid.scss         # 网格系统</span></span>
+<span class="line"><span>|   |– _header.scss       # 头部</span></span>
+<span class="line"><span>|   |– _footer.scss       # 底部</span></span>
+<span class="line"><span>|   |– _forms.scss        # 表单</span></span>
+<span class="line"><span>|</span></span>
+<span class="line"><span>|– pages/</span></span>
+<span class="line"><span>|   |– _home.scss         # 首页样式</span></span>
+<span class="line"><span>|   |– _about.scss        # 关于页样式</span></span>
+<span class="line"><span>|</span></span>
+<span class="line"><span>|– themes/</span></span>
+<span class="line"><span>|   |– _theme.scss        # 默认主题</span></span>
+<span class="line"><span>|   |– _admin.scss        # 管理员主题</span></span>
+<span class="line"><span>|</span></span>
+<span class="line"><span>|– vendors/</span></span>
+<span class="line"><span>|   |– _bootstrap.scss    # Bootstrap</span></span>
+<span class="line"><span>|   |– _jquery-ui.scss    # jQuery UI</span></span>
+<span class="line"><span>|</span></span>
+<span class="line"><span>|– main.scss              # 主Sass文件</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,4)),i(" 更多内容... ")])}const o=n(l,[["render",c],["__file","5.1 编码规范.html.vue"]]),m=JSON.parse('{"path":"/frontend/CSS/%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/SCSS-SASS/5.%20%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/5.1%20%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.html","title":"编码规范","lang":"zh-CN","frontmatter":{"title":"编码规范","icon":"css","order":1,"description":"编码规范 7-1模式目录结构 7-1模式是一种流行的Sass项目结构组织方式，包含7个文件夹和1个主文件：","head":[["meta",{"property":"og:url","content":"https://vuepress-theme-hope-docs-demo.netlify.app/kphub/frontend/CSS/%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/SCSS-SASS/5.%20%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/5.1%20%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.html"}],["meta",{"property":"og:site_name","content":"全栈开发知识库"}],["meta",{"property":"og:title","content":"编码规范"}],["meta",{"property":"og:description","content":"编码规范 7-1模式目录结构 7-1模式是一种流行的Sass项目结构组织方式，包含7个文件夹和1个主文件："}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"zh-CN"}],["meta",{"property":"og:updated_time","content":"2025-03-05T16:25:31.000Z"}],["meta",{"property":"article:modified_time","content":"2025-03-05T16:25:31.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"编码规范\\",\\"image\\":[\\"\\"],\\"dateModified\\":\\"2025-03-05T16:25:31.000Z\\",\\"author\\":[{\\"@type\\":\\"Person\\",\\"name\\":\\"Kpsmart\\",\\"url\\":\\"https://studyup.tech\\"}]}"]]},"headers":[{"level":2,"title":"7-1模式目录结构","slug":"_7-1模式目录结构","link":"#_7-1模式目录结构","children":[]}],"git":{"createdTime":1741191931000,"updatedTime":1741191931000,"contributors":[{"name":"guanrunbai","username":"guanrunbai","email":"470626708@qq.com","commits":1,"url":"https://github.com/guanrunbai"}]},"readingTime":{"minutes":0.51,"words":152},"filePathRelative":"frontend/CSS/预处理器/SCSS-SASS/5. 工程实践/5.1 编码规范.md","localizedDate":"2025年3月5日","autoDesc":true}');export{o as comp,m as data};
