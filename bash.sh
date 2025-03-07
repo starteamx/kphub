@@ -1,1031 +1,718 @@
 #!/bin/bash
 
-# 创建CSS预处理器知识库目录结构的脚本
-# 此脚本将在/Users/guanrunbai/my/kphub/src/frontend/CSS/预处理器/目录下创建完整的知识库结构
+# 设置基础路径
+BASE_PATH="/Users/guanrunbai/my/kphub/src/frontend/JavaScript"
 
-# 基础路径
-BASE_PATH="/Users/guanrunbai/my/kphub/src/frontend/CSS/预处理器"
-
-# 创建基础目录
-mkdir -p "$BASE_PATH"
-mkdir -p "$BASE_PATH/SCSS-SASS/3. 核心功能"
-mkdir -p "$BASE_PATH/SCSS-SASS/4. 高级主题"
-mkdir -p "$BASE_PATH/SCSS-SASS/5. 工程实践"
-mkdir -p "$BASE_PATH/LESS"
-
-# 创建README.md
-cat > "$BASE_PATH/README.md" << 'EOF'
+# 创建03-高级主题目录及README
+mkdir -p "$BASE_PATH/03-高级主题"
+cat > "$BASE_PATH/03-高级主题/README.md" << 'EOF'
 ---
-title: CSS预处理器
-icon: css
-order: 1
----
-
-# CSS预处理器
-
-CSS预处理器是一种特殊的编程语言，它扩展了CSS语言，添加了诸如变量、嵌套规则、混入(mixins)、函数等功能，使CSS更加强大和灵活。预处理器可以帮助开发者编写更加结构化、可维护的CSS代码，并提高开发效率。
-
-## 主要预处理器
-
-本目录包含以下主要CSS预处理器的详细介绍：
-
-- **[SCSS/SASS](./SCSS-SASS/)** - 最流行的CSS预处理器，提供了强大的功能和灵活的语法
-- **[LESS](./LESS/)** - 一种向后兼容的CSS扩展语言，易于学习，可在浏览器中运行
-
-<!-- 更多内容... -->
-EOF
-
-# 创建SCSS/SASS文档
-cat > "$BASE_PATH/SCSS-SASS/1. 基础概念.md" << 'EOF'
----
-title: 基础概念
-icon: css
-order: 1
----
-
-# SCSS/SASS基础概念
-
-## Sass/SCSS的定义与历史演进
-
-Sass(Syntactically Awesome Style Sheets)是一种CSS预处理器，最初由Hampton Catlin设计并由Natalie Weizenbaum开发。它于2006年首次发布，是最早的CSS预处理器之一，经过多年发展已成为最流行的CSS扩展语言。
-
-<!-- 更多内容... -->
-
-## .sass与.scss语法差异对比
-
-Sass有两种语法格式：
-
-1. **原始语法(.sass文件)**：使用缩进而非花括号和分号
-2. **SCSS语法(.scss文件)**：使用与CSS相似的花括号和分号
-
-<!-- 更多内容... -->
-
-## 预处理器核心价值
-
-Sass/SCSS通过以下核心功能扩展了CSS的能力：
-
-- **变量系统**：定义和重用颜色、字体等值
-- **模块化**：将样式分割为多个文件，便于管理
-- **代码复用**：通过混入和函数减少重复代码
-
-<!-- 更多内容... -->
-EOF
-
-cat > "$BASE_PATH/SCSS-SASS/2. 安装与环境配置.md" << 'EOF'
----
-title: 安装与环境配置
-icon: css
-order: 2
----
-
-# SCSS/SASS安装与环境配置
-
-## 多平台安装方法
-
-Sass/SCSS有多种安装方式，适合不同的开发环境和需求：
-
-### npm安装
-
-```bash
-npm install -g sass
-# 或项目内安装
-npm install --save-dev sass
-```
-
-<!-- 更多内容... -->
-
-## 编译方式对比
-
-### 命令行编译
-
-```bash
-sass input.scss output.css
-```
-
-<!-- 更多内容... -->
-
-## 环境问题排查
-
-### 版本冲突
-
-当项目依赖不同版本的Sass时可能出现冲突，解决方法包括：
-
-<!-- 更多内容... -->
-EOF
-
-# 创建SCSS/SASS核心功能文档
-cat > "$BASE_PATH/SCSS-SASS/3. 核心功能/3.1 变量系统.md" << 'EOF'
----
-title: 变量系统
-icon: css
-order: 1
----
-
-# SCSS/SASS变量系统
-
-## 作用域规则
-
-Sass变量的作用域可以是局部的或全局的：
-
-```scss
-$primary-color: #333; // 全局变量
-
-.container {
-  $secondary-color: #666; // 局部变量
-  color: $primary-color;
-  background-color: $secondary-color;
-}
-
-// $secondary-color在此处不可用
-```
-
-<!-- 更多内容... -->
-
-## 默认值与动态赋值
-
-### !default标志
-
-使用`!default`可以设置变量的默认值，只有当变量未定义或值为null时才会生效：
-
-```scss
-$base-color: blue !default;
-```
-
-<!-- 更多内容... -->
-EOF
-
-cat > "$BASE_PATH/SCSS-SASS/3. 核心功能/3.2 嵌套规则.md" << 'EOF'
----
-title: 嵌套规则
-icon: css
-order: 2
----
-
-# SCSS/SASS嵌套规则
-
-## 选择器嵌套的隐式父子关系
-
-Sass允许以嵌套的方式编写CSS选择器，反映HTML的层次结构：
-
-```scss
-nav {
-  background-color: #333;
-  
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  li {
-    display: inline-block;
-  }
-  
-  a {
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
-  }
-}
-```
-
-<!-- 更多内容... -->
-
-## &符号的进阶用法
-
-`&`符号代表父选择器，可用于创建更复杂的选择器：
-
-```scss
-.button {
-  &:hover {
-    background-color: #0056b3;
-  }
-  
-  &--primary {
-    background-color: #007bff;
-  }
-  
-  &--secondary {
-    background-color: #6c757d;
-  }
-}
-```
-
-<!-- 更多内容... -->
-EOF
-
-# 创建更多SCSS/SASS文档(简化版)
-cat > "$BASE_PATH/SCSS-SASS/3. 核心功能/3.3 混入(Mixins).md" << 'EOF'
----
-title: 混入(Mixins)
-icon: css
+title: JavaScript高级主题
+icon: javascript
 order: 3
 ---
 
-# SCSS/SASS混入(Mixins)
+# JavaScript高级主题
 
-## 参数化模板
+本部分探讨JavaScript的高级主题和技术，适合已掌握中级知识的开发者。通过学习这部分内容，您将深入理解JavaScript的内部机制，掌握高级编程技巧和设计模式。
 
-Sass混入允许创建可重用的样式片段，支持参数传递：
-
-```scss
-@mixin button($bg-color, $text-color: white) {
-  background-color: $bg-color;
-  color: $text-color;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 4px;
-}
-
-.primary-button {
-  @include button(#007bff);
-}
-
-.secondary-button {
-  @include button(#6c757d, #333);
-}
-```
-
-<!-- 更多内容... -->
 EOF
 
-# 创建LESS文档
-cat > "$BASE_PATH/LESS/1. 基础语法与核心特性.md" << 'EOF'
+# 创建3.1-原型与继承目录及文件
+mkdir -p "$BASE_PATH/03-高级主题/3.1-原型与继承"
+cat > "$BASE_PATH/03-高级主题/3.1-原型与继承/README.md" << 'EOF'
 ---
-title: 基础语法与核心特性
-icon: css
+title: 原型与继承
+icon: javascript
 order: 1
 ---
 
-# LESS基础语法与核心特性
+# 原型与继承
 
-## 快速入门
+原型是JavaScript面向对象编程的核心机制。本节将深入探讨原型链、继承模式以及相关的高级概念。
 
-### LESS简介
-
-LESS(Leaner Style Sheets)是一种CSS预处理语言，它扩展了CSS，增加了变量、混合、函数等特性。LESS可以运行在客户端或服务器端。
-
-<!-- 更多内容... -->
-
-### 安装与环境配置
-
-LESS可以通过npm安装：
-
-```bash
-npm install -g less
-```
-
-<!-- 更多内容... -->
-
-### 编译工具
-
-LESS可以通过多种方式编译：
-
-```bash
-# 命令行编译
-lessc styles.less styles.css
-```
-
-<!-- 更多内容... -->
-
-## 核心语法
-
-### 变量系统
-
-LESS使用@符号定义变量：
-
-```less
-@primary-color: #007bff;
-
-.button {
-  background-color: @primary-color;
-  color: white;
-}
-```
-
-<!-- 更多内容... -->
 EOF
 
-cat > "$BASE_PATH/LESS/2. 函数库详解.md" << 'EOF'
+cat > "$BASE_PATH/03-高级主题/3.1-原型与继承/3.1.1-原型链详解.md" << 'EOF'
 ---
-title: 函数库详解
-icon: css
+title: 原型链详解
+icon: javascript
+order: 1
+---
+
+# 原型链详解
+
+原型链是JavaScript实现继承的基础机制。本文将深入解析原型链的工作原理、属性查找过程以及原型链的构建方式，帮助您理解JavaScript对象系统的核心概念。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.1-原型与继承/3.1.2-继承模式.md" << 'EOF'
+---
+title: 继承模式
+icon: javascript
 order: 2
 ---
 
-# LESS函数库详解
+# 继承模式
 
-## 字符串函数
+JavaScript提供了多种实现继承的方式。本文将详细介绍原型继承、构造函数继承、组合继承、寄生组合继承等模式的实现方法、优缺点以及适用场景。
 
-LESS提供了多种处理字符串的函数：
-
-```less
-@escaped: escape("a=1");
-// 结果: a%3D1
-
-@unescaped: e("a=1");
-// 结果: a=1
-
-@replaced: replace("Hello, Mars", "Mars", "World");
-// 结果: Hello, World
-```
-
-<!-- 更多内容... -->
-
-## 列表函数
-
-LESS提供了处理列表的函数：
-
-```less
-@list: "a", "b", "c";
-@length: length(@list); // 结果: 3
-@item: extract(@list, 2); // 结果: "b"
-```
-
-<!-- 更多内容... -->
 EOF
 
-# 创建更多LESS文档(简化版)
-cat > "$BASE_PATH/LESS/3. 高级特性与模式.md" << 'EOF'
+cat > "$BASE_PATH/03-高级主题/3.1-原型与继承/3.1.3-instanceof与原型判断.md" << 'EOF'
 ---
-title: 高级特性与模式
-icon: css
+title: instanceof与原型判断
+icon: javascript
 order: 3
 ---
 
-# LESS高级特性与模式
+# instanceof与原型判断
 
-## 动态规则集
+instanceof运算符用于检测对象是否属于特定类。本文将深入解析instanceof的工作原理、Object.prototype.isPrototypeOf()方法以及如何正确判断对象的原型关系。
 
-LESS支持分离规则集，可以将规则集赋值给变量：
-
-```less
-@detached-ruleset: {
-  background-color: red;
-  .nested {
-    color: white;
-  }
-};
-
-.component {
-  @detached-ruleset();
-}
-```
-
-<!-- 更多内容... -->
 EOF
 
-cat > "$BASE_PATH/LESS/4. 工具与工程化.md" << 'EOF'
+cat > "$BASE_PATH/03-高级主题/3.1-原型与继承/3.1.4-多态与混入.md" << 'EOF'
 ---
-title: 工具与工程化
-icon: css
+title: 多态与混入
+icon: javascript
 order: 4
 ---
 
-# LESS工具与工程化
+# 多态与混入
 
-## 编译工具
+JavaScript不支持传统的多重继承，但可以通过混入(mixin)模式实现类似功能。本文将介绍多态的概念、混入模式的实现方法以及Object.assign()和展开运算符在混入中的应用。
 
-### Less.js使用详解
-
-Less.js是LESS的官方JavaScript实现，可以在浏览器中直接使用：
-
-```html
-<link rel="stylesheet/less" type="text/css" href="styles.less" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
-```
-
-<!-- 更多内容... -->
 EOF
 
-cat > "$BASE_PATH/LESS/5. 最佳实践.md" << 'EOF'
+# 创建3.2-内存管理目录及文件
+mkdir -p "$BASE_PATH/03-高级主题/3.2-内存管理"
+cat > "$BASE_PATH/03-高级主题/3.2-内存管理/README.md" << 'EOF'
 ---
-title: 最佳实践
-icon: css
-order: 5
+title: 内存管理
+icon: javascript
+order: 2
 ---
 
-# LESS最佳实践
+# 内存管理
 
-## 代码组织
+理解JavaScript的内存管理机制对于编写高效、无内存泄漏的应用至关重要。本节将深入探讨JavaScript的垃圾回收机制、内存泄漏问题以及性能优化策略。
 
-### 变量集中管理
-
-推荐将所有变量集中在一个或多个专用文件中：
-
-```less
-// variables.less
-@primary-color: #007bff;
-@secondary-color: #6c757d;
-@font-family-base: 'Helvetica Neue', Arial, sans-serif;
-
-// 在其他文件中导入
-@import "variables.less";
-```
-
-<!-- 更多内容... -->
-
-## 响应式设计
-
-### 断点变量与媒体查询抽象
-
-使用变量和混合来管理响应式断点：
-
-```less
-@screen-sm: 576px;
-@screen-md: 768px;
-@screen-lg: 992px;
-@screen-xl: 1200px;
-
-.for-phone-only(@content) {
-  @media (max-width: @screen-sm - 1) { @content(); }
-}
-
-.for-tablet-up(@content) {
-  @media (min-width: @screen-sm) { @content(); }
-}
-```
-
-<!-- 更多内容... -->
-
-## 主题化方案
-
-### 多主题切换实现
-
-LESS可以通过变量覆盖实现主题切换：
-
-```less
-// theme-light.less
-@import "variables.less";
-@import "components.less";
-
-// theme-dark.less
-@primary-color: #375a7f;
-@background-color: #222;
-@text-color: #fff;
-@import "variables.less";
-@import "components.less";
-```
-
-<!-- 更多内容... -->
-
-## 关键文档定位
-
-### 变量高级用法
-
-关于变量的高级用法，请参考LESS官方文档的"Variables"章节。
-
-<!-- 更多内容... -->
 EOF
 
-# 创建其他必要的SCSS/SASS文档
-cat > "$BASE_PATH/SCSS-SASS/3. 核心功能/3.4 继承(Extend).md" << 'EOF'
+cat > "$BASE_PATH/03-高级主题/3.2-内存管理/3.2.1-垃圾回收机制.md" << 'EOF'
 ---
-title: 继承(Extend)
-icon: css
+title: 垃圾回收机制
+icon: javascript
+order: 1
+---
+
+# 垃圾回收机制
+
+JavaScript引擎使用垃圾回收机制自动管理内存。本文将详细介绍标记清除和引用计数等垃圾回收算法的工作原理、优缺点以及JavaScript引擎如何实现内存管理。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.2-内存管理/3.2.2-内存泄漏.md" << 'EOF'
+---
+title: 内存泄漏
+icon: javascript
+order: 2
+---
+
+# 内存泄漏
+
+内存泄漏是指程序不再需要的内存没有被释放。本文将介绍JavaScript中常见的内存泄漏场景，如闭包、全局变量、事件监听器等，以及如何识别和解决这些问题。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.2-内存管理/3.2.3-性能优化.md" << 'EOF'
+---
+title: 性能优化
+icon: javascript
+order: 3
+---
+
+# 性能优化
+
+优化内存使用是提高JavaScript应用性能的重要方面。本文将介绍减少内存消耗的策略，如对象池、弱引用、适当的数据结构选择等，帮助您编写更高效的代码。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.2-内存管理/3.2.4-内存分析工具.md" << 'EOF'
+---
+title: 内存分析工具
+icon: javascript
 order: 4
 ---
 
-# SCSS/SASS继承(Extend)
+# 内存分析工具
 
-## %placeholder占位符
+分析和监控内存使用是解决内存问题的关键。本文将介绍Chrome DevTools等浏览器开发工具中的内存分析功能，包括堆快照、内存时间线、分配分析等，帮助您有效地诊断内存问题。
 
-Sass中的占位符选择器以%开头，只有被@extend时才会生成CSS：
-
-```scss
-%button-base {
-  padding: 10px 15px;
-  border: none;
-  border-radius: 4px;
-}
-
-.primary-button {
-  @extend %button-base;
-  background-color: #007bff;
-}
-
-.secondary-button {
-  @extend %button-base;
-  background-color: #6c757d;
-}
-```
-
-<!-- 更多内容... -->
 EOF
 
-cat > "$BASE_PATH/SCSS-SASS/3. 核心功能/3.5 函数(Functions).md" << 'EOF'
+# 创建3.3-并发模型目录及文件
+mkdir -p "$BASE_PATH/03-高级主题/3.3-并发模型"
+cat > "$BASE_PATH/03-高级主题/3.3-并发模型/README.md" << 'EOF'
 ---
-title: 函数(Functions)
-icon: css
+title: 并发模型
+icon: javascript
+order: 3
+---
+
+# 并发模型
+
+JavaScript使用事件循环模型处理并发。本节将深入探讨JavaScript的并发模型、事件循环机制以及相关的高级概念。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.3-并发模型/3.3.1-事件循环详解.md" << 'EOF'
+---
+title: 事件循环详解
+icon: javascript
+order: 1
+---
+
+# 事件循环详解
+
+事件循环是JavaScript处理异步操作的核心机制。本文将深入分析事件循环的工作原理、执行栈、消息队列以及浏览器和Node.js环境中事件循环的差异。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.3-并发模型/3.3.2-宏任务与微任务.md" << 'EOF'
+---
+title: 宏任务与微任务
+icon: javascript
+order: 2
+---
+
+# 宏任务与微任务
+
+JavaScript中的任务分为宏任务和微任务，它们有不同的优先级和执行顺序。本文将详细介绍宏任务和微任务的概念、区别以及它们在事件循环中的处理方式。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.3-并发模型/3.3.3-并发控制模式.md" << 'EOF'
+---
+title: 并发控制模式
+icon: javascript
+order: 3
+---
+
+# 并发控制模式
+
+在处理大量异步操作时，需要适当控制并发度以避免资源耗尽。本文将介绍节流、防抖、并发限制等技术的实现和应用，帮助您有效管理异步操作的执行。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.3-并发模型/3.3.4-Worker线程.md" << 'EOF'
+---
+title: Worker线程
+icon: javascript
+order: 4
+---
+
+# Worker线程
+
+Web Worker和Worker Threads提供了在JavaScript中实现多线程的能力。本文将介绍不同类型的Worker、线程间通信机制以及如何利用Worker处理计算密集型任务，提高应用性能。
+
+EOF
+
+# 创建3.4-函数式编程目录及文件
+mkdir -p "$BASE_PATH/03-高级主题/3.4-函数式编程"
+cat > "$BASE_PATH/03-高级主题/3.4-函数式编程/README.md" << 'EOF'
+---
+title: 函数式编程
+icon: javascript
+order: 4
+---
+
+# 函数式编程
+
+函数式编程是一种编程范式，强调使用纯函数、避免共享状态和可变数据。本节将介绍函数式编程的核心概念和在JavaScript中的应用。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.4-函数式编程/3.4.1-纯函数与副作用.md" << 'EOF'
+---
+title: 纯函数与副作用
+icon: javascript
+order: 1
+---
+
+# 纯函数与副作用
+
+纯函数是函数式编程的基础，它不依赖外部状态且不产生副作用。本文将详细介绍纯函数的概念、特点、优势以及如何识别和减少副作用，提高代码的可测试性和可维护性。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.4-函数式编程/3.4.2-高阶函数.md" << 'EOF'
+---
+title: 高阶函数
+icon: javascript
+order: 2
+---
+
+# 高阶函数
+
+高阶函数是接受函数作为参数或返回函数的函数。本文将介绍高阶函数的概念、常见的高阶函数如map、filter、reduce的实现原理，以及如何使用高阶函数简化代码和提高抽象级别。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.4-函数式编程/3.4.3-函数组合与管道.md" << 'EOF'
+---
+title: 函数组合与管道
+icon: javascript
+order: 3
+---
+
+# 函数组合与管道
+
+函数组合是将多个函数组合成一个新函数的技术。本文将介绍函数组合的概念、compose和pipe函数的实现，以及如何使用函数组合构建数据转换管道，提高代码的可读性和可维护性。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.4-函数式编程/3.4.4-柯里化与偏应用.md" << 'EOF'
+---
+title: 柯里化与偏应用
+icon: javascript
+order: 4
+---
+
+# 柯里化与偏应用
+
+柯里化和偏应用是函数式编程中的重要技术，用于创建更灵活、更可复用的函数。本文将详细介绍柯里化和偏应用的概念、实现方法以及它们在实际开发中的应用场景。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.4-函数式编程/3.4.5-函数式库介绍.md" << 'EOF'
+---
+title: 函数式库介绍
+icon: javascript
 order: 5
 ---
 
-# SCSS/SASS函数(Functions)
+# 函数式库介绍
 
-Sass提供了丰富的内置函数，也支持自定义函数：
+JavaScript生态系统中有多个优秀的函数式编程库。本文将介绍Ramda、Lodash/fp等函数式库的特点、API设计理念以及如何在实际项目中使用这些库提高开发效率。
 
-```scss
-// 自定义函数
-@function calculate-width($col-span, $total-cols: 12) {
-  @return percentage($col-span / $total-cols);
-}
-
-.sidebar {
-  width: calculate-width(3); // 25%
-}
-
-.main-content {
-  width: calculate-width(9); // 75%
-}
-```
-
-<!-- 更多内容... -->
 EOF
 
-cat > "$BASE_PATH/SCSS-SASS/3. 核心功能/3.6 模块化.md" << 'EOF'
+# 创建3.5-设计模式目录及文件
+mkdir -p "$BASE_PATH/03-高级主题/3.5-设计模式"
+cat > "$BASE_PATH/03-高级主题/3.5-设计模式/README.md" << 'EOF'
 ---
-title: 模块化
-icon: css
+title: 设计模式
+icon: javascript
+order: 5
+---
+
+# 设计模式
+
+设计模式是解决软件设计中常见问题的可复用方案。本节将介绍JavaScript中常用的设计模式及其实现方式。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.5-设计模式/3.5.1-创建型模式.md" << 'EOF'
+---
+title: 创建型模式
+icon: javascript
+order: 1
+---
+
+# 创建型模式
+
+创建型模式关注对象的创建机制。本文将介绍JavaScript中的工厂模式、单例模式、构建者模式等创建型设计模式的实现和应用场景，帮助您以更灵活、更适合特定场景的方式创建对象。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.5-设计模式/3.5.2-结构型模式.md" << 'EOF'
+---
+title: 结构型模式
+icon: javascript
+order: 2
+---
+
+# 结构型模式
+
+结构型模式关注类和对象的组合。本文将介绍适配器模式、装饰器模式、代理模式等结构型设计模式在JavaScript中的实现和应用，帮助您构建更灵活、更可扩展的代码结构。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.5-设计模式/3.5.3-行为型模式.md" << 'EOF'
+---
+title: 行为型模式
+icon: javascript
+order: 3
+---
+
+# 行为型模式
+
+行为型模式关注对象之间的通信。本文将介绍观察者模式、策略模式、命令模式等行为型设计模式在JavaScript中的实现和应用，帮助您设计更灵活、更可维护的对象交互方式。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.5-设计模式/3.5.4-JavaScript特有模式.md" << 'EOF'
+---
+title: JavaScript特有模式
+icon: javascript
+order: 4
+---
+
+# JavaScript特有模式
+
+JavaScript作为一种多范式语言，有一些特有的设计模式。本文将介绍模块模式、揭示模块模式、IIFE模式等JavaScript特有的设计模式，以及它们在实际开发中的应用场景。
+
+EOF
+
+# 创建3.6-元编程高级目录及文件
+mkdir -p "$BASE_PATH/03-高级主题/3.6-元编程高级"
+cat > "$BASE_PATH/03-高级主题/3.6-元编程高级/README.md" << 'EOF'
+---
+title: 元编程高级
+icon: javascript
 order: 6
 ---
 
-# SCSS/SASS模块化
+# 元编程高级
 
-## @use vs @import
+元编程是指编写能够操作代码的代码。本节将深入探讨JavaScript的元编程特性，如Symbol、Proxy、Reflect以及装饰器等。
 
-Sass模块系统推荐使用@use替代@import：
-
-```scss
-// _colors.scss
-$primary: #007bff;
-$secondary: #6c757d;
-
-// main.scss
-@use 'colors';
-.button {
-  background-color: colors.$primary;
-  color: white;
-}
-```
-
-<!-- 更多内容... -->
 EOF
 
-cat > "$BASE_PATH/SCSS-SASS/3. 核心功能/3.7 控制指令.md" << 'EOF'
+cat > "$BASE_PATH/03-高级主题/3.6-元编程高级/3.6.1-Symbol深入.md" << 'EOF'
 ---
-title: 控制指令
-icon: css
+title: Symbol深入
+icon: javascript
+order: 1
+---
+
+# Symbol深入
+
+Symbol是ES6引入的原始数据类型，用于创建唯一的标识符。本文将深入介绍Symbol的高级用法、内置Symbol的作用以及如何利用Symbol实现元编程功能，如自定义迭代器和特殊方法。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.6-元编程高级/3.6.2-Proxy高级应用.md" << 'EOF'
+---
+title: Proxy高级应用
+icon: javascript
+order: 2
+---
+
+# Proxy高级应用
+
+Proxy对象允许您创建一个对象的代理，拦截和自定义对象的基本操作。本文将深入介绍Proxy的高级应用，如数据绑定、验证、日志记录以及如何实现响应式编程模型。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.6-元编程高级/3.6.3-Reflect完全指南.md" << 'EOF'
+---
+title: Reflect完全指南
+icon: javascript
+order: 3
+---
+
+# Reflect完全指南
+
+Reflect是ES6引入的内置对象，提供了用于拦截JavaScript操作的方法。本文将全面介绍Reflect API的所有方法、用法以及它与Object方法的区别，帮助您更有效地进行元编程。
+
+EOF
+
+cat > "$BASE_PATH/03-高级主题/3.6-元编程高级/3.6.4-装饰器模式.md" << 'EOF'
+---
+title: 装饰器模式
+icon: javascript
+order: 4
+---
+
+# 装饰器模式
+
+装饰器是一种特殊的声明，可以附加到类、方法、属性等上。本文将介绍JavaScript中装饰器的概念、语法、实现原理以及常见的装饰器模式和应用场景。
+
+EOF
+
+# 创建3.7-性能优化目录及文件
+mkdir -p "$BASE_PATH/03-高级主题/3.7-性能优化"
+cat > "$BASE_PATH/03-高级主题/3.7-性能优化/README.md" << 'EOF'
+---
+title: 性能优化
+icon: javascript
 order: 7
 ---
 
-# SCSS/SASS控制指令
+# 性能优化
 
-## 条件语句(@if/@else)
+性能优化是开发高质量JavaScript应用的重要方面。本节将介绍JavaScript性能优化的各个方面，从代码层面到网络和渲染层面。
 
-Sass支持条件逻辑，可以根据条件生成不同的样式：
-
-```scss
-$theme: 'dark';
-
-.button {
-  @if $theme == 'dark' {
-    background-color: #333;
-    color: white;
-  } @else if $theme == 'light' {
-    background-color: #f8f9fa;
-    color: #333;
-  } @else {
-    background-color: #007bff;
-    color: white;
-  }
-}
-```
-
-## 循环语句
-
-### @for循环
-
-```scss
-@for $i from 1 through 3 {
-  .col-#{$i} {
-    width: 100% / $i;
-  }
-}
-```
-
-### @each循环
-
-```scss
-$colors: (primary: #007bff, secondary: #6c757d, success: #28a745);
-
-@each $name, $color in $colors {
-  .text-#{$name} {
-    color: $color;
-  }
-}
-```
-
-### @while循环
-
-```scss
-$i: 6;
-@while $i > 0 {
-  .item-#{$i} {
-    width: 2em * $i;
-  }
-  $i: $i - 2;
-}
-```
-
-<!-- 更多内容... -->
 EOF
 
-# 创建高级主题文档
-cat > "$BASE_PATH/SCSS-SASS/4. 高级主题/4.1 源码调试与Source Maps.md" << 'EOF'
+cat > "$BASE_PATH/03-高级主题/3.7-性能优化/3.7.1-代码优化策略.md" << 'EOF'
 ---
-title: 源码调试与Source Maps
-icon: css
+title: 代码优化策略
+icon: javascript
 order: 1
 ---
 
-# 源码调试与Source Maps
+# 代码优化策略
 
-## 浏览器中调试Sass源码
+JavaScript代码的性能直接影响应用的响应速度。本文将介绍JavaScript代码优化的策略和技巧，包括算法选择、数据结构优化、循环优化、内存管理等方面，帮助您编写高效的JavaScript代码。
 
-Source Maps允许浏览器开发工具将编译后的CSS映射回原始的Sass源文件，便于调试：
-
-```bash
-# 生成带有Source Maps的CSS
-sass --source-map input.scss output.css
-```
-
-## 配置Source Maps
-
-在项目中配置Source Maps：
-
-```scss
-// 在Sass文件中控制Source Maps
-@debug "This message will appear in the console";
-```
-
-<!-- 更多内容... -->
 EOF
 
-cat > "$BASE_PATH/SCSS-SASS/4. 高级主题/4.2 性能优化策略.md" << 'EOF'
+cat > "$BASE_PATH/03-高级主题/3.7-性能优化/3.7.2-渲染性能.md" << 'EOF'
 ---
-title: 性能优化策略
-icon: css
+title: 渲染性能
+icon: javascript
 order: 2
 ---
 
-# 性能优化策略
+# 渲染性能
 
-## 避免嵌套过深
+浏览器渲染性能对用户体验至关重要。本文将介绍浏览器渲染流程、关键渲染路径、重排和重绘的优化，以及如何使用requestAnimationFrame等API提高动画性能。
 
-过深的选择器嵌套会导致CSS选择器过长，影响性能：
-
-```scss
-// 不推荐
-.container {
-  .header {
-    .navigation {
-      .menu {
-        .item {
-          a {
-            color: red;
-          }
-        }
-      }
-    }
-  }
-}
-
-// 推荐
-.container .menu-item-link {
-  color: red;
-}
-```
-
-## 减少@extend滥用
-
-过度使用@extend可能导致生成大量的选择器组合：
-
-```scss
-// 谨慎使用@extend
-%button {
-  padding: 10px 15px;
-  border-radius: 4px;
-}
-
-.primary-button {
-  @extend %button;
-  background-color: #007bff;
-}
-```
-
-<!-- 更多内容... -->
 EOF
 
-cat > "$BASE_PATH/SCSS-SASS/4. 高级主题/4.3 与现代工具链集成.md" << 'EOF'
+cat > "$BASE_PATH/03-高级主题/3.7-性能优化/3.7.3-网络性能.md" << 'EOF'
 ---
-title: 与现代工具链集成
-icon: css
+title: 网络性能
+icon: javascript
 order: 3
 ---
 
-# 与现代工具链集成
+# 网络性能
 
-## Vite配置
+网络性能是Web应用性能的重要组成部分。本文将介绍资源加载优化、HTTP缓存策略、预加载和预连接技术、服务端推送等方法，帮助您减少网络延迟，提高应用加载速度。
 
-在Vite项目中配置Sass：
-
-```javascript
-// vite.config.js
-export default {
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@import "./src/styles/variables.scss";`
-      }
-    }
-  }
-}
-```
-
-## Webpack配置
-
-在Webpack项目中配置Sass：
-
-```javascript
-// webpack.config.js
-module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.scss$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          {
-            loader: 'sass-loader',
-            options: {
-              // Sass选项
-              sassOptions: {
-                includePaths: ['./src/styles']
-              }
-            }
-          }
-        ]
-      }
-    ]
-  }
-};
-```
-
-## PostCSS插件链配合
-
-将Sass与PostCSS插件结合使用：
-
-```javascript
-// postcss.config.js
-module.exports = {
-  plugins: [
-    require('autoprefixer'),
-    require('cssnano')
-  ]
-}
-```
-
-<!-- 更多内容... -->
 EOF
 
-# 创建工程实践文档
-cat > "$BASE_PATH/SCSS-SASS/5. 工程实践/5.1 编码规范.md" << 'EOF'
+cat > "$BASE_PATH/03-高级主题/3.7-性能优化/3.7.4-性能分析工具.md" << 'EOF'
 ---
-title: 编码规范
-icon: css
+title: 性能分析工具
+icon: javascript
+order: 4
+---
+
+# 性能分析工具
+
+性能分析工具帮助您识别和解决性能瓶颈。本文将介绍Chrome DevTools、Lighthouse、WebPageTest等性能分析工具的使用方法，以及如何解读性能指标，进行有针对性的优化。
+
+EOF
+
+# 创建04-现代JavaScript目录及README
+mkdir -p "$BASE_PATH/04-现代JavaScript"
+cat > "$BASE_PATH/04-现代JavaScript/README.md" << 'EOF'
+---
+title: 现代JavaScript
+icon: javascript
+order: 4
+---
+
+# 现代JavaScript
+
+本部分介绍现代JavaScript开发的特性、工具和最佳实践。通过学习这部分内容，您将了解最新的JavaScript语言特性和现代开发工具链，提高开发效率和代码质量。
+
+EOF
+
+# 创建4.1-ES6+特性目录及文件
+mkdir -p "$BASE_PATH/04-现代JavaScript/4.1-ES6+特性"
+cat > "$BASE_PATH/04-现代JavaScript/4.1-ES6+特性/README.md" << 'EOF'
+---
+title: ES6+特性
+icon: javascript
 order: 1
 ---
 
-# 编码规范
+# ES6+特性
 
-## 7-1模式目录结构
+ECMAScript 6（ES6）及后续版本引入了许多新特性，极大地增强了JavaScript的能力。本节将介绍这些新特性及其使用方法。
 
-7-1模式是一种流行的Sass项目结构组织方式，包含7个文件夹和1个主文件：
-
-```
-sass/
-|
-|– abstracts/
-|   |– _variables.scss    # 变量
-|   |– _functions.scss    # 函数
-|   |– _mixins.scss       # 混入
-|   |– _placeholders.scss # 占位符
-|
-|– base/
-|   |– _reset.scss        # 重置/标准化
-|   |– _typography.scss   # 排版规则
-|
-|– components/
-|   |– _buttons.scss      # 按钮
-|   |– _carousel.scss     # 轮播
-|   |– _dropdown.scss     # 下拉菜单
-|
-|– layout/
-|   |– _navigation.scss   # 导航
-|   |– _grid.scss         # 网格系统
-|   |– _header.scss       # 头部
-|   |– _footer.scss       # 底部
-|   |– _forms.scss        # 表单
-|
-|– pages/
-|   |– _home.scss         # 首页样式
-|   |– _about.scss        # 关于页样式
-|
-|– themes/
-|   |– _theme.scss        # 默认主题
-|   |– _admin.scss        # 管理员主题
-|
-|– vendors/
-|   |– _bootstrap.scss    # Bootstrap
-|   |– _jquery-ui.scss    # jQuery UI
-|
-|– main.scss              # 主Sass文件
-```
-
-<!-- 更多内容... -->
 EOF
 
-cat > "$BASE_PATH/SCSS-SASS/5. 工程实践/5.2 框架集成.md" << 'EOF'
+cat > "$BASE_PATH/04-现代JavaScript/4.1-ES6+特性/4.1.1-ES6完全指南.md" << 'EOF'
 ---
-title: 框架集成
-icon: css
+title: ES6完全指南
+icon: javascript
+order: 1
+---
+
+# ES6完全指南
+
+ES6（ECMAScript 2015）是JavaScript的一次重大更新，引入了许多新特性。本文将全面介绍ES6的核心特性，包括箭头函数、类、模块、解构赋值、模板字符串、Promise等，帮助您掌握现代JavaScript的基础。
+
+EOF
+
+cat > "$BASE_PATH/04-现代JavaScript/4.1-ES6+特性/4.1.2-ES2017-ES2019特性.md" << 'EOF'
+---
+title: ES2017-ES2019特性
+icon: javascript
 order: 2
 ---
 
-# 框架集成
+# ES2017-ES2019特性
 
-## React配置示例
+ES2017到ES2019引入了多项实用特性。本文将介绍这些版本的主要特性，包括async/await、Object.entries/values、Rest/Spread属性、可选的catch绑定、Array.prototype.flat等，帮助您了解这些年JavaScript的演进。
 
-在React项目中配置Sass：
-
-```javascript
-// 使用Create React App
-// 安装依赖
-// npm install sass
-
-// 直接导入.scss文件
-import './styles.scss';
-
-// 在组件中使用
-function App() {
-  return (
-    <div className="app">
-      <button className="button button--primary">点击我</button>
-    </div>
-  );
-}
-```
-
-## Vue配置示例
-
-在Vue项目中配置Sass：
-
-```javascript
-// vue.config.js
-module.exports = {
-  css: {
-    loaderOptions: {
-      sass: {
-        additionalData: `@import "@/styles/variables.scss";`
-      }
-    }
-  }
-}
-```
-
-```vue
-<!-- 组件中使用 -->
-<template>
-  <div class="container">
-    <button class="button">点击我</button>
-  </div>
-</template>
-
-<style lang="scss">
-.container {
-  .button {
-    background-color: $primary-color;
-    color: white;
-  }
-}
-</style>
-```
-
-<!-- 更多内容... -->
 EOF
 
-cat > "$BASE_PATH/SCSS-SASS/5. 工程实践/5.3 常见编译错误解决方案.md" << 'EOF'
+cat > "$BASE_PATH/04-现代JavaScript/4.1-ES6+特性/4.1.3-ES2020-ES2022特性.md" << 'EOF'
 ---
-title: 常见编译错误解决方案
-icon: css
+title: ES2020-ES2022特性
+icon: javascript
 order: 3
 ---
 
-# 常见编译错误解决方案
+# ES2020-ES2022特性
 
-## 语法错误
+ES2020到ES2022带来了更多现代JavaScript特性。本文将介绍这些版本的主要特性，包括可选链操作符、空值合并操作符、Promise.allSettled、逻辑赋值运算符、String.prototype.replaceAll等，帮助您跟上JavaScript的最新发展。
 
-### 缺少分号或花括号
-
-```scss
-// 错误
-.container {
-  color: red
-  background-color: white
-
-// 正确
-.container {
-  color: red;
-  background-color: white;
-}
-```
-
-## 路径错误
-
-### 导入文件路径错误
-
-```scss
-// 错误
-@import "variables"; // 找不到文件
-
-// 正确
-@import "./variables"; // 相对路径
-// 或
-@import "abstracts/variables"; // 从Sass路径查找
-```
-
-## 依赖缺失
-
-### 使用未定义的变量
-
-```scss
-// 错误
-.button {
-  color: $primary-color; // 变量未定义
-}
-
-// 正确
-$primary-color: #007bff;
-
-.button {
-  color: $primary-color;
-}
-```
-
-<!-- 更多内容... -->
 EOF
 
-# 创建资源推荐文档
-cat > "$BASE_PATH/SCSS-SASS/6. 资源推荐.md" << 'EOF'
+cat > "$BASE_PATH/04-现代JavaScript/4.1-ES6+特性/4.1.4-提案阶段特性.md" << 'EOF'
 ---
-title: 资源推荐
-icon: css
-order: 6
+title: 提案阶段特性
+icon: javascript
+order: 4
 ---
 
-# 资源推荐
+# 提案阶段特性
 
-## 官方文档精读
+TC39委员会负责JavaScript语言的标准化，有多个提案正在不同阶段。本文将介绍一些重要的提案阶段特性，如装饰器、管道操作符、记录与元组等，帮助您了解JavaScript的未来发展方向。
 
-- [Sass官方文档](https://sass-lang.com/documentation/) - 完整的Sass语言参考
-- [Sass模块系统](https://sass-lang.com/documentation/modules/) - 详细了解@use和@forward
-- [Sass函数库](https://sass-lang.com/documentation/modules/math) - 内置函数参考
-
-## 最佳实践案例库
-
-- [Bootstrap源码分析](https://github.com/twbs/bootstrap) - 学习大型项目如何组织Sass代码
-- [Foundation框架](https://github.com/foundation/foundation-sites) - 另一个优秀的Sass项目示例
-- [Sass Guidelines](https://sass-guidelin.es/) - 高质量Sass编码指南
-
-## 常见问题FAQ
-
-### 变量不生效
-
-问题：定义的变量在某些地方不可用
-解决：检查变量作用域，确保在使用前定义，或使用!global标志
-
-### 编译速度慢
-
-问题：大型项目Sass编译变得缓慢
-解决：减少嵌套深度，优化@extend使用，考虑使用Dart Sass
-
-### 中文注释乱码
-
-问题：编译后中文注释显示乱码
-解决：确保源文件使用UTF-8编码，并在编译选项中指定编码
-
-<!-- 更多内容... -->
 EOF
 
-echo "CSS预处理器知识库目录结构创建完成！"
+# 创建4.2-工具链目录及文件
+mkdir -p "$BASE_PATH/04-现代JavaScript/4.2-工具链"
+cat > "$BASE_PATH/04-现代JavaScript/4.2-工具链/README.md" << 'EOF'
+---
+title: 工具链
+icon: javascript
+order: 2
+---
+
+# 工具链
+
+现代JavaScript开发离不开各种工具的支持。本节将介绍JavaScript开发中常用的工具链组件及其使用方法。
+
+EOF
+
+cat > "$BASE_PATH/04-现代JavaScript/4.2-工具链/4.2.1-打包工具.md" << 'EOF'
+---
+title: 打包工具
+icon: javascript
+order: 1
+---
+
+# 打包工具
+
+打包工具帮助开发者将多个模块打包成适合浏览器使用的文件。本文将介绍Webpack、Rollup、Vite等主流打包工具的特点、配置方法以及适用场景，帮助您选择合适的工具并高效使用。
+
+EOF
+
+cat > "$BASE_PATH/04-现代JavaScript/4.2-工具链/4.2.2-转译器.md" << 'EOF'
+---
+title: 转译器
+icon: javascript
+order: 2
+---
+
+# 转译器
+
+转译器将现代JavaScript代码转换为向后兼容的版本。本文将详细介绍Babel的工作原理、配置方法、常用插件和预设，以及如何根据目标环境优化转译结果，确保代码的兼容性和性能。
+
+EOF
+
+cat > "$BASE_PATH/04-现代JavaScript/4.2-工具链/4.2.3-代码检查.md" << 'EOF'
+---
+title: 代码检查
+icon: javascript
+order: 3
+---
+
+# 代码检查
+
+代码检查工具帮助维护代码质量和一致性。本文将介绍ESLint和Prettier的配置和使用方法，常用的规则和插件，以及如何将它们集成到开发工作流中，提高代码质量和团队协作效率。
+
+EOF
+
+cat > "$BASE_PATH/04-现代JavaScript/4.2-工具链/4.2.4-测试工具.md" << 'EOF'
+---
+title: 测试工具
+icon: javascript
+order: 4
+---
+
+# 测试工具
+
+测试是确保代码质量的重要手段。本文将介绍Jest、Mocha、Cypress等JavaScript测试框架和工具的使用方法，包括单元测试、集成测试和端到端测试的实践，帮助您构建可靠的测试策略。
+
+EOF
+
+# 创建4.3-模块化开发目录及文件
+mkdir -p "$BASE_PATH/04-现代JavaScript/4.3-模块化开发"
+cat > "$BASE_PATH/04-现代JavaScript/4.3-模块化开发/README.md" << 'EOF'
+---
+title: 模块化开发
+icon: javascript
+order: 3
+---
+
+# 模块化开发
+
+模块化是现代JavaScript开发的基础。本节将深入探讨JavaScript的模块系统及相关的开发实践。
+
+EOF
+
+cat > "$BASE_PATH/04-现代JavaScript/4.3-模块化开发/4.3.1-模块格式对比.md" << 'EOF'
+---
+title: 模块格式对比
+icon: javascript
+order: 1
+---
+
+# 模块格式对比
+
+JavaScript有多种模块格式，各有特点。本文将详细对比AMD、CommonJS、UMD和ES模块的语法、加载机制、兼容性以及使用场景，帮助您理解不同模块系统的优缺点和适用情况。
+
+EOF
+
+cat > "$BASE_PATH/04-现代JavaScript/4.3-模块化开发/4.3.2-动态导入.md" << 'EOF'
+---
+title: 动态导入
+icon: javascript
+order: 2
+---
+
+# 动态导入
+
+动态导入是ES模块系统的一个强大特性，支持按需加载模块。本文将介绍动态导入的语法、使用场景以及如何利用它实现代码分割和懒加载，提高应用性能和用户体验。
+
+EOF
+
+# 继续创建4.3-模块化开发目录下的文件
+cat > "$BASE_PATH/04-现代JavaScript/4.3-模块化开发/4.3.3-模块打包策略.md" << 'EOF'
+---
+title: 模块打包策略
+icon: javascript
+order: 3
+---
+
+# 模块打包策略
+
+模块打包是现代前端开发的重要环节。本文将介绍不同的模块打包策略，如代码分割、树摇（Tree Shaking）、作用域提升（Scope Hoisting）等，以及如何根据项目需求选择合适的打包配置，优化应用性能。
+
+EOF
+
+cat > "$BASE_PATH/04-现代JavaScript/4.3-模块化开发/4.3.4-模块设计模式.md" << 'EOF'
+---
+title: 模块设计模式
+icon: javascript
+order: 4
+---
+
+# 模块设计模式
+
+良好的模块设计对于构建可维护的应用至关重要。本文将介绍模块化开发的最佳实践，包括单一职责原则、接口设计、依赖管理以及如何组织大型应用的模块结构，帮助您设计出高内聚、低耦合的模块系统。
+
+EOF
