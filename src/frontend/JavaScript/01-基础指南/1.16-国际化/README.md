@@ -1,7 +1,11 @@
 ---
 title: 国际化
 icon: javascript
-order: 16
+index: false
+dir:
+  expanded: false
+  order: 16
+  link: true
 ---
 
 # 国际化

@@ -1,7 +1,11 @@
 ---
 title: 开头的三秒法则
 icon: start
-order: 2
+index: false
+dir:
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # 开头的三秒法则

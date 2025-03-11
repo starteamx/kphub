@@ -1,7 +1,11 @@
 ---
 title: 第二章-爆款选题的底层逻辑
 icon: select
-order: 2
+index: false
+dir:
+  expanded: false
+  order: 2
+  link: true
 ---
 
 # 第二章：爆款选题的底层逻辑

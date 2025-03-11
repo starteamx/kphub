@@ -1,7 +1,11 @@
 ---
 title: 数组与集合
 icon: javascript
-order: 10
+index: false
+dir:
+  expanded: false
+  order: 10
+  link: true
 ---
 
 # 数组与集合

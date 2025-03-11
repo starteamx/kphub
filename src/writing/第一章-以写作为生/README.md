@@ -1,7 +1,11 @@
 ---
 title: 第一章-以写作为生
 icon: article
-order: 1
+index: false
+dir:
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # 第一章：以写作为生

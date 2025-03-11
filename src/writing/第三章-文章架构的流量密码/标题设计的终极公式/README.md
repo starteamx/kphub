@@ -1,7 +1,11 @@
 ---
 title: 标题设计的终极公式
 icon: title
-order: 1
+index: false
+dir:
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # 标题设计的终极公式

@@ -1,7 +1,11 @@
 ---
 title: JavaScript基础指南
 icon: javascript
-order: 1
+index: false
+dir:
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # JavaScript基础指南

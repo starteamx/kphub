@@ -1,7 +1,11 @@
 ---
 title: 迭代器与生成器
 icon: javascript
-order: 15
+index: false
+dir:
+  expanded: false
+  order: 15
+  link: true
 ---
 
 # 迭代器与生成器

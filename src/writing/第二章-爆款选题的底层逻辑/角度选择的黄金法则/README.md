@@ -1,7 +1,11 @@
 ---
 title: 角度选择的黄金法则
 icon: angle
-order: 2
+index: false
+dir:
+  expanded: false
+  order: 2
+  link: true
 ---
 
 # 角度选择的黄金法则

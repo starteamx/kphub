@@ -1,7 +1,11 @@
 ---
 title: 现代JavaScript
 icon: javascript
-order: 4
+index: false
+dir:
+  expanded: false
+  order: 4
+  link: true
 ---
 
 # 现代JavaScript

@@ -1,7 +1,11 @@
 ---
 title: 模块系统
 icon: javascript
-order: 18
+index: false
+dir:
+  expanded: false
+  order: 18
+  link: true
 ---
 
 # 模块系统

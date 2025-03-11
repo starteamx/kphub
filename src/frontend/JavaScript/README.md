@@ -2,8 +2,10 @@
 title: JavaScript知识库
 icon: javascript
 index: false
-category:
-  - JavaScript
+dir:
+  expanded: false
+  order: 3
+  link: true
 ---
 
 # JavaScript知识库

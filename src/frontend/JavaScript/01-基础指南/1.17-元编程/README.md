@@ -1,7 +1,11 @@
 ---
 title: 元编程
 icon: javascript
-order: 17
+index: false
+dir:
+  expanded: false
+  order: 17
+  link: true
 ---
 
 # 元编程

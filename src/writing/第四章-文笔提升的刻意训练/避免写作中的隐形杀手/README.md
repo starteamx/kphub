@@ -1,7 +1,11 @@
 ---
 title: 避免写作中的隐形杀手
 icon: warning
-order: 2
+index: false
+dir:
+  expanded: false
+  order: 2
+  link: true
 ---
 
 # 避免写作中的"隐形杀手"

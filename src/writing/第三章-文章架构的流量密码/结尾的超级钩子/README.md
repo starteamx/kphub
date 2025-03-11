@@ -1,7 +1,11 @@
 ---
 title: 结尾的超级钩子
 icon: hook
-order: 4
+index: false
+dir:
+  expanded: false
+  order: 4
+  link: true
 ---
 
 # 结尾的超级钩子

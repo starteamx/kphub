@@ -1,7 +1,11 @@
 ---
 title: 高效写作的核心习惯
 icon: habit
-order: 3
+index: false
+dir:
+  expanded: false
+  order: 3
+  link: true
 ---
 
 # 高效写作的核心习惯

@@ -1,7 +1,11 @@
 ---
 title: JavaScript中级进阶
 icon: javascript
-order: 2
+index: false
+dir:
+  expanded: false
+  order: 2
+  link: true
 ---
 
 # JavaScript中级进阶

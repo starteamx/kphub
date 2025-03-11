@@ -1,7 +1,11 @@
 ---
 title: 让文字流动起来的三个技巧
 icon: flow
-order: 1
+index: false
+dir:
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # 让文字流动起来的三个技巧

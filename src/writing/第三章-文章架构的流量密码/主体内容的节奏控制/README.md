@@ -1,7 +1,11 @@
 ---
 title: 主体内容的节奏控制
 icon: rhythm
-order: 3
+index: false
+dir:
+  expanded: false
+  order: 3
+  link: true
 ---
 
 # 主体内容的节奏控制

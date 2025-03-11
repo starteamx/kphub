@@ -1,7 +1,11 @@
 ---
 title: 正则表达式
 icon: javascript
-order: 9
+index: false
+dir:
+  expanded: false
+  order: 9
+  link: true
 ---
 
 # 正则表达式

@@ -1,7 +1,11 @@
 ---
 title: 数字与字符串
 icon: javascript
-order: 7
+index: false
+dir:
+  expanded: false
+  order: 7
+  link: true
 ---
 
 # 数字与字符串

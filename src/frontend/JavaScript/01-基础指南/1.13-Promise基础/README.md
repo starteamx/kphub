@@ -1,7 +1,11 @@
 ---
 title: Promise基础
 icon: javascript
-order: 13
+index: false
+dir:
+  expanded: false
+  order: 13
+  link: true
 ---
 
 # Promise基础

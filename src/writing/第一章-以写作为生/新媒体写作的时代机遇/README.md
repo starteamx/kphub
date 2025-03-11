@@ -1,10 +1,11 @@
-我将为您完善这个README文档，使其更加全面且适合不同水平的读者。
-
-```markdown:/Users/guanrunbai/my/kphub2/src/writing/第一章-以写作为生/新媒体写作的时代机遇/README.md
 ---
 title: 新媒体写作的时代机遇
 icon: creative
-order: 1
+index: false
+dir:
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # 新媒体写作的时代机遇

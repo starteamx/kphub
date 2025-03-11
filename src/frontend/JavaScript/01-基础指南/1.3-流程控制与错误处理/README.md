@@ -1,7 +1,11 @@
 ---
 title: 流程控制与错误处理
 icon: javascript
-order: 3
+index: false
+dir:
+  expanded: false
+  order: 3
+  link: true
 ---
 
 # 流程控制与错误处理

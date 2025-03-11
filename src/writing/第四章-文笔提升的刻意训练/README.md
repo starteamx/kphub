@@ -1,7 +1,11 @@
 ---
 title: 第四章-文笔提升的刻意训练
 icon: pen
-order: 4
+index: false
+dir:
+  expanded: false
+  order: 4
+  link: true
 ---
 
 # 第四章：文笔提升的刻意训练

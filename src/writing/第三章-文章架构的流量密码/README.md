@@ -1,7 +1,11 @@
 ---
 title: 第三章-文章架构的流量密码
 icon: structure
-order: 3
+index: false
+dir:
+  expanded: false
+  order: 3
+  link: true
 ---
 
 # 第三章：文章架构的流量密码

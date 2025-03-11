@@ -1,7 +1,11 @@
 ---
 title: 循环与迭代
 icon: javascript
-order: 4
+index: false
+dir:
+  expanded: false
+  order: 4
+  link: true
 ---
 
 # 循环与迭代

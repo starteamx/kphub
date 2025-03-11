@@ -1,7 +1,11 @@
 ---
 title: JavaScript高级主题
 icon: javascript
-order: 3
+index: false
+dir:
+  expanded: false
+  order: 3
+  link: true
 ---
 
 # JavaScript高级主题

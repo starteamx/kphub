@@ -1,7 +1,11 @@
 ---
 title: 语法和数据类型
 icon: javascript
-order: 2
+index: false
+dir:
+  expanded: false
+  order: 2
+  link: true
 ---
 
 # 语法和数据类型

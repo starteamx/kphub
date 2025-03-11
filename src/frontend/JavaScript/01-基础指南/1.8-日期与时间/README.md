@@ -1,7 +1,11 @@
 ---
 title: 日期与时间
 icon: javascript
-order: 8
+index: false
+dir:
+  expanded: false
+  order: 8
+  link: true
 ---
 
 # 日期与时间

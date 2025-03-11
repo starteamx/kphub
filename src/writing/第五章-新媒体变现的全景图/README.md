@@ -1,7 +1,11 @@
 ---
 title: 第五章-新媒体变现的全景图
 icon: money
-order: 5
+index: false
+dir:
+  expanded: false
+  order: 5
+  link: true
 ---
 
 # 第五章：新媒体变现的全景图

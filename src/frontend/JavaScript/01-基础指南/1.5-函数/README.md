@@ -1,7 +1,11 @@
 ---
 title: 函数
 icon: javascript
-order: 5
+index: false
+dir:
+  expanded: false
+  order: 5
+  link: true
 ---
 
 # 函数

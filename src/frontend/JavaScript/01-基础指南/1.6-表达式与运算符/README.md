@@ -1,7 +1,11 @@
 ---
 title: 表达式与运算符
 icon: javascript
-order: 6
+index: false
+dir:
+  expanded: false
+  order: 6
+  link: true
 ---
 
 # 表达式与运算符

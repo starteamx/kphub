@@ -1,7 +1,11 @@
 ---
 title: 长期主义的写作人生
 icon: longterm
-order: 3
+index: false
+dir:
+  expanded: false
+  order: 3
+  link: true
 ---
 
 # 长期主义的写作人生

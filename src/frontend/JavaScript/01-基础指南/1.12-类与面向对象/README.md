@@ -1,7 +1,11 @@
 ---
 title: 类与面向对象
 icon: javascript
-order: 12
+index: false
+dir:
+  expanded: false
+  order: 12
+  link: true
 ---
 
 # 类与面向对象

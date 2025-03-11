@@ -1,7 +1,11 @@
 ---
 title: 类型化数组
 icon: javascript
-order: 14
+index: false
+dir:
+  expanded: false
+  order: 14
+  link: true
 ---
 
 # 类型化数组

@@ -1,7 +1,11 @@
 ---
 title: 选题的五大流量密码
 icon: key
-order: 1
+index: false
+dir:
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # 选题的五大流量密码

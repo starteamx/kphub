@@ -1,7 +1,11 @@
 ---
 title: JavaScript介绍
 icon: javascript
-order: 1
+index: false
+dir:
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # JavaScript介绍

@@ -1,7 +1,11 @@
 ---
 title: 对象基础
 icon: javascript
-order: 11
+index: false
+dir:
+  expanded: false
+  order: 11
+  link: true
 ---
 
 # 对象基础

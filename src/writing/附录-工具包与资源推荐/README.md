@@ -1,7 +1,11 @@
 ---
 title: 附录-工具包与资源推荐
 icon: tools
-order: 6
+index: false
+dir:
+  expanded: false
+  order: 6
+  link: true
 ---
 
 # 附录：工具包与资源推荐

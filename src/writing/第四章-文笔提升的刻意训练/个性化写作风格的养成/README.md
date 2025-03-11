@@ -1,7 +1,11 @@
 ---
 title: 个性化写作风格的养成
 icon: style
-order: 3
+index: false
+dir:
+  expanded: false
+  order: 3
+  link: true
 ---
 
 # 个性化写作风格的养成

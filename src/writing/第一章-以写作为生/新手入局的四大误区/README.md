@@ -1,7 +1,11 @@
 ---
 title: 新手入局的四大误区
 icon: warn
-order: 2
+index: false
+dir:
+  expanded: false
+  order: 2
+  link: true
 ---
 
 # 新手入局的四大误区

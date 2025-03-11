@@ -1,7 +1,11 @@
 ---
 title: 平台算法与流量分配机制
 icon: algorithm
-order: 1
+index: false
+dir:
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # 平台算法与流量分配机制

@@ -1,7 +1,11 @@
 ---
 title: 素材处理的四步法
 icon: process
-order: 3
+index: false
+dir:
+  expanded: false
+  order: 3
+  link: true
 ---
 
 # 素材处理的四步法

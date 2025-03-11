@@ -1,7 +1,11 @@
 ---
 title: 多元变现路径设计
 icon: monetize
-order: 2
+index: false
+dir:
+  expanded: false
+  order: 2
+  link: true
 ---
 
 # 多元变现路径设计
