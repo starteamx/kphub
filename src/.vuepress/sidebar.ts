@@ -11,5 +11,14 @@ export default sidebar({
       collapsible: true,
       children: "structure",
     },
+    {
+      text: "自媒体写作",
+      icon: "laptop-code",
+      prefix: "writing/",
+      link: "writing/",
+      expanded: true,
+      collapsible: true,
+      children: "structure",
+    },
   ],
 });

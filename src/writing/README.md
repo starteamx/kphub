@@ -1,16 +1,16 @@
 ---
-title: 写作知识库
+title: 自媒体写作
 icon: write
 index: false
 dir:
   expanded: false
-  order: 100
+  order: 1
   link: true
 ---
 
-# Writing知识库
+# 自媒体写作知识库
 
-欢迎来到写作知识库，这是一个关于新媒体写作与内容创作的完整指南。
+欢迎来到自媒体写作知识库，这是一个关于新媒体写作与内容创作的完整指南。
 
 ## 知识库整体介绍
 
