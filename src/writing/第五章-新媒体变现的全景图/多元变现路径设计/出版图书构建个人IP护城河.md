@@ -1,6 +1,3 @@
-我将为您重新完整输出这篇关于出版图书构建个人IP护城河的文档，添加更丰富的内容和更好的上下文衔接。
-
-```markdown:/Users/guanrunbai/my/kphub2/src/writing/第五章-新媒体变现的全景图/多元变现路径设计/出版图书构建个人IP护城河.md
 ---
 title: 出版图书构建个人IP护城河
 icon: book
