@@ -4,6 +4,8 @@
 此脚本用于处理files-map.json文件，提供两个主要功能：
 1. 获取当前映射中第一个元素的值（绝对路径）
 2. 删除当前的第一个元素并保存更新后的映射
+3. 读取指定文件的内容
+4. 读取知识规则文件的内容
 """
 
 import json
@@ -11,7 +13,8 @@ import os
 import sys
 
 # 文件路径
-JSON_FILE_PATH = os.path.join(os.path.dirname(__file__), 'files-map.json')
+JSON_FILE_PATH = "C:\\project\\kphub\\src\\.help\\files-map.json"
+KNOWLEDGE_RULES_PATH = "C:\\project\\kphub\\src\\.help\\knowdge_rules.md"
 
 def get_first_file_path():
     """
@@ -81,15 +84,50 @@ def remove_first_element():
         print(f"删除第一个元素时出错: {e}")
         return False
 
+def read_file_content(file_path):
+    """
+    读取指定文件的内容
+    
+    Args:
+        file_path (str): 文件的绝对路径
+        
+    Returns:
+        str: 文件内容，如果读取失败则返回None
+    """
+    try:
+        # 检查文件是否存在
+        if not os.path.exists(file_path):
+            print(f"错误: 文件 {file_path} 不存在")
+            return None
+            
+        # 读取文件内容
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+            
+        return content
+        
+    except Exception as e:
+        print(f"读取文件内容时出错: {e}")
+        return None
+
+def get_knowledge_rules():
+    """
+    读取知识规则文件的内容
+    
+    Returns:
+        str: 知识规则文件的内容，如果读取失败则返回None
+    """
+    return read_file_content(KNOWLEDGE_RULES_PATH)
+
 def main():
     """主函数"""
     # 检查命令行参数
     if len(sys.argv) < 2:
-        print("用法: python process_files_map.py [get|remove]")
+        print("用法: python process_files_map.py [get|remove|read|rules]")
         return
     
     # 检查JSON文件是否存在
-    if not os.path.exists(JSON_FILE_PATH):
+    if not os.path.exists(JSON_FILE_PATH) and sys.argv[1].lower() not in ["read", "rules"]:
         print(f"错误: 文件 {JSON_FILE_PATH} 不存在")
         return
     
@@ -107,9 +145,22 @@ def main():
         # 删除第一个元素
         remove_first_element()
     
+    elif command == "read" and len(sys.argv) >= 3:
+        # 读取指定文件的内容
+        file_path = sys.argv[2]
+        content = read_file_content(file_path)
+        if content:
+            print(content)
+    
+    elif command == "rules":
+        # 读取知识规则文件的内容
+        rules = get_knowledge_rules()
+        if rules:
+            print(rules)
+    
     else:
         print(f"未知命令: {command}")
-        print("可用命令: get, remove")
+        print("可用命令: get, remove, read <文件路径>, rules")
 
 if __name__ == "__main__":
     main()
