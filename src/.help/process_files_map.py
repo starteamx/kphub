@@ -133,6 +133,24 @@ def write_clipboard_to_file(file_path, append=False):
         print(f"写入文件失败: {str(e)}")
         return False
 
+def is_json_empty(json_file_path):
+    """
+    检查JSON文件是否为空
+    
+    Args:
+        json_file_path (str): JSON文件的路径
+        
+    Returns:
+        bool: 如果JSON为空返回True，否则返回False
+    """
+    try:
+        with open(json_file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return len(data) == 0
+    except Exception as e:
+        print(f"检查JSON文件是否为空时发生错误: {str(e)}")
+        return True
+
 def main():
     """主函数"""
     # 检查命令行参数
