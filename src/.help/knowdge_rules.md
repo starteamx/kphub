@@ -1,6 +1,6 @@
 输出格式：
 
-1、文档开头需要自定义的formatter,title，icon,order需要按照文档定义好，如下：
+1、文档开头需要自定义的formatter,title，icon,order需要按照文档定义好，例子如下：
 
 ---
 
@@ -11,6 +11,7 @@ icon: javascript
 order: 1
 
 ---
+2、先输出300字即可
 
 角色：你是一个专业的全栈开发工程师
 
