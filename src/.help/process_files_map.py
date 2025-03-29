@@ -70,9 +70,9 @@ def remove_first_element(json_file_path):
         # 删除第一个元素
         del file_map[first_key]
         
-        # 保存更新后的映射
+        # 保存更新后的映射，确保中文正确显示
         with open(json_file_path, 'w', encoding='utf-8') as f:
-            json.dump(file_map, f, indent=2)
+            json.dump(file_map, f, indent=2, ensure_ascii=False)
         
         return True
     
