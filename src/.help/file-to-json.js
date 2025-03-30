@@ -15,6 +15,19 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// 获取项目根目录路径
+function findRootDir(startDir) {
+  let currentDir = startDir;
+  while (currentDir !== path.parse(currentDir).root) {
+    if (fs.existsSync(path.join(currentDir, 'package.json'))) {
+      return currentDir;
+    }
+    currentDir = path.dirname(currentDir);
+  }
+  throw new Error('找不到项目根目录（package.json 所在目录）');
+}
+
+const rootDir = findRootDir(__dirname);
 
 const defaultTargetDir = "C:\\project\\kphub\\src\\frontend\\vue";
 const defaultOutputFile = "C:\\project\\kphub\\src\\.help\\files-map.json";
@@ -46,9 +59,9 @@ function traverseDirectory(dir) {
         traverseDirectory(fullPath);
       } else {
         // 如果是文件，添加到映射对象
-        // 使用相对于目标目录的路径作为key，完整路径作为value
-        const relativePath = path.relative(targetDir, fullPath);
-        filesMap[relativePath] = fullPath;
+        // 使用相对于项目根目录的路径作为key和value
+        const relativePath = path.relative(rootDir, fullPath);
+        filesMap[relativePath] = relativePath;
       }
     }
   } catch (error) {
