@@ -1,0 +1,19 @@
+{
+/*分类（单选）
+后端开发：Java,Python,Go,PHP,C++,Ruby,Swift,C语言,Erlang,Pascal/Delphi,Scala,R语言,Verilog,Dart,Rust,其他语言
+软件设计：架构设计,面向对象,设计模式,领域驱动设计
+前端开发：Html/Css,JavaScript,jQuery,HTML5,Angular,React,Vue
+AI：AI综合,机器学习,大模型,Semantic Kernel
+移动端开发：Android开发,iOS开发,Flutter,鸿蒙,其他手机开发
+软件工程：敏捷开发,项目与团队管理,软件工程其他
+操作系统：Windows,Windows Server,Linux,macOS,嵌入式
+其他分类：非技术区,Kubernetes,软件测试,代码与软件发布,计算机图形学,游戏开发,程序人生,求职面试,读书区,转载区,翻译区,开源研究,云计算,算法与数据结构,区块链,网络安全,实时音视频,其他技术区
+*/
+    "category": "前端开发",
+    //Slug(友好地址名，只支持字母、数字、-、_，不超过150个字符，~开头将生成不带PostId的url)
+    "slug": "vuepress-hope-theme-docs",
+    //摘要
+    "summary": "探索如何使用 VuePress + Hope 主题，在5分钟内搭建一个专业的文档网站，让知识管理变得前所未有的简单。包含环境搭建、主题配置、部署方案等完整教程。",
+    //Tag 标签（最多2个）
+    "tags": ["Vue", "前端开发"]
+}
