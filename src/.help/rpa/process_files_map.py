@@ -151,11 +151,60 @@ def is_json_empty(json_file_path):
         print(f"检查JSON文件是否为空时发生错误: {str(e)}")
         return True
 
+def get_sibling_files_as_string(file_path):
+    """
+    获取指定文件所在目录下的所有文件（包括子目录中的文件），并构建成以逗号分隔的相对路径字符串
+    去除README.md文件
+    
+    Args:
+        file_path (str): 文件的绝对路径
+        
+    Returns:
+        str: 以逗号分隔的相对路径字符串，格式如 "./file1.md,./subdir/file2.md"
+    """
+    try:
+        # 检查文件是否存在
+        if not os.path.exists(file_path) or not os.path.isfile(file_path):
+            print(f"错误: 文件 {file_path} 不存在或不是一个文件")
+            return ""
+        
+        # 获取文件所在目录
+        directory_path = os.path.dirname(file_path)
+        
+        result_files = []
+        
+        # 递归遍历目录下的所有文件和子目录
+        for root, dirs, files in os.walk(directory_path):
+            # 计算相对于目标目录的相对路径
+            rel_path = os.path.relpath(root, directory_path)
+            
+            for file in files:
+                # 跳过README.md文件
+                if file.lower() == "readme.md":
+                    continue
+                    
+                # 构建相对路径
+                if rel_path == '.':
+                    # 如果是当前目录，直接添加 ./文件名
+                    file_rel_path = f"./{file}"
+                else:
+                    # 如果是子目录，添加 ./子目录/文件名
+                    file_rel_path = f"./{rel_path}/{file}".replace('\\', '/')
+                
+                result_files.append(file_rel_path)
+        
+        # 将列表转换为以逗号分隔的字符串
+        return ','.join(result_files)
+    
+    except Exception as e:
+        print(f"获取文件列表时发生错误: {str(e)}")
+        return ""
+
 def main():
     """主函数"""
     # 检查命令行参数
     if len(sys.argv) < 2:
-        print("用法: python process_files_map.py [get|remove|read|write] [参数1] [参数2]")
+        print("用法: python process_files_map.py [get|remove|read|write|siblings] [参数1] [参数2]")
         return
     
     # 获取命令
@@ -218,9 +267,24 @@ def main():
         else:
             print("写入失败")
     
+    elif command == "siblings":
+        # 检查是否提供了文件路径
+        if len(sys.argv) < 3:
+            print("错误: siblings命令需要提供文件路径")
+            return
+            
+        # 获取文件路径
+        file_path = sys.argv[2]
+        
+        # 获取同级文件列表
+        files_str = get_sibling_files_as_string(file_path)
+        
+        # 输出文件列表字符串
+        print(files_str)
+    
     else:
         print(f"未知命令: {command}")
-        print("可用命令: get, remove, read <文件路径>, write <文件路径> [append]")
+        print("可用命令: get, remove, read <文件路径>, write <文件路径> [append], siblings <文件路径>")
 
 if __name__ == "__main__":
     main()
