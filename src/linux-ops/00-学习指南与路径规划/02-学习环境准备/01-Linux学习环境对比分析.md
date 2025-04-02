@@ -263,26 +263,31 @@ services:
 
 以下决策树可以帮助您根据自己的需求选择最合适的Linux学习环境：
 
-```
-开始
-├── 是否有Linux使用经验?
-│   ├── 是 → 是否需要完整Linux体验?
-│   │       ├── 是 → 物理机安装
-│   │       └── 否 → 是否使用Windows?
-│   │               ├── 是 → WSL2
-│   │               └── 否 → 虚拟机
-│   └── 否 → 是否使用Windows?
-│           ├── 是 → WSL2
-│           └── 否 → 虚拟机
-├── 主要学习目的?
-│   ├── 服务器管理/运维 → 云服务器
-│   ├── 开发环境 → WSL2或Docker
-│   ├── 系统管理 → 虚拟机或物理机
-│   └── 容器化/微服务 → Docker
-└── 可用资源?
-    ├── 高性能计算机 → 虚拟机或物理机
-    ├── 普通计算机 → WSL2或云服务器
-    └── 预算有限 → 免费云服务器试用
+```mermaid
+flowchart TD
+    A[开始选择] --> B{是否有Linux使用经验?}
+    B -->|是| C{是否需要完整Linux体验?}
+    B -->|否| D{使用Windows系统?}
+    
+    C -->|是| E[物理机安装]
+    C -->|否| F{使用Windows系统?}
+    
+    F -->|是| G[WSL2]
+    F -->|否| H[虚拟机]
+    
+    D -->|是| G
+    D -->|否| H
+    
+    A --> I{主要学习目的?}
+    I -->|服务器管理/运维| J[云服务器]
+    I -->|开发环境| K[WSL2或Docker]
+    I -->|系统管理| L[虚拟机或物理机]
+    I -->|容器化/微服务| M[Docker]
+    
+    A --> N{可用资源?}
+    N -->|高性能计算机| O[虚拟机或物理机]
+    N -->|普通计算机| P[WSL2或云服务器]
+    N -->|预算有限| Q[免费云服务器试用]
 ```
 
 ## 各环境配置难度与学习价值对比
@@ -315,9 +320,81 @@ services:
    - 运维人员：虚拟机 → 云服务器 → 物理机
 
 4. **实用建议**：
-   - 初学者建议从Ubuntu或CentOS开始学习
-   - 保持学习环境与目标工作环境一致
-   - 使用版本控制工具备份配置文件
-   - 记录学习过程中的问题和解决方案
+   - **初学者**：从WSL2或VirtualBox开始，学习基本命令和操作
+   - **进阶学习**：使用云服务器学习服务器配置和管理
+   - **专业用户**：尝试物理机安装或多种环境组合使用
+   - **开发者**：根据项目需求选择Docker或WSL2
 
-无论选择哪种环境，持续实践和解决实际问题是掌握Linux的关键。每种环境都有其独特价值，随着学习的深入，可以尝试不同环境以获得全面的Linux使用经验。
+5. **多环境结合**：不同环境可以结合使用
+   - 日常学习使用WSL2或虚拟机
+   - 服务部署实践使用云服务器
+   - 特定服务测试使用Docker
+
+无论选择哪种环境，重要的是持续学习和实践。每种环境都有其独特的优势，可以根据学习阶段和需求灵活选择。随着Linux技能的提升，您也可以尝试更多不同的环境，获得全面的学习体验。
+
+## 环境搭建快速指南
+
+### 虚拟机环境搭建
+
+```bash
+# VirtualBox + Ubuntu安装流程
+1. 下载并安装VirtualBox: https://www.virtualbox.org/
+2. 下载Ubuntu ISO镜像: https://ubuntu.com/download/desktop
+3. 在VirtualBox中创建新虚拟机
+   - 类型选择: Linux
+   - 版本选择: Ubuntu (64-bit)
+   - 分配至少2GB内存和20GB硬盘空间
+4. 启动虚拟机并选择ISO镜像作为启动盘
+5. 按照安装向导完成Ubuntu安装
+```
+
+### WSL2环境搭建
+
+```powershell
+# 启用WSL2功能
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+# 重启计算机后，下载并安装WSL2内核更新包
+# https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
+# 设置WSL2为默认版本
+wsl --set-default-version 2
+
+# 从Microsoft Store安装Ubuntu
+# 或使用命令行安装
+wsl --install -d Ubuntu
+```
+
+### Docker环境搭建
+
+```bash
+# Windows安装Docker Desktop
+# 下载并安装: https://www.docker.com/products/docker-desktop
+
+# 验证安装
+docker --version
+docker run hello-world
+
+# 运行Ubuntu容器
+docker run -it ubuntu:latest bash
+
+# 退出容器
+exit
+```
+
+### 云服务器环境搭建
+
+```bash
+# 以阿里云ECS为例
+1. 注册阿里云账号并实名认证
+2. 购买ECS实例(选择Linux系统，如Ubuntu或CentOS)
+3. 设置安全组规则(开放SSH端口22)
+4. 获取服务器公网IP和密码
+5. 使用SSH客户端连接
+   ssh root@your_server_ip
+6. 首次登录后修改密码
+   passwd
+```
+
+通过本文的对比分析，您应该能够根据自己的需求和条件，选择最适合的Linux学习环境。无论选择哪种方式，持续学习和实践才是掌握Linux技能的关键。祝您的Linux学习之旅顺利愉快！
