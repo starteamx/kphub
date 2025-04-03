@@ -1,9 +1,1 @@
----
-title: Ansible自动化工具
-icon: ansible
-order: 4
----
-
-# Ansible自动化工具
-
-Ansible是一个简单、强大的自动化工具，它使用SSH协议连接并配置远程服务器，无需在被管理节点安装客户端。本章节将详细介绍Ansible的架构原理、核心功能和实战应用，帮助读者掌握这一流行的自动化运维工具。
+./01-Ansible架构与工作原理.md,./02-Ansible模块化设计.md,./03-Ansible安全模型.md,./04-Ansible环境搭建与配置.md,./05-Ansible命令行工具使用.md,./06-Inventory清单管理.md,./07-Playbook编写与执行.md,./08-Role开发与最佳实践.md,./09-变量条件与循环应用.md,./10-模板系统与Jinja2语法.md,./11-Ansible与云平台集成.md,./12-Ansible-Tower与AWX平台使用.md,./13-Ansible常见问题解决.md,./14-基于Ansible的自动化部署系统.md

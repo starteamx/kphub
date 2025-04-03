@@ -1,9 +1,1 @@
----
-title: GitOps与持续交付
-icon: git
-order: 11
----
-
-# GitOps与持续交付
-
-GitOps是一种基于Git作为单一事实来源的云原生持续交付方法，它将Git仓库作为声明式基础设施和应用程序的权威来源。本章节将详细介绍GitOps的核心概念、工作流程和最佳实践。
+./01-GitOps工作流与原则.md,./02-拉式部署模型优势.md,./03-声明式配置管理.md,./04-GitOps安全模型.md,./05-Flux-CD工具使用.md,./06-ArgoCD部署与配置.md,./07-基于Git的配置管理.md,./08-GitOps安全最佳实践.md,./09-GitOps与CI管道集成.md,./10-多环境配置管理.md,./11-构建GitOps持续交付平台.md

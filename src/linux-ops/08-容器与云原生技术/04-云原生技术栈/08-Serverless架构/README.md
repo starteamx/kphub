@@ -1,9 +1,1 @@
----
-title: Serverless架构
-icon: cloud
-order: 8
----
-
-# Serverless架构
-
-Serverless（无服务器）架构是一种云计算执行模型，它使开发者能够构建和运行应用程序而无需管理服务器。本章节将详细介绍Serverless的核心概念、技术实现和最佳实践。
+./01-Serverless架构原理与优势.md,./02-FaaS与BaaS技术对比.md,./03-事件驱动架构设计.md,./04-Serverless应用设计模式.md,./05-Knative平台部署与使用.md,./06-OpenFaaS功能开发与部署.md,./07-AWS-Lambda与Azure-Functions集成.md,./08-Serverless应用性能优化.md,./09-Serverless安全最佳实践.md,./10-Serverless监控与调试.md,./11-构建Serverless应用系统.md

@@ -1,9 +1,1 @@
----
-title: Prometheus生态系统
-icon: prometheus
-order: 3
----
-
-# Prometheus生态系统
-
-Prometheus是云原生环境下最流行的开源监控系统，提供了强大的数据采集、存储、查询和告警功能。本章节将详细介绍Prometheus的架构原理、部署配置和实际应用，帮助读者掌握这一现代化监控工具的核心技能。
+./01-Prometheus架构与数据模型.md,./02-Prometheus查询语言设计.md,./03-Prometheus服务发现机制.md,./04-Prometheus联邦与高可用.md,./05-Prometheus服务安装配置.md,./06-常用Exporter部署与使用.md,./07-PromQL查询语言详解.md,./08-AlertManager告警配置.md,./09-Prometheus高可用部署.md,./10-Prometheus与Kubernetes集成.md,./11-云原生监控体系构建.md

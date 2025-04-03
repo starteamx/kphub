@@ -1,9 +1,1 @@
----
-title: SaltStack配置管理
-icon: salt
-order: 6
----
-
-# SaltStack配置管理
-
-SaltStack是一个强大的自动化配置管理和远程执行工具，采用主从架构和事件驱动模型。本章节将详细介绍SaltStack的架构原理、核心功能和实战应用，帮助读者掌握这一高效的配置管理工具。
+./01-SaltStack架构与组件.md,./02-SaltStack事件驱动模型.md,./03-SaltStack扩展性设计.md,./04-SaltStack安装与配置.md,./05-Salt命令行使用技巧.md,./06-State系统与SLS文件.md,./07-Pillar数据管理.md,./08-Salt模块开发与扩展.md,./09-事件系统与反应器.md,./10-Salt与云环境集成.md,./11-SaltStack常见问题.md,./12-SaltStack自动化运维平台.md

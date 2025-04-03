@@ -1,9 +1,1 @@
----
-title: 其他配置管理工具
-icon: tools
-order: 7
----
-
-# 其他配置管理工具
-
-除了Ansible、Puppet和SaltStack外，还有多种配置管理工具在不同场景下发挥着重要作用。本章节将介绍Chef、Terraform和CloudFormation等工具，帮助读者了解更广泛的配置管理生态系统，选择最适合特定需求的工具。
+./01-Chef架构与应用场景.md,./02-Chef资源与食谱概念.md,./03-Chef基础使用指南.md,./04-Terraform基础与IaC实践.md,./05-Terraform状态管理.md,./06-Terraform配置与使用.md,./07-CloudFormation与AWS环境.md,./08-配置管理工具集成策略.md,./09-多工具协同自动化方案.md

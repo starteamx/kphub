@@ -1,9 +1,1 @@
----
-title: Puppet配置管理
-icon: puppet
-order: 5
----
-
-# Puppet配置管理
-
-Puppet是一个强大的配置管理工具，采用声明式语言定义系统配置。本章节将详细介绍Puppet的架构原理、核心功能和实战应用，帮助读者掌握这一企业级配置管理工具。
+./01-Puppet架构与核心概念.md,./02-Puppet声明式语言设计.md,./03-Puppet资源模型.md,./04-Puppet环境搭建.md,./05-Puppet-DSL语言基础.md,./06-资源与清单文件编写.md,./07-模块开发与使用.md,./08-Hiera数据管理.md,./09-Puppet企业版功能应用.md,./10-Puppet与CI-CD集成.md,./11-Puppet问题诊断与解决.md,./12-大规模Puppet环境管理.md

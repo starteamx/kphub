@@ -1,9 +1,1 @@
----
-title: Zabbix监控系统
-icon: monitor
-order: 2
----
-
-# Zabbix监控系统
-
-Zabbix是一个企业级的开源分布式监控解决方案，能够监控服务器、网络设备和应用程序的各项指标。本章节将详细介绍Zabbix的架构原理、部署配置和实际应用，帮助读者掌握这一强大的监控工具。
+./01-Zabbix架构与工作原理.md,./02-Zabbix数据收集模型.md,./03-Zabbix分布式监控设计.md,./04-Zabbix服务端部署配置.md,./05-Zabbix-Agent安装与配置.md,./06-监控项与模板管理.md,./07-触发器与告警配置.md,./08-Zabbix自动发现与动作.md,./09-Zabbix性能优化技巧.md,./10-企业级Zabbix监控方案.md
