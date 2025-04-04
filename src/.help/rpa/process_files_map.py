@@ -157,6 +157,9 @@ def write_clipboard_to_file(file_path, content, append=False):
         
         # 写入文件
         with open(file_path, mode, encoding='utf-8') as f:
+            # 如果是追加模式，先添加一个换行符
+            if append and os.path.exists(file_path) and os.path.getsize(file_path) > 0:
+                f.write('\n')
             f.write(content)
             
         return True
