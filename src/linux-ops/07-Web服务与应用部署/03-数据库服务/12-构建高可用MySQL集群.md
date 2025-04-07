@@ -1,163 +1,422 @@
----
-title: 构建高可用MySQL集群  
-icon: project  
-order: 12  
----
+我将继续编写高可用MySQL集群的文档：
 
-# 构建高可用MySQL集群  
-
-高可用MySQL集群是现代企业数据库架构的核心组成部分，它能够确保数据库服务在面对硬件故障、网络中断或维护操作时仍然保持可用。本文将详细介绍如何设计、部署和维护一个高可用MySQL集群，帮助你构建一个稳定、可靠的数据库基础设施。
-
-## 1. 架构设计  
-
-架构设计是构建高可用MySQL集群的第一步，良好的设计能够确保集群具备足够的容错能力和扩展性。
-
-### 1.1 集群拓扑设计  
-
-MySQL集群的拓扑结构决定了数据如何在各节点间复制和同步，以及在故障情况下如何进行切换。
-
-```mermaid  
-graph TD  
-    A[负载均衡层] --> B[主节点]  
-    A --> C[从节点1]  
-    A --> D[从节点2]  
-    B -->|同步复制| C  
-    B -->|异步复制| D  
-    E[管理节点/监控] -.-> B
-    E -.-> C
-    E -.-> D
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#ddf,stroke:#333,stroke-width:2px
-    style D fill:#ddf,stroke:#333,stroke-width:2px
-    style E fill:#fdd,stroke:#333,stroke-width:2px
-```  
-
-常见的MySQL集群拓扑结构包括：
-
-1. **主从复制（Master-Slave）**：
-   - 一个主节点（写入）和多个从节点（读取）
-   - 主节点将变更通过二进制日志传播到从节点
-   - 从节点可以配置为同步复制或异步复制
-   - 优点：实现简单，读取扩展性好
-   - 缺点：主节点单点故障，需要额外机制实现故障转移
-
-2. **主主复制（Master-Master）**：
-   - 两个或多个节点都可以接受写入操作
-   - 每个节点互相复制变更
-   - 优点：无单点故障，写入负载分散
-   - 缺点：可能产生数据冲突，需要应用层解决
-
-3. **环形复制（Circular Replication）**：
-   - 节点形成一个环，每个节点从上一个节点复制并向下一个节点提供复制
-   - 优点：分散写入负载，无中心节点
-   - 缺点：复杂度高，故障恢复困难
-
-4. **组复制（Group Replication）**：
-   - 多个节点形成一个复制组
-   - 使用共识协议确保数据一致性
-   - 可配置为单主模式或多主模式
-   - 优点：自动故障检测和恢复，强一致性
-   - 缺点：对网络延迟敏感，配置复杂
-
-选择合适的拓扑结构需要考虑以下因素：
-- 业务对数据一致性的要求
-- 读写比例和负载特征
-- 地理分布和网络条件
-- 运维团队的技术能力
-- 预算和资源限制
-
-### 1.2 组件选型对比  
-
-MySQL高可用解决方案有多种实现方式，每种方案都有其适用场景和特点。
-
-| 组件 | 适用场景 | 优点 | 缺点 | 一致性保证 | 自动故障转移 |
-|---------------|--------------|--------------------|--------------------|--------------------|--------------------| 
-| MySQL Group Replication | 强一致性需求 | 自动故障转移，内置共识协议 | 对网络要求高，性能开销大 | 强一致性（同步） | 内置支持 |
-| Galera Cluster (Percona XtraDB Cluster) | 多主写入，地理分布 | 同步复制，多点写入 | 写入冲突风险，对网络要求高 | 强一致性（同步） | 内置支持 |
-| MHA (Master High Availability) | 传统主从架构 | 成熟稳定，资源消耗低 | 需要外部监控，恢复时间较长 | 最终一致性（异步） | 外部工具支持 |
-| MySQL InnoDB Cluster | 企业级应用 | 集成MySQL Router和Shell，易于管理 | 资源消耗较大，学习曲线陡峭 | 可配置（同步/异步） | 内置支持 |
-| MySQL NDB Cluster | 高性能、高可用需求 | 内存级性能，自动分片 | 资源消耗大，特殊存储引擎 | 强一致性（同步） | 内置支持 |
-| ProxySQL + Orchestrator | 灵活定制需求 | 高度可定制，读写分离灵活 | 配置复杂，需要维护多个组件 | 取决于复制配置 | 需配置实现 |
-
-选择合适的高可用方案需要考虑以下因素：
-
-1. **业务需求**：
-   - 数据一致性要求（强一致性 vs 最终一致性）
-   - 可用性目标（99.9%、99.99%、99.999%）
-   - 性能要求和可接受的延迟
-
-2. **技术因素**：
-   - 现有技术栈和团队技能
-   - 数据库规模和增长预期
-   - 地理分布和网络条件
-
-3. **运维考虑**：
-   - 监控和管理的复杂度
-   - 故障恢复的自动化程度
-   - 升级和维护的便捷性
-
-4. **成本因素**：
-   - 硬件和软件许可成本
-   - 运维人力成本
-   - 培训和学习成本
-
-## 2. 环境准备  
-
-在部署MySQL集群前，需要确保硬件和软件环境满足要求，为集群提供稳定的基础。
-
-### 2.1 服务器配置要求  
-
-MySQL集群对服务器硬件有特定要求，合理的配置能够确保集群性能和稳定性。
-
-```powershell:c:\project\kphub\scripts\check_server.ps1  
-# 检查系统配置脚本
-# 用于验证服务器是否满足MySQL集群的硬件要求
-
-# 获取CPU信息
-$cpu = Get-WmiObject Win32_Processor | Measure-Object -Property NumberOfCores -Sum
-$cpuCores = $cpu.Sum
-$cpuModel = (Get-WmiObject Win32_Processor).Name[0]
-
-# 获取内存信息
-$mem = Get-WmiObject Win32_ComputerSystem | Select-Object TotalPhysicalMemory
-$totalMemGB = [math]::Round($mem.TotalPhysicalMemory/1GB, 2)
-$availableMemGB = [math]::Round((Get-Counter '\Memory\Available MBytes').CounterSamples.CookedValue/1024, 2)
-
-# 获取磁盘信息
-$disks = Get-WmiObject Win32_LogicalDisk -Filter "DriveType=3" | 
-    Select-Object DeviceID, @{Name="SizeGB";Expression={[math]::Round($_.Size/1GB, 2)}}, @{Name="FreeGB";Expression={[math]::Round($_.FreeSpace/1GB, 2)}}
-
-# 获取网络信息
-$network = Get-NetAdapter | Where-Object {$_.Status -eq "Up"} | 
-    Select-Object Name, LinkSpeed, @{Name="SpeedGbps";Expression={$_.LinkSpeed -replace "Gbps", ""}}
-
-# 输出系统信息摘要
-Write-Host "===== MySQL集群服务器配置检查 =====" -ForegroundColor Cyan
-Write-Host "检查时间: $(Get-Date)" -ForegroundColor Cyan
+```markdown:c:\project\kphub\src\.help\rpa\knowdge_rules.md
 Write-Host ""
-
-Write-Host "CPU配置:" -ForegroundColor Green
-Write-Host "  型号: $cpuModel"
-Write-Host "  核心数: $cpuCores"
-if ($cpuCores -lt 4) {
-    Write-Host "  警告: 核心数低于推荐值(4核)" -ForegroundColor Yellow
-}
-
-Write-Host ""
-Write-Host "内存配置:" -ForegroundColor Green
-Write-Host "  总内存: $totalMemGB GB"
-Write-Host "  可用内存: $availableMemGB GB"
-if ($totalMemGB -lt 8) {
-    Write-Host "  警告: 内存低于推荐值(8GB)" -ForegroundColor Yellow
-}
-
-Write-Host ""
-Write-Host "磁盘配置:" -ForegroundColor Green
-foreach ($disk in $disks) {
-    Write-Host "  $($disk.DeviceID): 总大小=$($disk.SizeGB)GB, 可用=$($disk.FreeGB)GB"
-    if ($disk.FreeGB -lt 50) {
-        Write-Host "  警告: 磁盘$($disk.DeviceID)可用空间低于推荐值(50GB)" -ForegroundColor Yellow
+Write-Host "网络配置:" -ForegroundColor Green
+foreach ($adapter in $network) {
+    Write-Host "  $($adapter.Name): $($adapter.LinkSpeed)"
+    if ([double]$adapter.SpeedGbps -lt 1) {
+        Write-Host "  警告: 网络速度低于推荐值(1Gbps)" -ForegroundColor Yellow
     }
 }
+```
+
+### 2.2 操作系统优化
+
+为确保MySQL集群的稳定运行，需要对操作系统进行适当的优化配置。
+
+```powershell:c:\project\kphub\scripts\os_optimize.ps1
+# Windows系统优化脚本
+
+# 配置TCP参数
+function Set-TCPParameters {
+    # 启用TCP扩展
+    netsh int tcp set global chimney=enabled
+    netsh int tcp set global autotuninglevel=normal
+    
+    # 设置TCP最大连接数
+    Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" `
+                     -Name "TcpNumConnections" -Value 16777214
+    
+    # 设置TCP超时时间
+    Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" `
+                     -Name "TcpTimedWaitDelay" -Value 30
+}
+
+# 配置内存管理
+function Set-MemoryManagement {
+    # 禁用内存页面合并
+    Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" `
+                     -Name "DisablePagingExecutive" -Value 1
+                     
+    # 设置系统缓存工作集最大值
+    Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" `
+                     -Name "LargeSystemCache" -Value 1
+}
+
+# 配置磁盘性能
+function Set-DiskPerformance {
+    # 禁用磁盘写入缓存
+    $drives = Get-WmiObject Win32_DiskDrive
+    foreach ($drive in $drives) {
+        $drive.DeviceID | diskpart /command:"attributes disk clear readonly"
+    }
+    
+    # 设置NTFS性能选项
+    fsutil behavior set disablelastaccess 1
+    fsutil behavior set mftzone 2
+}
+
+# 执行优化
+Set-TCPParameters
+Set-MemoryManagement
+Set-DiskPerformance
+
+# 应用更改需要重启
+Write-Host "系统优化配置已完成，请重启服务器使更改生效" -ForegroundColor Green
+```
+
+### 2.3 安全配置
+
+MySQL集群的安全配置是保护数据安全的重要环节。
+
+1. **防火墙配置**
+```powershell:c:\project\kphub\scripts\firewall_config.ps1
+# 配置MySQL集群所需的防火墙规则
+
+# MySQL默认端口
+New-NetFirewallRule -DisplayName "MySQL Server" `
+                    -Direction Inbound `
+                    -Protocol TCP `
+                    -LocalPort 3306 `
+                    -Action Allow
+
+# Group Replication端口
+New-NetFirewallRule -DisplayName "MySQL Group Replication" `
+                    -Direction Inbound `
+                    -Protocol TCP `
+                    -LocalPort 33061 `
+                    -Action Allow
+
+# MySQL Router端口
+New-NetFirewallRule -DisplayName "MySQL Router" `
+                    -Direction Inbound `
+                    -Protocol TCP `
+                    -LocalPort @(6446, 6447) `
+                    -Action Allow
+```
+
+2. **SSL/TLS配置**
+```ini:c:\project\kphub\config\mysql_ssl.cnf
+[mysqld]
+# SSL配置
+ssl_ca=/path/to/ca.pem
+ssl_cert=/path/to/server-cert.pem
+ssl_key=/path/to/server-key.pem
+
+# 强制SSL连接
+require_secure_transport=ON
+
+# 加密复制连接
+group_replication_ssl_mode=REQUIRED
+```
+
+## 3. 集群部署
+
+### 3.1 MySQL InnoDB Cluster部署
+
+MySQL InnoDB Cluster是一个完整的高可用解决方案，包含MySQL Server、MySQL Shell和MySQL Router组件。
+
+1. **初始化配置脚本**
+```python:c:\project\kphub\scripts\init_cluster.py
+# MySQL Shell脚本 - 初始化集群
+
+# 连接到第一个节点
+shell.connect('admin@mysql-1:3306')
+
+# 创建InnoDB Cluster
+cluster = dba.createCluster('myCluster')
+
+# 添加节点
+cluster.addInstance('admin@mysql-2:3306')
+cluster.addInstance('admin@mysql-3:3306')
+
+# 配置自动故障转移
+cluster.setOption('autoRejoinTries', 3)
+cluster.setOption('consistencyLevel', 'EVENTUAL')
+
+# 验证集群状态
+cluster.status()
+```
+
+2. **MySQL Router配置**
+```ini:c:\project\kphub\config\mysqlrouter.conf
+[routing:primary]
+bind_address=0.0.0.0
+bind_port=6446
+destinations=metadata-cache://myCluster/default?role=PRIMARY
+routing_strategy=first-available
+
+[routing:secondary]
+bind_address=0.0.0.0
+bind_port=6447
+destinations=metadata-cache://myCluster/default?role=SECONDARY
+routing_strategy=round-robin-with-fallback
+
+[metadata_cache:myCluster]
+router_id=1
+bootstrap_server_addresses=mysql-1:3306,mysql-2:3306,mysql-3:3306
+user=myrouter
+metadata_cluster=myCluster
+ttl=5
+```
+
+### 3.2 监控系统部署
+
+为了及时发现和解决问题，需要部署完善的监控系统。
+
+1. **Prometheus配置**
+```yaml:c:\project\kphub\config\prometheus.yml
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'mysql'
+    static_configs:
+      - targets: ['mysql-1:9104', 'mysql-2:9104', 'mysql-3:9104']
+    metrics_path: '/metrics'
+    
+  - job_name: 'mysql_router'
+    static_configs:
+      - targets: ['router:8443']
+    metrics_path: '/metrics'
+    scheme: https
+    tls_config:
+      insecure_skip_verify: true
+```
+
+2. **Grafana仪表板**
+```json:c:\project\kphub\config\mysql_dashboard.json
+{
+  "dashboard": {
+    "id": null,
+    "title": "MySQL Cluster Overview",
+    "panels": [
+      {
+        "title": "Cluster Status",
+        "type": "stat",
+        "datasource": "Prometheus",
+        "targets": [
+          {
+            "expr": "mysql_global_status_group_replication_member_state"
+          }
+        ]
+      },
+      {
+        "title": "Replication Lag",
+        "type": "graph",
+        "datasource": "Prometheus",
+        "targets": [
+          {
+            "expr": "mysql_slave_status_seconds_behind_master"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+## 4. 运维管理
+
+### 4.1 日常维护
+
+1. **健康检查脚本**
+```powershell:c:\project\kphub\scripts\health_check.ps1
+# 集群健康检查脚本
+
+function Check-ClusterHealth {
+    # 检查节点状态
+    $status = mysqlsh --uri="admin@mysql-1:3306" `
+        --js -e "dba.getCluster().status()"
+        
+    # 检查复制延迟
+    $query = "SELECT * FROM performance_schema.replication_group_member_stats;"
+    mysql -h mysql-1 -e $query
+    
+    # 检查连接数
+    $connections = mysql -h mysql-1 -e "SHOW STATUS LIKE 'Threads_connected';"
+    
+    # 检查慢查询
+    $slow_queries = mysql -h mysql-1 -e "
+        SELECT * FROM mysql.slow_log 
+        WHERE start_time > DATE_SUB(NOW(), INTERVAL 1 HOUR);"
+        
+    # 生成报告
+    $report = @{
+        Timestamp = Get-Date
+        ClusterStatus = $status
+        Connections = $connections
+        SlowQueries = $slow_queries.Count
+    }
+    
+    # 保存报告
+    $report | ConvertTo-Json | 
+        Out-File "C:\Reports\health_check_$(Get-Date -Format 'yyyyMMdd').json"
+}
+
+# 每小时执行一次健康检查
+while ($true) {
+    Check-ClusterHealth
+    Start-Sleep -Seconds 3600
+}
+```
+
+2. **备份策略**
+```powershell:c:\project\kphub\scripts\backup.ps1
+# 集群备份脚本
+
+function Backup-Cluster {
+    param (
+        [string]$backupDir = "D:\Backups",
+        [int]$retention = 7
+    )
+    
+    # 创建备份目录
+    if (-not (Test-Path $backupDir)) {
+        New-Item -ItemType Directory -Path $backupDir
+    }
+    
+    # 执行备份
+    $date = Get-Date -Format "yyyyMMdd_HHmmss"
+    $backupFile = Join-Path $backupDir "cluster_backup_$date"
+    
+    mysqlsh --uri="admin@mysql-1:3306" `
+        --js -e "dba.getCluster().backup('$backupFile')"
+        
+    # 压缩备份
+    Compress-Archive -Path $backupFile `
+                    -DestinationPath "$backupFile.zip"
+    Remove-Item $backupFile
+    
+    # 清理旧备份
+    Get-ChildItem $backupDir -Filter "*.zip" |
+        Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-$retention) } |
+        Remove-Item
+}
+
+# 每天凌晨2点执行备份
+$trigger = New-JobTrigger -Daily -At "02:00"
+Register-ScheduledJob -Name "MySQL_Cluster_Backup" `
+                     -ScriptBlock ${function:Backup-Cluster} `
+                     -Trigger $trigger
+```
+
+### 4.2 故障处理
+
+1. **故障检测和自动切换**
+```python:c:\project\kphub\scripts\failover.py
+# MySQL Shell脚本 - 故障处理
+
+def check_and_handle_failure():
+    try:
+        # 获取集群对象
+        cluster = dba.getCluster()
+        
+        # 检查集群状态
+        status = cluster.status()
+        
+        # 检查是否需要故障转移
+        for member in status['defaultReplicaSet']['topology']:
+            if member['status'] != 'ONLINE':
+                # 记录故障
+                log_failure(member)
+                
+                # 尝试自动恢复
+                if member['mode'] == 'R/W':
+                    # 主节点故障，触发自动切换
+                    cluster.forcePrimaryInstance('mysql-2:3306')
+                else:
+                    # 从节点故障，尝试重新加入集群
+                    cluster.rejoinInstance(member['address'])
+                    
+                # 发送通知
+                send_notification(f"节点 {member['address']} 发生故障")
+                
+    except Exception as e:
+        send_notification(f"故障处理失败: {str(e)}")
+
+# 定期执行检查
+while True:
+    check_and_handle_failure()
+    time.sleep(60)
+```
+
+2. **恢复流程**
+```mermaid
+graph TD
+    A[发现故障] --> B{是否主节点?}
+    B -->|是| C[触发自动切换]
+    B -->|否| D[尝试重新加入]
+    C --> E[更新应用配置]
+    D --> F[验证复制状态]
+    E --> G[恢复完成]
+    F --> G
+```
+
+### 4.3 性能优化
+
+1. **性能监控指标**
+```sql
+-- 监控关键性能指标
+SELECT 
+    VARIABLE_NAME, 
+    VARIABLE_VALUE
+FROM performance_schema.global_status
+WHERE VARIABLE_NAME IN (
+    'Com_select',
+    'Com_insert',
+    'Com_update',
+    'Com_delete',
+    'Threads_connected',
+    'Threads_running',
+    'Innodb_buffer_pool_reads',
+    'Innodb_buffer_pool_read_requests'
+);
+
+-- 监控复制延迟
+SELECT 
+    MEMBER_ID,
+    COUNT_TRANSACTIONS_IN_QUEUE,
+    COUNT_TRANSACTIONS_CHECKED,
+    COUNT_CONFLICTS_DETECTED
+FROM performance_schema.replication_group_member_stats;
+```
+
+2. **优化建议**
+```ini:c:\project\kphub\config\performance.cnf
+[mysqld]
+# 缓冲池配置
+innodb_buffer_pool_size = 4G
+innodb_buffer_pool_instances = 4
+
+# 事务日志配置
+innodb_log_file_size = 1G
+innodb_log_buffer_size = 16M
+
+# 复制配置
+slave_parallel_workers = 4
+slave_parallel_type = LOGICAL_CLOCK
+
+# 组复制配置
+group_replication_flow_control_mode = DISABLED
+group_replication_poll_spin_loops = 0
+```
+
+## 总结
+
+构建高可用MySQL集群是一个复杂的系统工程，需要在架构设计、部署实施、运维管理等多个环节都做到严谨细致。本文介绍的方案和工具可以帮助团队搭建一个稳定、可靠的数据库集群。关键要点包括：
+
+1. 根据业务需求选择合适的集群架构
+2. 做好环境准备和安全配置
+3. 建立完善的监控体系
+4. 制定详细的运维规范和应急预案
+5. 持续优化系统性能
+
+建议持续关注：
+- 新版本特性和Bug修复
+- 自动化运维工具的发展
+- 云原生数据库服务的演进
+- 容器化环境下的高可用方案
+```

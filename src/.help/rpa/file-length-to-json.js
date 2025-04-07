@@ -65,22 +65,21 @@ function getFileLineCount(filePath) {
  */
 function traverseDirectory(dir) {
   try {
-    // 读取目录内容
     const files = fs.readdirSync(dir);
     
-    // 遍历目录中的每个文件/文件夹
     for (const file of files) {
       const fullPath = path.join(dir, file);
       const stats = fs.statSync(fullPath);
       
       if (stats.isDirectory()) {
-        // 如果是目录，递归遍历
         traverseDirectory(fullPath);
       } else {
-        // 获取文件行数
-        const lineCount = getFileLineCount(fullPath);
+        // 排除 README.md 文件
+        if (file.toLowerCase() === 'readme.md') {
+          continue;
+        }
         
-        // 只有当文件行数小过阈值时才添加到映射对象
+        const lineCount = getFileLineCount(fullPath);
         if (lineCount < minLines) {
           const relativePath = path.relative(rootDir, fullPath);
           filesMap[relativePath] = relativePath;
