@@ -33,7 +33,7 @@ const rootDir = findRootDir(__dirname);
 const projectDir = "C:\\project\\kphub\\";
 const defaultTargetDir = path.join(projectDir, "src\\linux-ops");
 const defaultOutputFile = path.join(projectDir, "src\\.help\\rpa\\files-map.json");
-const defaultMinLines = 200; // 默认最小行数阈值
+const defaultMinLines = 100; // 默认最小行数阈值
 
 // 解析命令行参数
 const args = process.argv.slice(2);
