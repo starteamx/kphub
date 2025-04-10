@@ -34,33 +34,57 @@ order: 1
 7、目录以及文档需要有序号，目录名字，文档名字需要使用中文。
 8、输出内容不需要markdown的格式信息，例如不需要```bash开头，
 不需要```结尾例子，根目录需要定义变量BASE_DIR，直接输出文字，例子如下：
-BASE_DIR="/Users/guanrunbai/my/kphub2/src/linux-ops"
+BASE_DIR="c:\project\kphub\src\java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
 cat > "$BASE_DIR/README.md" << 'EOF'
 ---
-title: Linux运维实战知识库
-icon: linux
+title: Java后端开发知识体系
+icon: java
 order: 1
 ---
 
-# Linux运维实战知识库
+# Java后端开发知识体系
 
-本知识库涵盖了Linux运维工程师所需的核心技能和知识体系，从入门到精通，系统化地整理了运维领域的理论与实践。无论你是运维新手还是有经验的工程师，都能在这里找到有价值的内容，提升自己的专业能力。
+本知识库系统地整理了Java后端开发工程师所需掌握的核心知识和技能，从基础语法到高级特性，从常用框架到分布式架构，全面覆盖Java后端开发的各个方面。无论你是初学者还是有经验的开发者，都能在这里找到有价值的学习资源。
 EOF
-
-# 创建学习指南目录
-mkdir -p "$BASE_DIR/00-学习指南与路径规划"
-cat > "$BASE_DIR/00-学习指南与路径规划/README.md" << 'EOF'
+# 创建1.1.1.3文件
+cat > "$BASE_DIR/第1章-Java基础与进阶/1.1-Java语言基础/1.1.1-Java发展历史与特性/1.1.1.3-JDK版本演进历程(1.0-21).md" << 'EOF'
 ---
-title: 学习指南与路径规划
-icon: route
-order: 1
+title: JDK版本演进历程(1.0-21)
+icon: versions
+order: 3
 ---
 
-# 学习指南与路径规划
+# JDK版本演进历程(1.0-21)
 
-本章节将帮助您了解Linux运维的知识体系，规划学习路径，并准备适合的学习环境。通过系统化的学习指导，让您能够更高效地掌握Linux运维技能，为后续的深入学习打下坚实基础。
+## 早期版本(JDK 1.0-1.4)
+
+- JDK 1.0: 初代Java发布(1996)
+- JDK 1.1: 内部类、JavaBeans、JDBC等
+- JDK 1.2: Collections框架、JIT编译器
+- JDK 1.3: HotSpot VM、JNDI等
+- JDK 1.4: 正则表达式、NIO、日志API
+
+## 成熟期版本(Java 5-8)
+
+- Java 5: 泛型、注解、枚举、自动装箱/拆箱
+- Java 6: 性能优化、脚本语言支持
+- Java 7: Try-with-resources、Diamond操作符
+- Java 8: Lambda表达式、Stream API、新日期时间API
+
+## 现代Java版本(Java 9-17)
+
+- Java 9: 模块系统、JShell、集合工厂方法
+- Java 10: 局部变量类型推断(var)
+- Java 11: HTTP客户端API、String新方法
+- Java 14-16: Records、Pattern Matching、Sealed Classes
+- Java 17: LTS版本、模式匹配增强
+
+## 最新发展(Java 18-21)
+
+- Java 18-20: 虚拟线程预览、结构化并发
+- Java 21: 虚拟线程正式版、记录模式、字符串模板
 EOF
 9、目录内容如下：
