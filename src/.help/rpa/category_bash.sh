@@ -13388,17 +13388,3 @@ BASE_DIR="c:\project\kphub\src\java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.1-垃圾判定算法"
-
-# 创建3.2.1.4文件
-cat > "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.1-垃圾判定算法/3.2.1.4-内存泄漏场景分析.md" << 'EOF'
----
-title: 内存泄漏场景分析
-icon: memory-leak
-order: 4
----
-
-# 内存泄漏场景分析
-
-## 常见内存泄漏模式
-
--
