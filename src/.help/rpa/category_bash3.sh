@@ -1,4 +1,4 @@
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.2-垃圾收集算法"
@@ -167,7 +167,7 @@ order: 3
 - 业务SLA与GC策略的平衡
 - 未来GC算法的发展趋势
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.2-垃圾收集算法"
@@ -340,7 +340,7 @@ order: 7
 - 极限性能调优技巧
 - 调优陷阱与常见误区
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.3-三色标记算法"
@@ -440,7 +440,7 @@ order: 2
 - 工作窃取(Work Stealing)机制
 - 标记队列的负载均衡
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.3-三色标记算法"
@@ -608,7 +608,7 @@ order: 6
 - 应用特征对不变性策略的影响
 - 未来发展趋势与优化方向
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.3-三色标记算法"
@@ -776,9 +776,8 @@ order: 5
 - 减少不必要的引用更新
 - 硬件特性与屏障实现的匹配
 EOF
-下面是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.3-三色标记算法"
@@ -878,7 +877,7 @@ order: 4
 
 本节详细介绍JVM中各种垃圾收集器的工作原理、适用场景、优缺点及调优方法。从早期的Serial、Parallel收集器，到CMS、G1等并发收集器，再到最新的ZGC、Shenandoah低延迟收集器，全面剖析各类收集器的技术特点与实际应用。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.4-垃圾收集器详解"
@@ -1052,7 +1051,7 @@ order: 4
 - 并行复制/整理的区域划分
 - NUMA架构下的优化策略
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.4-垃圾收集器详解"
@@ -1228,7 +1227,7 @@ order: 3
 - 测试验证与性能对比
 - 监控反馈与动态调整
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.4-垃圾收集器详解"
@@ -1418,7 +1417,7 @@ order: 7
 - 自定义日志分析脚本开发
 - 异常GC行为的识别模式
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.5-ParNew与CMS收集器"
@@ -1527,9 +1526,8 @@ order: 2
 - 与JIT编译器的交互机制
 - 性能监控与统计信息收集
 EOF
-根据您提供的目录内容，我将为您创建相应的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.5-ParNew与CMS收集器"
@@ -1716,9 +1714,8 @@ order: 6
 - 典型应用场景的参数配置
 - CMS时代的技术积累与传承
 EOF
-根据您提供的目录内容，以下是相应的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.5-ParNew与CMS收集器"
@@ -1906,9 +1903,8 @@ order: 5
 - 碎片整理效果评估
 - 长期运行系统的碎片趋势分析
 EOF
-根据您提供的目录内容，以下是相应的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.5-ParNew与CMS收集器"
@@ -2018,9 +2014,8 @@ order: 6
 
 G1(Garbage-First)收集器是一款面向服务端应用的垃圾收集器，特别适用于大内存多处理器的环境。本节详细介绍G1收集器的设计理念、内存布局、工作原理、调优参数以及实际应用场景，帮助读者全面理解这一现代垃圾收集器的核心技术与最佳实践。
 EOF
-根据您提供的目录内容，以下是相应的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.6-G1收集器原理"
@@ -2208,9 +2203,8 @@ order: 4
 - 与应用负载的协调性
 - 长时间运行的稳定性
 EOF
-根据您提供的目录内容，以下是相应的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.6-G1收集器原理"
@@ -2398,9 +2392,8 @@ order: 3
 - 区域大小的选择考量
 - 监控反馈与动态调整方法
 EOF
-根据您提供的目录内容，以下是相应的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.6-G1收集器原理"
@@ -2588,7 +2581,7 @@ order: 7
 - 可视化图表的生成方法
 - 长期趋势分析与容量规划
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.7-ZGC深度剖析"
@@ -2697,7 +2690,7 @@ order: 2
 - 云原生环境部署
 - 微服务架构支持
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.7-ZGC深度剖析"
@@ -2885,7 +2878,7 @@ order: 6
 - 性能数据分析
 - 调优指标设定
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.7-ZGC深度剖析"
@@ -3073,7 +3066,7 @@ order: 5
 - 高频交易系统实践
 - 微服务架构优化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.7-ZGC深度剖析"
@@ -3183,7 +3176,7 @@ order: 8
 
 Shenandoah是一款低延迟垃圾收集器，专注于减少GC停顿时间。本节将详细介绍Shenandoah的工作原理、关键特性、性能特点以及最佳实践，帮助读者深入理解这一现代垃圾收集器的设计理念与应用场景。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.8-Shenandoah收集器"
@@ -3371,7 +3364,7 @@ order: 4
 - 异常处理机制
 - 垃圾回收配合
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.8-Shenandoah收集器"
@@ -3559,7 +3552,7 @@ order: 3
 - 监控告警配置
 - 问题排查参数
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.8-Shenandoah收集器"
@@ -3747,7 +3740,7 @@ order: 7
 - 运维管理心得
 - 持续改进方向
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.1-JVM参数详解"
@@ -3777,7 +3770,7 @@ order: 1
 
 本节详细介绍JVM的各类参数配置，包括内存管理、垃圾收集、性能调优等方面的参数设置，帮助读者深入理解JVM参数的作用机制，为性能优化提供理论基础。通过系统的参数讲解，使读者能够根据实际应用场景选择合适的JVM配置。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.1-JVM参数详解"
@@ -3965,7 +3958,7 @@ order: 4
 - 问题诊断配置
 - 最佳实践总结
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.1-JVM参数详解"
@@ -4153,7 +4146,7 @@ order: 3
 - 容器环境优化
 - 特殊场景配置
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.1-JVM参数详解"
@@ -4341,7 +4334,7 @@ order: 7
 - 知识库维护
 - 团队能力建设
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.2-JVM监控与分析工具"
@@ -4450,7 +4443,7 @@ order: 2
 - 性能优化方法
 - 集成框架设计
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.2-JVM监控与分析工具"
@@ -4638,7 +4631,7 @@ order: 6
 - 监控代理设计
 - 负载均衡策略
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.2-JVM监控与分析工具"
@@ -4826,7 +4819,7 @@ order: 5
 - 类加载问题
 - 方法耗时分析
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.2-JVM监控与分析工具"
@@ -4936,7 +4929,7 @@ order: 3
 
 本节详细介绍Java应用中内存泄漏的分析方法和处理技术，包括内存泄漏的识别、分析工具使用、问题定位与解决方案等内容，帮助读者掌握内存泄漏问题的诊断和处理能力。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.3-内存泄漏分析与处理"
@@ -5124,7 +5117,7 @@ order: 4
 - 查询优化
 - 可视化支持
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.3-内存泄漏分析与处理"
@@ -5312,7 +5305,7 @@ order: 3
 - 负载测试结果
 - 容量规划评估
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.3-内存泄漏分析与处理"
@@ -5500,7 +5493,7 @@ order: 7
 - 升级流程
 - 复盘总结制度
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.4-性能调优实战案例"
@@ -5609,7 +5602,7 @@ order: 2
 - 并发度评估
 - 业务峰值分析
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.4-性能调优实战案例"
@@ -5797,7 +5790,7 @@ order: 6
 - 应用场景扩展
 - 最佳实践总结
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.4-性能调优实战案例"
@@ -5985,7 +5978,7 @@ order: 5
 - 应急处理方案
 - 持续优化策略
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.4-性能调优实战案例"
@@ -6095,7 +6088,7 @@ order: 5
 
 本节详细介绍JIT编译器的优化技术和策略，包括编译优化原理、编译策略、性能调优方法等内容，帮助读者深入理解JIT编译器的工作机制和优化方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.5-JIT编译器优化"
@@ -6283,7 +6276,7 @@ order: 4
 - 性能瓶颈识别
 - 优化建议生成
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.5-JIT编译器优化"
@@ -6471,7 +6464,7 @@ order: 3
 - 问题诊断方法
 - 优化效果评估
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.5-JIT编译器优化"
@@ -6659,7 +6652,7 @@ order: 7
 - 持续优化建议
 - 知识沉淀
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.6-GraalVM与AOT编译"
@@ -6768,7 +6761,7 @@ order: 2
 - 监控系统
 - 部署工具
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.6-GraalVM与AOT编译"
@@ -6956,7 +6949,7 @@ order: 6
 - 风险评估
 - 长期规划
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.6-GraalVM与AOT编译"
@@ -7144,7 +7137,7 @@ order: 5
 - 部署流程
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.3-JVM性能调优/3.3.6-GraalVM与AOT编译"
@@ -7254,7 +7247,7 @@ order: 4
 
 本章详细介绍Spring生态系统的核心组件和应用，包括Spring Framework、Spring Boot、Spring Cloud等主要框架，帮助读者掌握Spring全家桶的开发技能。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.1-Spring底层核心原理"
@@ -7330,7 +7323,7 @@ order: 1
 - 国际化支持
 - 环境配置
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.1-Spring底层核心原理"
@@ -7518,7 +7511,7 @@ order: 5
 - 测试策略
 - 使用建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.1-Spring底层核心原理"
@@ -7706,7 +7699,7 @@ order: 4
 - 测试工具
 - 性能测试
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.1-Spring底层核心原理"
@@ -7848,7 +7841,7 @@ order: 7
 - 部署方案
 - 监控管理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.2-IoC容器原理"
@@ -8003,7 +7996,7 @@ order: 3
 - 测试策略
 - 最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.2-IoC容器原理"
@@ -8191,7 +8184,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.2-IoC容器原理"
@@ -8379,7 +8372,7 @@ order: 6
 - 监控方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.2-IoC容器原理"
@@ -8492,7 +8485,7 @@ order: 1
 - 设计模式
 - 实现建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.3-Bean生命周期详解"
@@ -8680,7 +8673,7 @@ order: 5
 - 异常处理
 - 调试方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.3-Bean生命周期详解"
@@ -8869,7 +8862,7 @@ order: 4
 - 测试方法
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.3-Bean生命周期详解"
@@ -9011,7 +9004,7 @@ order: 7
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.4-依赖注入机制"
@@ -9166,7 +9159,7 @@ order: 3
 - 性能优化
 - 问题排查
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.4-依赖注入机制"
@@ -9354,7 +9347,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.4-依赖注入机制"
@@ -9542,7 +9535,7 @@ order: 6
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.4-依赖注入机制"
@@ -9652,7 +9645,7 @@ order: 1
 - 问题诊断
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.5-循环依赖解决方案"
@@ -9840,7 +9833,7 @@ order: 5
 - 问题排查
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.5-循环依赖解决方案"
@@ -10028,7 +10021,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.5-循环依赖解决方案"
@@ -10170,7 +10163,7 @@ order: 7
 - 解决方案
 - 预防措施
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.6-AOP原理与实现"
@@ -10325,7 +10318,7 @@ order: 3
 - 问题排查
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.6-AOP原理与实现"
@@ -10513,7 +10506,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.6-AOP原理与实现"
@@ -10701,7 +10694,7 @@ order: 6
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.6-AOP原理与实现"
@@ -10811,7 +10804,7 @@ order: 1
 - 问题排查
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.7-事务管理机制"
@@ -11093,7 +11086,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.7-事务管理机制"
@@ -11327,7 +11320,7 @@ order: 7
 - 验证方法
 - 经验总结
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.8-Spring事件机制"
@@ -11574,7 +11567,7 @@ order: 5
 - 测试方法
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.8-Spring事件机制"
@@ -11854,7 +11847,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.8-Spring事件机制"
@@ -12056,7 +12049,7 @@ order: 3
 - 测试方法
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.9-Spring扩展点"
@@ -12336,7 +12329,7 @@ order: 4
 - 测试方法
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.1-SpringFramework/4.1.9-Spring扩展点"
@@ -12492,7 +12485,7 @@ order: 2
 
 本节详细介绍SpringBoot3的核心特性、开发流程、最佳实践等内容，帮助读者快速掌握SpringBoot3的使用方法和开发技巧。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.1-SpringBoot3核心特性"
@@ -12739,7 +12732,7 @@ order: 5
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.1-SpringBoot3核心特性"
@@ -13019,7 +13012,7 @@ order: 6
 - 维护策略
 - 问题排查
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.1-SpringBoot3核心特性"
@@ -13221,7 +13214,7 @@ order: 3
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.2-自动配置原理"
@@ -13501,7 +13494,7 @@ order: 4
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.2-自动配置原理"
@@ -13703,7 +13696,7 @@ order: 1
 - 问题排查
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.3-启动流程源码分析"
@@ -13983,7 +13976,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.3-启动流程源码分析"
@@ -14217,7 +14210,7 @@ order: 7
 - 经验分享
 - 持续学习
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.4-配置体系详解"
@@ -14464,7 +14457,7 @@ order: 5
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.4-配置体系详解"
@@ -14744,7 +14737,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.4-配置体系详解"
@@ -14946,7 +14939,7 @@ order: 3
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.5-日志系统集成"
@@ -15226,7 +15219,7 @@ order: 4
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.5-日志系统集成"
@@ -15428,7 +15421,7 @@ order: 1
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.6-Web开发实战"
@@ -15708,7 +15701,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.6-Web开发实战"
@@ -15942,7 +15935,7 @@ order: 7
 - 监控方案
 - 应急预案
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.7-数据访问整合"
@@ -16189,7 +16182,7 @@ order: 5
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.7-数据访问整合"
@@ -16469,7 +16462,7 @@ order: 6
 - 超时处理
 - 幂等性
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.7-数据访问整合"
@@ -16671,7 +16664,7 @@ order: 3
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.8-测试框架应用"
@@ -16951,7 +16944,7 @@ order: 4
 - 持续改进
 - 团队协作
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.8-测试框架应用"
@@ -17153,7 +17146,7 @@ order: 1
 - 安全考虑
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.9-监控与管理"
@@ -17433,7 +17426,7 @@ order: 2
 - 运维方案
 - 持续改进
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.9-监控与管理"
@@ -17667,7 +17660,7 @@ order: 7
 - 存储方案
 - 分析方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.10-SpringBoot3新特性"
@@ -17914,7 +17907,7 @@ order: 5
 - 运维方案
 - 持续改进
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.10-SpringBoot3新特性"
@@ -18194,7 +18187,7 @@ order: 6
 - 运维方案
 - 安全建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.10-SpringBoot3新特性"
@@ -18396,7 +18389,7 @@ order: 3
 - 运维方案
 - 安全建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.11-云原生与部署"
@@ -18676,7 +18669,7 @@ order: 4
 - 运维策略
 - 安全建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.11-云原生与部署"
@@ -18924,7 +18917,7 @@ order: 2
 - 测试方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.12-升级与迁移"
@@ -19250,7 +19243,7 @@ order: 4
 - 预防措施
 - 持续改进
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.2-SpringBoot3/4.2.12-升级与迁移"
@@ -19419,7 +19412,7 @@ order: 1
 
 本节详细介绍MVC架构的设计原理、核心组件和实现方式，帮助读者理解SpringMVC的架构设计思想。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.1-MVC架构设计"
@@ -19745,7 +19738,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.1-MVC架构设计"
@@ -19993,7 +19986,7 @@ order: 2
 
 本节详细介绍SpringMVC的请求处理流程，包括请求接收、处理器映射、视图解析等核心环节。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.2-请求处理流程"
@@ -20319,7 +20312,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.2-请求处理流程"
@@ -20567,7 +20560,7 @@ order: 3
 
 本节详细介绍SpringMVC中控制器和视图的实现原理、开发技巧和最佳实践，帮助读者掌握Web应用开发的核心技能。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.3-控制器与视图"
@@ -20893,7 +20886,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.3-控制器与视图"
@@ -21141,7 +21134,7 @@ order: 4
 
 本节详细介绍SpringMVC中的数据绑定机制和数据验证功能，包括数据转换、格式化、验证等核心内容。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.4-数据绑定与验证"
@@ -21467,7 +21460,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.4-数据绑定与验证"
@@ -21715,7 +21708,7 @@ order: 5
 
 本节详细介绍SpringMVC的异常处理机制，包括异常处理器、异常解析、统一异常处理等核心内容。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.5-异常处理机制"
@@ -22041,7 +22034,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.5-异常处理机制"
@@ -22289,7 +22282,7 @@ order: 6
 
 本节详细介绍SpringMVC中的拦截器和过滤器机制，包括它们的实现原理、使用场景和最佳实践。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.6-拦截器与过滤器"
@@ -22615,7 +22608,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.6-拦截器与过滤器"
@@ -22863,7 +22856,7 @@ order: 7
 
 本节详细介绍RESTful API的设计原则、实现方法和最佳实践，帮助开发者构建规范、高效的Web服务接口。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.7-RESTfulAPI设计"
@@ -23190,7 +23183,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.7-RESTfulAPI设计"
@@ -23438,7 +23431,7 @@ order: 8
 
 本节深入分析SpringMVC框架的核心源码实现，包括请求处理流程、核心组件实现、扩展机制等内容。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.8-源码深度解析"
@@ -23764,7 +23757,7 @@ order: 2
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.3-SpringMVC/4.3.8-源码深度解析"
@@ -24012,7 +24005,7 @@ order: 4
 
 本节详细介绍MyBatis持久层框架的核心概念、使用方法和最佳实践，帮助开发者更好地使用MyBatis进行数据库操作。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.1-MyBatis核心概念"
@@ -24259,7 +24252,7 @@ order: 5
 - 缓存策略
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建4.4.1.6与其他ORM框架对比文件
 cat > "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.1-MyBatis核心概念/4.4.1.6-与其他ORM框架对比.md" << 'EOF'
@@ -24582,7 +24575,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.2-配置与映射文件"
@@ -24830,7 +24823,7 @@ order: 5
 - 维护策略
 - 问题排查
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建4.4.2.6XML与注解配置原理文件
 cat > "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.2-配置与映射文件/4.4.2.6-XML与注解配置原理.md" << 'EOF'
@@ -25153,7 +25146,7 @@ order: 7
 - 部署策略
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.3-动态SQL"
@@ -25400,7 +25393,7 @@ order: 5
 - 安全控制
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建4.4.3.6动态SQL性能影响文件
 cat > "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.3-动态SQL/4.4.3.6-动态SQL性能影响.md" << 'EOF'
@@ -25723,7 +25716,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.4-插件机制"
@@ -25969,7 +25962,7 @@ order: 5
 - 维护策略
 - 问题排查
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建4.4.4.6插件执行顺序控制文件
 cat > "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.4-插件机制/4.4.4.6-插件执行顺序控制.md" << 'EOF'
@@ -26292,7 +26285,7 @@ order: 7
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.5-缓存机制"
@@ -26539,7 +26532,7 @@ order: 5
 - 监控告警
 - 问题排查
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建4.4.5.6事务与缓存一致性文件
 cat > "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.5-缓存机制/4.4.5.6-事务与缓存一致性.md" << 'EOF'
@@ -26862,7 +26855,7 @@ order: 7
 - 监控方案
 - 持续优化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.6-与Spring整合"
@@ -27109,7 +27102,7 @@ order: 5
 - 维护策略
 - 问题排查
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建4.4.6.6异常处理与转换文件
 cat > "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.6-与Spring整合/4.4.6.6-异常处理与转换.md" << 'EOF'
@@ -27432,7 +27425,7 @@ order: 7
 - 部署方案
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.7-源码解析"
@@ -27679,7 +27672,7 @@ order: 5
 - 事务处理
 - 异常处理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建4.4.7.6插件机制源码解读文件
 cat > "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.7-源码解析/4.4.7.6-插件机制源码解读.md" << 'EOF'
@@ -28002,7 +27995,7 @@ order: 7
 - 监控方案
 - 持续改进
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.8-MyBatis-Plus应用"
@@ -28249,7 +28242,7 @@ order: 5
 - 维护策略
 - 问题排查
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建4.4.8.6插件体系架构文件
 cat > "$BASE_DIR/第4章-Spring生态系统/4.4-MyBatis/4.4.8-MyBatis-Plus应用/4.4.8.6-插件体系架构.md" << 'EOF'
@@ -28572,7 +28565,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.1-MySQL架构与存储引擎"
@@ -28786,7 +28779,7 @@ order: 4
 - 问题排查
 - 优化建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.1.5存储引擎架构与插件式设计文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.1-MySQL架构与存储引擎/5.1.1.5-存储引擎架构与插件式设计.md" << 'EOF'
@@ -29109,7 +29102,7 @@ order: 6
 - 问题排查
 - 调优建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.1.7多实例部署与管理文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.1-MySQL架构与存储引擎/5.1.1.7-多实例部署与管理.md" << 'EOF'
@@ -29353,7 +29346,7 @@ order: 4
 - 维护方案
 - 监控建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.2.5联合索引与最左前缀原则文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.2-索引原理与优化/5.1.2.5-联合索引与最左前缀原则.md" << 'EOF'
@@ -29676,7 +29669,7 @@ order: 3
 - 经验总结
 - 最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.2.4复合索引策略与顺序文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.2-索引原理与优化/5.1.2.4-复合索引策略与顺序.md" << 'EOF'
@@ -29999,7 +29992,7 @@ order: 10
 - 维护方案
 - 监控建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.3-事务机制与隔离级别"
@@ -30246,7 +30239,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.3.6事务锁与MVCC的关系文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.3-事务机制与隔离级别/5.1.3.6-事务锁与MVCC的关系.md" << 'EOF'
@@ -30569,7 +30562,7 @@ order: 7
 - 维护方案
 - 应急预案
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.4-锁机制详解"
@@ -30816,7 +30809,7 @@ order: 5
 - 问题排查
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.4.6间隙锁与临键锁设计文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.4-锁机制详解/5.1.4.6-间隙锁与临键锁设计.md" << 'EOF'
@@ -31139,7 +31132,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.5-MVCC实现原理"
@@ -31386,7 +31379,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.5.6MVCC与锁的协同工作文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.5-MVCC实现原理/5.1.5.6-MVCC与锁的协同工作.md" << 'EOF'
@@ -31709,7 +31702,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.6-日志系统"
@@ -31956,7 +31949,7 @@ order: 5
 - 问题排查
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.6.6日志缓冲与刷盘策略文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.6-日志系统/5.1.6.6-日志缓冲与刷盘策略.md" << 'EOF'
@@ -32279,7 +32272,7 @@ order: 7
 - 问题处理
 - 应急预案
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.7-SQL优化实战"
@@ -32526,7 +32519,7 @@ order: 5
 - 问题排查
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.7.6子查询优化策略文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.7-SQL优化实战/5.1.7.6-子查询优化策略.md" << 'EOF'
@@ -32849,7 +32842,7 @@ order: 7
 - 问题排查
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.8-MySQL8.0新特性"
@@ -33096,7 +33089,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.8.6优化器增强设计文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.8-MySQL8.0新特性/5.1.8.6-优化器增强设计.md" << 'EOF'
@@ -33419,7 +33412,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.9-MySQL高可用架构"
@@ -33666,7 +33659,7 @@ order: 5
 - 问题排查
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.9.6高可用架构设计原则文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.9-MySQL高可用架构/5.1.9.6-高可用架构设计原则.md" << 'EOF'
@@ -33989,7 +33982,7 @@ order: 7
 - 运维管理
 - 应急预案
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.10-MySQL性能调优"
@@ -34236,7 +34229,7 @@ order: 5
 - 问题处理
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.1.10.6查询缓存工作机制文件
 cat > "$BASE_DIR/第5章-数据库技术/5.1-MySQL核心技术/5.1.10-MySQL性能调优/5.1.10.6-查询缓存工作机制.md" << 'EOF'
@@ -34559,7 +34552,7 @@ order: 7
 - 问题规避
 - 持续优化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.1-分库分表原理与策略"
@@ -34727,7 +34720,7 @@ order: 3
 - 运维管理
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.1.4分片键选择策略文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.1-分库分表原理与策略/5.2.1.4-分片键选择策略.md" << 'EOF'
@@ -35050,7 +35043,7 @@ order: 5
 - 问题处理
 - 运维管理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.1.6跨分片查询优化文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.1-分库分表原理与策略/5.2.1.6-跨分片查询优化.md" << 'EOF'
@@ -35294,7 +35287,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.2.4SQL解析与改写原理文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.2-ShardingSphere架构设计/5.2.2.4-SQL解析与改写原理.md" << 'EOF'
@@ -35617,7 +35610,7 @@ order: 5
 - 运维管理
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.2.6性能调优参数设置文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.2-ShardingSphere架构设计/5.2.2.6-性能调优参数设置.md" << 'EOF'
@@ -35861,7 +35854,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.3.4SQL执行流程分析文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.3-ShardingJDBC实战/5.2.3.4-SQL执行流程分析.md" << 'EOF'
@@ -36184,7 +36177,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.3.6分布式事务实现文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.3-ShardingJDBC实战/5.2.3.6-分布式事务实现.md" << 'EOF'
@@ -36428,7 +36421,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.4.4请求处理与转发流程文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.4-ShardingProxy应用/5.2.4.4-请求处理与转发流程.md" << 'EOF'
@@ -36751,7 +36744,7 @@ order: 5
 - 问题处理
 - 持续改进
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.4.6性能优化策略文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.4-ShardingProxy应用/5.2.4.6-性能优化策略.md" << 'EOF'
@@ -36995,7 +36988,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.5.4雪花算法(Snowflake)详解文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.5-分布式主键生成/5.2.5.4-雪花算法(Snowflake)详解.md" << 'EOF'
@@ -37318,7 +37311,7 @@ order: 5
 - 运维管理
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.5.6时钟回拨问题解决文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.5-分布式主键生成/5.2.5.6-时钟回拨问题解决.md" << 'EOF'
@@ -37562,7 +37555,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.6.4TCC补偿事务机制文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.6-分布式事务处理/5.2.6.4-TCC补偿事务机制.md" << 'EOF'
@@ -37885,7 +37878,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.6.6事务一致性监控文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.6-分布式事务处理/5.2.6.6-事务一致性监控.md" << 'EOF'
@@ -38129,7 +38122,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.7.4读写路由策略设计文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.7-读写分离实现/5.2.7.4-读写路由策略设计.md" << 'EOF'
@@ -38452,3 +38445,21 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
+
+# 创建基础目录
+mkdir -p "/Users/guanrunbai/my/kphub/src/java-backend/第5章-数据库技术/5.1-MySQL核心技术/5.1.2-索引原理与优化"
+
+# 创建子目录
+mkdir -p "/Users/guanrunbai/my/kphub/src/java-backend/第5章-数据库技术/5.1-MySQL核心技术/5.1.2-索引原理与优化/5.1.2.1-索引原理与优化原理篇"
+mkdir -p "/Users/guanrunbai/my/kphub/src/java-backend/第5章-数据库技术/5.1-MySQL核心技术/5.1.2-索引原理与优化/5.1.2.2-B+树索引结构详解"
+mkdir -p "/Users/guanrunbai/my/kphub/src/java-backend/第5章-数据库技术/5.1-MySQL核心技术/5.1.2-索引原理与优化/5.1.2.3-聚簇索引与非聚簇索引"
+# 创建基础目录
+mkdir -p "/Users/guanrunbai/my/kphub/src/java-backend/第5章-数据库技术/5.2-分库分表与数据库中间件"
+
+# 创建子目录
+mkdir -p "/Users/guanrunbai/my/kphub/src/java-backend/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.2-ShardingSphere架构设计"
+mkdir -p "/Users/guanrunbai/my/kphub/src/java-backend/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.3-ShardingJDBC实战"
+mkdir -p "/Users/guanrunbai/my/kphub/src/java-backend/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.4-ShardingProxy应用"
+mkdir -p "/Users/guanrunbai/my/kphub/src/java-backend/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.5-分布式主键生成"
+mkdir -p "/Users/guanrunbai/my/kphub/src/java-backend/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.6-分布式事务处理"
+mkdir -p "/Users/guanrunbai/my/kphub/src/java-backend/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.7-读写分离实现"
