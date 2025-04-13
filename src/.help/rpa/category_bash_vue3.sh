@@ -1,6 +1,5 @@
-我将为您编写创建Vue3知识体系目录结构的bash脚本以及相应的文档内容脚本。
 
-BASE_DIR="c:\project\kphub\src\vue3"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -167,7 +166,6 @@ order: 5
 - 避免不必要的渲染
 - 资源优化技巧
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -357,7 +355,6 @@ order: 3
 - 使用toRefs保持响应性
 - 使用扩展运算符的正确方式
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -632,7 +629,6 @@ order: 3
 - useWebSocket：WebSocket连接管理
 - useInfiniteScroll：无限滚动加载
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -856,7 +852,6 @@ order: 2
 - 响应式样式处理
 - 性能优化技巧
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1134,7 +1129,6 @@ order: 9
 - 编译时提示
 - 自定义渲染器
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1409,7 +1403,6 @@ order: 7
 - 组件库设计中的插槽
 - 插槽性能优化
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1655,7 +1648,6 @@ order: 3
 - 与过渡动画的配合
 - 与其他特性的交互
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1933,7 +1925,6 @@ order: 10
 - 更多内置组件
 - 编译时优化进展
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2162,7 +2153,6 @@ order: 7
 
 本章节介绍Vue3应用中的状态管理方案和路由系统，帮助您掌握大型应用的数据流管理和页面导航实现方法。
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2430,7 +2420,6 @@ order: 1
 - 渐进式升级方案
 - 常见迁移问题解决
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2680,7 +2669,6 @@ order: 2
 - 递归类型定义
 - 类型推导优化
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2967,7 +2955,6 @@ order: 6
 - 性能考量
 - 团队协作中的类型体操
 EOF
-BASE_DIR="c:\project\kphub\src\vue3"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -3220,91 +3207,7 @@ order: 2
 - 性能预算设置
 - 持续优化策略
 EOF
-   9.2.3 开发环境优化  
-9.3 测试体系  
-   9.3.1 Vitest单元测试  
-   9.3.2 组件测试  
-   9.3.3 E2E测试  
-9.4 服务端渲染(SSR)  
-9.5 微前端实践  
 
-
-## 10. Vue3性能优化与最佳实践
-10.1 性能优化  
-    10.1.1 性能指标与监控  
-    10.1.2 组合式API性能优化  
-    10.1.3 构建层面优化  
-    10.1.4 运行时优化  
-10.2 错误处理  
-    10.2.1 错误边界  
-
-    10.2.2 异常捕获  
-    10.2.3 错误监控  
-10.3 安全实践  
-10.4 国际化方案  
-10.5 跨端开发实践  
-
-## 11. Vue3源码解析
-11.1 响应式系统实现  
-
-    11.1.1 Proxy与Reflect  
-    11.1.2 依赖收集与触发更新  
-    11.1.3 ref与reactive实现原理  
-11.2 渲染机制  
-    11.2.1 虚拟DOM与Diff算法  
-    11.2.2 Vue3 Diff优化  
-    11.2.3 静态提升与缓存  
-11.3 模板编译原理  
-
-    11.3.1 编译优化策略  
-    11.3.2 Block树与PatchFlags  
-11.4 组件化实现  
-11.5 Vue3与Vue2源码对比  
-
-## 12. Vue3生态系统
-12.1 UI组件库  
-    12.1.1 Element Plus  
-
-    12.1.2 Ant Design Vue  
-    12.1.3 Naive UI  
-    12.1.4 组件库选型对比  
-12.2 开发工具  
-    12.2.1 Vite与插件  
-    12.2.2 Vue DevTools  
-    12.2.3 VS Code插件  
-12.3 实用工具库  
-
-    12.3.1 VueUse组合式工具集  
-    12.3.2 Pinia插件生态  
-    12.3.3 HTTP客户端  
-12.4 Nuxt 3框架  
-    12.4.1 Nuxt 3特性与架构  
-    12.4.2 组合式API在Nuxt中的应用  
-    12.4.3 SSR与SSG最佳实践  
-12.5 其他生态工具  
-
-    12.5.1 测试工具  
-    12.5.2 文档工具  
-    12.5.3 动画与图表库  
-
-## 13. 实战项目与案例
-13.1 中后台管理系统  
-    13.1.1 项目架构设计  
-    13.1.2 权限系统实现  
-
-    13.1.3 组件封装实践  
-13.2 移动端应用  
-    13.2.1 响应式设计  
-    13.2.2 触摸事件处理  
-    13.2.3 性能优化  
-13.3 大型应用最佳实践  
-    13.3.1 代码组织与复用  
-    13.3.2 状态管理策略  
-
-    13.3.3 性能优化案例  
-我将为您编写Vue3性能优化与最佳实践的知识库目录创建脚本和文档内容脚本。
-
-BASE_DIR="c:\project\kphub\src\vue3-performance"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -3479,10 +3382,9 @@ order: 1
 - 错误重试机制
 - 用户反馈与错误报告
 EOF
-BASE_DIR="c:\project\kphub\src\vue3-performance"
 
 # 创建错误捕获文档
-cat > "$BASE_DIR/10.2-错误处理/10.2.2-异常捕获.md" << 'EOF'
+cat > "$BASE_DIR/10.Vue3性能优化与最佳实践/10.2-错误处理/10.2.2-异常捕获.md" << 'EOF'
 ---
 title: 异常捕获
 icon: bug-slash
@@ -3508,7 +3410,7 @@ order: 2
 EOF
 
 # 创建错误监控文档
-cat > "$BASE_DIR/10.2-错误处理/10.2.3-错误监控.md" << 'EOF'
+cat > "$BASE_DIR/10.Vue3性能优化与最佳实践/10.2-错误处理/10.2.3-错误监控.md" << 'EOF'
 ---
 title: 错误监控
 icon: monitor
@@ -3534,8 +3436,8 @@ order: 3
 EOF
 
 # 创建安全实践目录
-mkdir -p "$BASE_DIR/10.3-安全实践"
-cat > "$BASE_DIR/10.3-安全实践/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/10.Vue3性能优化与最佳实践/10.3-安全实践"
+cat > "$BASE_DIR/110.Vue3性能优化与最佳实践/0.3-安全实践/README.md" << 'EOF'
 ---
 title: 安全实践
 icon: shield-check
@@ -3548,7 +3450,7 @@ order: 3
 EOF
 
 # 创建安全实践文档
-cat > "$BASE_DIR/10.3-安全实践/10.3.1-安全最佳实践.md" << 'EOF'
+cat > "$BASE_DIR/10.Vue3性能优化与最佳实践/10.3-安全实践/10.3.1-安全最佳实践.md" << 'EOF'
 ---
 title: 安全最佳实践
 icon: shield-check
@@ -3574,8 +3476,8 @@ order: 1
 EOF
 
 # 创建国际化方案目录
-mkdir -p "$BASE_DIR/10.4-国际化方案"
-cat > "$BASE_DIR/10.4-国际化方案/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/10.Vue3性能优化与最佳实践/10.4-国际化方案"
+cat > "$BASE_DIR/10.Vue3性能优化与最佳实践/10.4-国际化方案/README.md" << 'EOF'
 ---
 title: 国际化方案
 icon: globe
@@ -3588,7 +3490,7 @@ order: 4
 EOF
 
 # 创建国际化方案文档
-cat > "$BASE_DIR/10.4-国际化方案/10.4.1-Vue3国际化实现.md" << 'EOF'
+cat > "$BASE_DIR/10.Vue3性能优化与最佳实践/10.4-国际化方案/10.4.1-Vue3国际化实现.md" << 'EOF'
 ---
 title: Vue3国际化实现
 icon: language
@@ -3614,8 +3516,8 @@ order: 1
 EOF
 
 # 创建跨端开发实践目录
-mkdir -p "$BASE_DIR/10.5-跨端开发实践"
-cat > "$BASE_DIR/10.5-跨端开发实践/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/10.Vue3性能优化与最佳实践/10.5-跨端开发实践"
+cat > "$BASE_DIR/10.Vue3性能优化与最佳实践/10.5-跨端开发实践/README.md" << 'EOF'
 ---
 title: 跨端开发实践
 icon: devices
@@ -3628,7 +3530,7 @@ order: 5
 EOF
 
 # 创建跨端开发实践文档
-cat > "$BASE_DIR/10.5-跨端开发实践/10.5.1-跨端解决方案.md" << 'EOF'
+cat > "$BASE_DIR/10.Vue3性能优化与最佳实践/10.5-跨端开发实践/10.5.1-跨端解决方案.md" << 'EOF'
 ---
 title: 跨端解决方案
 icon: mobile
@@ -3654,8 +3556,8 @@ order: 1
 EOF
 
 # 创建Vue3源码解析目录
-mkdir -p "$BASE_DIR/../vue3-source"
-cat > "$BASE_DIR/../vue3-source/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/11.Vue3源码解析"
+cat > "$BASE_DIR/11.Vue3源码解析/README.md" << 'EOF'
 ---
 title: Vue3源码解析
 icon: code
@@ -3668,8 +3570,8 @@ order: 11
 EOF
 
 # 创建响应式系统实现目录
-mkdir -p "$BASE_DIR/../vue3-source/11.1-响应式系统实现"
-cat > "$BASE_DIR/../vue3-source/11.1-响应式系统实现/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/11.Vue3源码解析/11.1-响应式系统实现"
+cat > "$BASE_DIR/11.Vue3源码解析/11.1-响应式系统实现/README.md" << 'EOF'
 ---
 title: 响应式系统实现
 icon: refresh
@@ -3682,7 +3584,7 @@ order: 1
 EOF
 
 # 创建响应式系统实现文档
-cat > "$BASE_DIR/../vue3-source/11.1-响应式系统实现/11.1.1-响应式核心原理.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.1-响应式系统实现/11.1.1-响应式核心原理.md" << 'EOF'
 ---
 title: 响应式核心原理
 icon: atom
@@ -3706,10 +3608,9 @@ order: 1
 - 更新队列管理
 - 调度系统实现
 EOF
-BASE_DIR="c:\project\kphub\src\vue3-source"
 
 # 创建Proxy与Reflect文档
-cat > "$BASE_DIR/11.1-响应式系统实现/11.1.1-Proxy与Reflect.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.1-响应式系统实现/11.1.1-Proxy与Reflect.md" << 'EOF'
 ---
 title: Proxy与Reflect
 icon: code
@@ -3735,7 +3636,7 @@ order: 1
 EOF
 
 # 创建依赖收集与触发更新文档
-cat > "$BASE_DIR/11.1-响应式系统实现/11.1.2-依赖收集与触发更新.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.1-响应式系统实现/11.1.2-依赖收集与触发更新.md" << 'EOF'
 ---
 title: 依赖收集与触发更新
 icon: connection
@@ -3761,7 +3662,7 @@ order: 2
 EOF
 
 # 创建ref与reactive实现原理文档
-cat > "$BASE_DIR/11.1-响应式系统实现/11.1.3-ref与reactive实现原理.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.1-响应式系统实现/11.1.3-ref与reactive实现原理.md" << 'EOF'
 ---
 title: ref与reactive实现原理
 icon: atom
@@ -3787,8 +3688,8 @@ order: 3
 EOF
 
 # 创建渲染机制目录
-mkdir -p "$BASE_DIR/11.2-渲染机制"
-cat > "$BASE_DIR/11.2-渲染机制/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/11.Vue3源码解析/11.2-渲染机制"
+cat > "$BASE_DIR/11.Vue3源码解析/11.2-渲染机制/README.md" << 'EOF'
 ---
 title: 渲染机制
 icon: eye
@@ -3801,7 +3702,7 @@ order: 2
 EOF
 
 # 创建虚拟DOM与Diff算法文档
-cat > "$BASE_DIR/11.2-渲染机制/11.2.1-虚拟DOM与Diff算法.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.2-渲染机制/11.2.1-虚拟DOM与Diff算法.md" << 'EOF'
 ---
 title: 虚拟DOM与Diff算法
 icon: sitemap
@@ -3827,7 +3728,7 @@ order: 1
 EOF
 
 # 创建Vue3 Diff优化文档
-cat > "$BASE_DIR/11.2-渲染机制/11.2.2-Vue3 Diff优化.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.2-渲染机制/11.2.2-Vue3 Diff优化.md" << 'EOF'
 ---
 title: Vue3 Diff优化
 icon: bolt
@@ -3853,7 +3754,7 @@ order: 2
 EOF
 
 # 创建静态提升与缓存文档
-cat > "$BASE_DIR/11.2-渲染机制/11.2.3-静态提升与缓存.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.2-渲染机制/11.2.3-静态提升与缓存.md" << 'EOF'
 ---
 title: 静态提升与缓存
 icon: rocket
@@ -3879,8 +3780,8 @@ order: 3
 EOF
 
 # 创建模板编译原理目录
-mkdir -p "$BASE_DIR/11.3-模板编译原理"
-cat > "$BASE_DIR/11.3-模板编译原理/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/11.Vue3源码解析/11.3-模板编译原理"
+cat > "$BASE_DIR/11.Vue3源码解析/11.3-模板编译原理/README.md" << 'EOF'
 ---
 title: 模板编译原理
 icon: code-branch
@@ -3893,7 +3794,7 @@ order: 3
 EOF
 
 # 创建模板编译原理文档
-cat > "$BASE_DIR/11.3-模板编译原理/11.3.1-编译流程概述.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.3-模板编译原理/11.3.1-编译流程概述.md" << 'EOF'
 ---
 title: 编译流程概述
 icon: diagram-project
@@ -3919,7 +3820,7 @@ order: 1
 EOF
 
 # 创建AST转换文档
-cat > "$BASE_DIR/11.3-模板编译原理/11.3.2-AST转换与优化.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.3-模板编译原理/11.3.2-AST转换与优化.md" << 'EOF'
 ---
 title: AST转换与优化
 icon: bezier-curve
@@ -3945,7 +3846,7 @@ order: 2
 EOF
 
 # 创建代码生成文档
-cat > "$BASE_DIR/11.3-模板编译原理/11.3.3-代码生成.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.3-模板编译原理/11.3.3-代码生成.md" << 'EOF'
 ---
 title: 代码生成
 icon: file-code
@@ -3969,10 +3870,8 @@ order: 3
 - 代码体积优化
 - 运行时性能考量
 EOF
-BASE_DIR="c:\project\kphub\src\vue3-source"
-
 # 创建编译优化策略文档
-cat > "$BASE_DIR/11.3-模板编译原理/11.3.1-编译优化策略.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.Vue3源码解析/11.3-模板编译原理/11.3.1-编译优化策略.md" << 'EOF'
 ---
 title: 编译优化策略
 icon: rocket
@@ -3998,7 +3897,7 @@ order: 1
 EOF
 
 # 创建Block树与PatchFlags文档
-cat > "$BASE_DIR/11.3-模板编译原理/11.3.2-Block树与PatchFlags.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.3-模板编译原理/11.3.2-Block树与PatchFlags.md" << 'EOF'
 ---
 title: Block树与PatchFlags
 icon: tree
@@ -4024,8 +3923,8 @@ order: 2
 EOF
 
 # 创建组件化实现目录
-mkdir -p "$BASE_DIR/11.4-组件化实现"
-cat > "$BASE_DIR/11.4-组件化实现/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/11.Vue3源码解析/11.4-组件化实现"
+cat > "$BASE_DIR/11.Vue3源码解析/11.4-组件化实现/README.md" << 'EOF'
 ---
 title: 组件化实现
 icon: puzzle-piece
@@ -4038,7 +3937,7 @@ order: 4
 EOF
 
 # 创建组件化实现文档
-cat > "$BASE_DIR/11.4-组件化实现/11.4.1-组件实例创建.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.4-组件化实现/11.4.1-组件实例创建.md" << 'EOF'
 ---
 title: 组件实例创建
 icon: plus-circle
@@ -4064,7 +3963,7 @@ order: 1
 EOF
 
 # 创建组件生命周期文档
-cat > "$BASE_DIR/11.4-组件化实现/11.4.2-组件生命周期.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.4-组件化实现/11.4.2-组件生命周期.md" << 'EOF'
 ---
 title: 组件生命周期
 icon: recycle
@@ -4090,8 +3989,8 @@ order: 2
 EOF
 
 # 创建Vue3与Vue2源码对比目录
-mkdir -p "$BASE_DIR/11.5-Vue3与Vue2源码对比"
-cat > "$BASE_DIR/11.5-Vue3与Vue2源码对比/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/11.Vue3源码解析/11.5-Vue3与Vue2源码对比"
+cat > "$BASE_DIR/11.Vue3源码解析/11.5-Vue3与Vue2源码对比/README.md" << 'EOF'
 ---
 title: Vue3与Vue2源码对比
 icon: code-compare
@@ -4104,7 +4003,7 @@ order: 5
 EOF
 
 # 创建架构设计对比文档
-cat > "$BASE_DIR/11.5-Vue3与Vue2源码对比/11.5.1-架构设计对比.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.5-Vue3与Vue2源码对比/11.5.1-架构设计对比.md" << 'EOF'
 ---
 title: 架构设计对比
 icon: sitemap
@@ -4130,7 +4029,7 @@ order: 1
 EOF
 
 # 创建API设计对比文档
-cat > "$BASE_DIR/11.5-Vue3与Vue2源码对比/11.5.2-API设计对比.md" << 'EOF'
+cat > "$BASE_DIR/11.Vue3源码解析/11.5-Vue3与Vue2源码对比/11.5.2-API设计对比.md" << 'EOF'
 ---
 title: API设计对比
 icon: code
@@ -4156,8 +4055,8 @@ order: 2
 EOF
 
 # 创建Vue3生态系统目录
-mkdir -p "$BASE_DIR/../vue3-ecosystem"
-cat > "$BASE_DIR/../vue3-ecosystem/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/12.Vue3生态系统"
+cat > "$BASE_DIR/12.Vue3生态系统/README.md" << 'EOF'
 ---
 title: Vue3生态系统
 icon: leaf
@@ -4170,8 +4069,8 @@ order: 12
 EOF
 
 # 创建UI组件库目录
-mkdir -p "$BASE_DIR/../vue3-ecosystem/12.1-UI组件库"
-cat > "$BASE_DIR/../vue3-ecosystem/12.1-UI组件库/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/12.Vue3生态系统/12.1-UI组件库"
+cat > "$BASE_DIR/12.Vue3生态系统/12.1-UI组件库/README.md" << 'EOF'
 ---
 title: UI组件库
 icon: palette
@@ -4184,7 +4083,7 @@ order: 1
 EOF
 
 # 创建Element Plus文档
-cat > "$BASE_DIR/../vue3-ecosystem/12.1-UI组件库/12.1.1-Element Plus.md" << 'EOF'
+cat > "$BASE_DIR/12.Vue3生态系统/12.1-UI组件库/12.1.1-Element Plus.md" << 'EOF'
 ---
 title: Element Plus
 icon: element-plus
@@ -4208,10 +4107,8 @@ order: 1
 - 性能优化建议
 - 与TypeScript结合使用
 EOF
-BASE_DIR="c:\project\kphub\src\vue3-ecosystem"
-
 # 创建Ant Design Vue文档
-cat > "$BASE_DIR/12.1-UI组件库/12.1.2-Ant Design Vue.md" << 'EOF'
+cat > "$BASE_DIR/12.Vue3生态系统/12.1-UI组件库/12.1.2-Ant Design Vue.md" << 'EOF'
 ---
 title: Ant Design Vue
 icon: ant-design
@@ -4237,7 +4134,7 @@ order: 2
 EOF
 
 # 创建Naive UI文档
-cat > "$BASE_DIR/12.1-UI组件库/12.1.3-Naive UI.md" << 'EOF'
+cat > "$BASE_DIR/12.Vue3生态系统/12.1-UI组件库/12.1.3-Naive UI.md" << 'EOF'
 ---
 title: Naive UI
 icon: puzzle-piece
@@ -4263,7 +4160,7 @@ order: 3
 EOF
 
 # 创建组件库选型对比文档
-cat > "$BASE_DIR/12.1-UI组件库/12.1.4-组件库选型对比.md" << 'EOF'
+cat > "$BASE_DIR/12.Vue3生态系统/12.1-UI组件库/12.1.4-组件库选型对比.md" << 'EOF'
 ---
 title: 组件库选型对比
 icon: balance-scale
@@ -4289,8 +4186,8 @@ order: 4
 EOF
 
 # 创建开发工具目录
-mkdir -p "$BASE_DIR/12.2-开发工具"
-cat > "$BASE_DIR/12.2-开发工具/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/12.Vue3生态系统/12.2-开发工具"
+cat > "$BASE_DIR/12.Vue3生态系统/12.2-开发工具/README.md" << 'EOF'
 ---
 title: 开发工具
 icon: tools
@@ -4303,7 +4200,7 @@ order: 2
 EOF
 
 # 创建Vite与插件文档
-cat > "$BASE_DIR/12.2-开发工具/12.2.1-Vite与插件.md" << 'EOF'
+cat > "$BASE_DIR/12.Vue3生态系统/12.2-开发工具/12.2.1-Vite与插件.md" << 'EOF'
 ---
 title: Vite与插件
 icon: lightning
@@ -4329,7 +4226,7 @@ order: 1
 EOF
 
 # 创建Vue DevTools文档
-cat > "$BASE_DIR/12.2-开发工具/12.2.2-Vue DevTools.md" << 'EOF'
+cat > "$BASE_DIR/12.Vue3生态系统/12.2-开发工具/12.2.2-Vue DevTools.md" << 'EOF'
 ---
 title: Vue DevTools
 icon: bug
@@ -4355,7 +4252,7 @@ order: 2
 EOF
 
 # 创建VS Code插件文档
-cat > "$BASE_DIR/12.2-开发工具/12.2.3-VS Code插件.md" << 'EOF'
+cat > "$BASE_DIR/12.Vue3生态系统/12.2-开发工具/12.2.3-VS Code插件.md" << 'EOF'
 ---
 title: VS Code插件
 icon: microsoft
@@ -4381,8 +4278,8 @@ order: 3
 EOF
 
 # 创建实用工具库目录
-mkdir -p "$BASE_DIR/12.3-实用工具库"
-cat > "$BASE_DIR/12.3-实用工具库/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/12.Vue3生态系统/12.3-实用工具库"
+cat > "$BASE_DIR/12.Vue3生态系统/12.3-实用工具库/README.md" << 'EOF'
 ---
 title: 实用工具库
 icon: wrench
@@ -4395,7 +4292,7 @@ order: 3
 EOF
 
 # 创建状态管理工具文档
-cat > "$BASE_DIR/12.3-实用工具库/12.3.1-状态管理工具.md" << 'EOF'
+cat > "$BASE_DIR/12.Vue3生态系统/12.3-实用工具库/12.3.1-状态管理工具.md" << 'EOF'
 ---
 title: 状态管理工具
 icon: database
@@ -4421,7 +4318,7 @@ order: 1
 EOF
 
 # 创建路由与导航文档
-cat > "$BASE_DIR/12.3-实用工具库/12.3.2-路由与导航.md" << 'EOF'
+cat > "$BASE_DIR/12.Vue3生态系统/12.3-实用工具库/12.3.2-路由与导航.md" << 'EOF'
 ---
 title: 路由与导航
 icon: route
@@ -4447,7 +4344,7 @@ order: 2
 EOF
 
 # 创建网络请求工具文档
-cat > "$BASE_DIR/12.3-实用工具库/12.3.3-网络请求工具.md" << 'EOF'
+cat > "$BASE_DIR/12.Vue3生态系统/12.3-实用工具库/12.3.3-网络请求工具.md" << 'EOF'
 ---
 title: 网络请求工具
 icon: cloud
@@ -4471,41 +4368,10 @@ order: 3
 - urql
 - 与REST API的集成
 EOF
-    12.3.1 VueUse组合式工具集  
-    12.3.2 Pinia插件生态  
-    12.3.3 HTTP客户端  
-12.4 Nuxt 3框架  
-    12.4.1 Nuxt 3特性与架构  
-    12.4.2 组合式API在Nuxt中的应用  
-    12.4.3 SSR与SSG最佳实践  
-12.5 其他生态工具  
-
-    12.5.1 测试工具  
-    12.5.2 文档工具  
-    12.5.3 动画与图表库  
-
-## 13. 实战项目与案例
-13.1 中后台管理系统  
-    13.1.1 项目架构设计  
-    13.1.2 权限系统实现  
-
-    13.1.3 组件封装实践  
-13.2 移动端应用  
-    13.2.1 响应式设计  
-    13.2.2 触摸事件处理  
-    13.2.3 性能优化  
-13.3 大型应用最佳实践  
-    13.3.1 代码组织与复用  
-    13.3.2 状态管理策略  
-
-    13.3.3 性能优化案例  
-我将为您编写知识库目录创建脚本和文档内容脚本。
-
-BASE_DIR="c:\project\kphub\src\实战项目与案例"
-mkdir -p "$BASE_DIR"
+mkdir -p "$BASE_DIR/13.实战项目与案例"
 
 # 创建主README.md
-cat > "$BASE_DIR/README.md" << 'EOF'
+cat > "$BASE_DIR/13.实战项目与案例/README.md" << 'EOF'
 ---
 title: 实战项目与案例
 icon: project
@@ -4518,8 +4384,8 @@ order: 13
 EOF
 
 # 创建中后台管理系统目录
-mkdir -p "$BASE_DIR/01-中后台管理系统"
-cat > "$BASE_DIR/01-中后台管理系统/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/13.实战项目与案例/01-中后台管理系统"
+cat > "$BASE_DIR/13.实战项目与案例/01-中后台管理系统/README.md" << 'EOF'
 ---
 title: 中后台管理系统
 icon: dashboard
@@ -4532,7 +4398,7 @@ order: 1
 EOF
 
 # 创建项目架构设计文档
-cat > "$BASE_DIR/01-中后台管理系统/01-项目架构设计.md" << 'EOF'
+cat > "$BASE_DIR/13.实战项目与案例/01-中后台管理系统/01-项目架构设计.md" << 'EOF'
 ---
 title: 项目架构设计
 icon: architecture
@@ -4555,7 +4421,7 @@ order: 1
 EOF
 
 # 创建权限系统实现文档
-cat > "$BASE_DIR/01-中后台管理系统/02-权限系统实现.md" << 'EOF'
+cat > "$BASE_DIR/13.实战项目与案例/01-中后台管理系统/02-权限系统实现.md" << 'EOF'
 ---
 title: 权限系统实现
 icon: lock
@@ -4578,7 +4444,7 @@ order: 2
 EOF
 
 # 创建组件封装实践文档
-cat > "$BASE_DIR/01-中后台管理系统/03-组件封装实践.md" << 'EOF'
+cat > "$BASE_DIR/13.实战项目与案例/01-中后台管理系统/03-组件封装实践.md" << 'EOF'
 ---
 title: 组件封装实践
 icon: component
@@ -4601,8 +4467,8 @@ order: 3
 EOF
 
 # 创建移动端应用目录
-mkdir -p "$BASE_DIR/02-移动端应用"
-cat > "$BASE_DIR/02-移动端应用/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/13.实战项目与案例/02-移动端应用"
+cat > "$BASE_DIR/13.实战项目与案例/02-移动端应用/README.md" << 'EOF'
 ---
 title: 移动端应用
 icon: mobile
@@ -4615,7 +4481,7 @@ order: 2
 EOF
 
 # 创建响应式设计文档
-cat > "$BASE_DIR/02-移动端应用/01-响应式设计.md" << 'EOF'
+cat > "$BASE_DIR/13.实战项目与案例/02-移动端应用/01-响应式设计.md" << 'EOF'
 ---
 title: 响应式设计
 icon: responsive
@@ -4638,7 +4504,7 @@ order: 1
 EOF
 
 # 创建触摸事件处理文档
-cat > "$BASE_DIR/02-移动端应用/02-触摸事件处理.md" << 'EOF'
+cat > "$BASE_DIR/13.实战项目与案例/02-移动端应用/02-触摸事件处理.md" << 'EOF'
 ---
 title: 触摸事件处理
 icon: touch
@@ -4659,11 +4525,9 @@ order: 2
 - 移动端事件性能优化
 - 第三方手势库对比与使用
 EOF
-BASE_DIR="c:\project\kphub\src\实战项目与案例"
-
 # 更新移动端应用目录，添加性能优化文档
-mkdir -p "$BASE_DIR/02-移动端应用"
-cat > "$BASE_DIR/02-移动端应用/03-性能优化.md" << 'EOF'
+mkdir -p "$BASE_DIR/13.实战项目与案例/02-移动端应用"
+cat > "$BASE_DIR/13.实战项目与案例/02-移动端应用/03-性能优化.md" << 'EOF'
 ---
 title: 性能优化
 icon: speed
@@ -4687,8 +4551,8 @@ order: 3
 EOF
 
 # 创建大型应用最佳实践目录
-mkdir -p "$BASE_DIR/03-大型应用最佳实践"
-cat > "$BASE_DIR/03-大型应用最佳实践/README.md" << 'EOF'
+mkdir -p "$BASE_DIR/13.实战项目与案例/03-大型应用最佳实践"
+cat > "$BASE_DIR/13.实战项目与案例/03-大型应用最佳实践/README.md" << 'EOF'
 ---
 title: 大型应用最佳实践
 icon: project
@@ -4701,7 +4565,7 @@ order: 3
 EOF
 
 # 创建代码组织与复用文档
-cat > "$BASE_DIR/03-大型应用最佳实践/01-代码组织与复用.md" << 'EOF'
+cat > "$BASE_DIR/13.实战项目与案例/03-大型应用最佳实践/01-代码组织与复用.md" << 'EOF'
 ---
 title: 代码组织与复用
 icon: code
@@ -4724,7 +4588,7 @@ order: 1
 EOF
 
 # 创建状态管理策略文档
-cat > "$BASE_DIR/03-大型应用最佳实践/02-状态管理策略.md" << 'EOF'
+cat > "$BASE_DIR/13.实战项目与案例/03-大型应用最佳实践/02-状态管理策略.md" << 'EOF'
 ---
 title: 状态管理策略
 icon: data
@@ -4747,7 +4611,7 @@ order: 2
 EOF
 
 # 创建性能优化案例文档
-cat > "$BASE_DIR/03-大型应用最佳实践/03-性能优化案例.md" << 'EOF'
+cat > "$BASE_DIR/13.实战项目与案例/03-大型应用最佳实践/03-性能优化案例.md" << 'EOF'
 ---
 title: 性能优化案例
 icon: performance
