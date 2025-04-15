@@ -1,4 +1,4 @@
-#uni-app知识体系
+#uni-app
 ##1.基础入门
 1.1uni-app简介
 1.1.1什么是uni-app

@@ -1,643 +1,145 @@
-## 第4章 FFmpeg开发必备C语言回顾
-4.1 C语言Helloworld
-4.2 常量与变量
-4.3 指针-1
-4.4 指针-2
-4.5 结构体
-4.6 if_else语句
-4.7 for_while循环
-4.8 函数
-4.9 文件操作
-4.10 再论指针
-4.11 编译器
-4.12 调试器
-
-## 第5章 FFmpeg多媒体文件处理
-5.1 FFmpeg初级开发介绍
-5.2 Log系统
-5.3 日志系统
-5.4 文件删除与重命名
-5.5 操作目录及list实现-1
-5.6 操作目录及list实现-2
-5.7 流数据处理基本概念
-5.8 打印音视频Meta信息
-5.9 搭建开发环境
-5.10 VSCode调试环境配置
-5.11 抽取音频数据-1
-5.12 抽取音频数据-2
-5.13 抽取音频数据-3
-5.14 调试音频抽取程序
-5.15 抽取视频数据
-5.16 多媒体格式转换封装-1
-5.17 多媒体格式转换封装-2
-5.18 多媒体格式转换封装-3
-5.19 视频裁剪-1
-5.20 视频裁剪-2
-5.21 作业：实现小咖秀核心逻辑
-
-## 第6章 FFmpeg编解码实战
-6.1 FFmpeg中级开发介绍
-6.2 视频编码-1
-6.3 视频编码-2
-6.4 视频编码-3
-6.5 视频编码-4
-6.6 调试视频编码程序
-6.7 音频编码-1
-6.8 音频编码-2
-6.9 生成图片-1
-6.10 生成图片-2
-6.11 生成带色彩的BMP图片-1
-6.12 生成带色彩的BMP图片-2
-6.13 作业：编码后视频少几帧的原因
-6.14 作业：视频抽取图片
-
-## 第7章 FFmpeg SDL音视频渲染实战
-7.1 SDL编译与安装
-7.2 SDL基本使用步骤
-7.3 SDL窗口渲染
-7.4 SDL事件处理
-7.5 纹理渲染详解-1
-7.6 纹理渲染详解-2
-7.7 实现YUV播放器
-7.8 SDL音频处理流程
-7.9 实现PCM播放器-1
-7.10 实现PCM播放器-2
-7.11 实现PCM播放器-3
-7.12 作业：SDL窗口不显示的原因
-
-## 第8章 FFmpeg播放器核心功能开发
-8.1 最简单的视频播放器-1
-8.2 最简单的视频播放器-2
-8.3 最简单的视频播放器-3
-8.4 最简单的视频播放器-4
-8.5 最简单的视频播放器-5
-8.6 解复用音视频数据
-8.7 音频设备参数设置
-8.8 AVPacket队列实现-1
-8.9 AVPacket队列实现-2
-8.10 获取音频并解码-1
-8.11 获取音频并解码-2
-8.12 获取音频并解码-3
-8.13 调试播放器程序
-8.14 多线程与锁
-8.15 锁与条件变量应用
-8.16 播放器线程模型
-8.17 播放器核心结构体
-8.18 线程退出机制
-8.19 音视频同步原理
-8.20 实现完整播放器-1
-8.21 实现完整播放器-2
-8.22 实现完整播放器-3
-
-## 第9章 如何在Android下使用FFmpeg
-9.1 第一个JNI程序
-9.2 Java调用C接口-1
-9.3 Java调用C接口-2
-9.4 JNI中的Signature
-9.5 C调用Java方法
-9.6 编译Android下的FFmpeg-工具链方式
-9.7 编译Android下的FFmpeg-非工具链方式
-9.8 实战：Android下的播放器
-9.9 作业：Linux下无法编译ffplay的原因
-9.10 作业：错误分析
-
-## 第10章 如何在iOS下使用FFmpeg
-10.1 编译iOS下的FFmpeg
-10.2 iOS中使用FFmpeg
-
-## 第11章 滤镜Filter的核心原理及实现
-11.1 Filter核心原理
-11.2 命令行使用Filter
-11.3 引入avfilter库
-11.4 使用Filter的步骤-1
-11.5 使用Filter的步骤-2
-11.6 初始化Filter的原理
-11.7 初始化Filter实战-1
-11.8 初始化Filter实战-2
-11.9 优化init_filter函数
-11.10 使用Filter读取数据
-11.11 使用Filter获取原始数据
-11.12 使用Filter进行滤镜处理
-11.13 使用Filter输出数据
-11.14 Filter代码优化
-11.15 实现自定义Filter
-11.16 Filter重要结构体
-11.17 drawboxfilter实现分析-1
-11.18 drawboxfilter实现分析-2
-
-## 第12章 课程总结
-12.1 课程总结
-12.2 音视频进阶学习建议与行业痛点分析
-
-# WebRTC开发课程
-
-## 第1章 学习指南
-1.1 学前必看-课程导学
-1.2 WebRTC介绍
-
-## 第2章 WebRTC原理与架构
-2.1 WebRTC架构
-2.2 WebRTC目录结构
-2.3 WebRTC运行机制
-
-## 第3章 Web服务器原理与Nodejs搭建
-3.1 Web服务器工作原理
-3.2 Nodejs环境搭建
-3.3 最简单的http服务
-3.4 创建https服务
-3.5 实现一个真正的Web服务器
-
-## 第4章 JavaScript必备知识回顾
-4.1 JavaScript调试
-4.2 变量与基本运算
-4.3 判断循环与函数
-
-## 第5章 WebRTC设备管理
-5.1 获取音视频设备
-5.2 在页面中显示设备
-
-## 第6章 WebRTC音视频数据采集
-6.1 音视频数据采集基础
-6.2 WebRTC_API适配
-6.3 获取设备访问权限
-6.4 视频约束
-6.5 音频约束
-6.6 视频特效
-6.7 从视频中获取图片
-6.8 只采集音频数据
-6.9 MediaStreamAPI及视频约束
-
-## 第7章 WebRTC音视频录制实战
-7.1 录制基本知识
-7.2 录制音视频实战-1
-7.3 录制音视频实战-2
-7.4 采集屏幕数据
-
-## 第8章 WebRTC信令服务器实现
-8.1 使用socket.io发送消息
-8.2 信令服务器原理
-8.3 信令服务器实现
-8.4 实现简单聊天室-1
-8.5 实现简单聊天室-2
-
-## 第9章 WebRTC网络基础补充
-9.1 WebRTC网络传输基础
-9.2 NAT打洞原理
-9.3 NAT类型检测
-9.4 STUN协议一
-9.5 STUN协议二
-9.6 TURN协议
-9.7 ICE框架
-9.8 网络分析方法-tcpdump与wireshark
-9.9 网络分析实战-1
-9.10 网络分析实战-2
-9.11 搭建TURN服务 (作业)
-
-## 第10章 端对端1V1传输基本流程
-10.1 媒体能力协商过程一
-10.2 媒体能力协商过程二
-10.3 1V1连接基本流程
-10.4 本机内1V1音视频互通-1
-10.5 本机内1V1音视频互通-2
-10.6 获取offer/answer的SDP
-10.7 WebRTC媒体协商过程 (作业)
-
-## 第11章 WebRTC核心之SDP详解
-11.1 SDP规范
-11.2 WebRTC中的SDP
-11.3 Offer_AnswerSDP详解
-11.4 SDP协议的作用 (作业)
-
-## 第12章 实现1V1音视频实时互动直播系统
-12.1 STUN_TURN服务器搭建
-12.2 再论RTCPeerConnection
-12.3 直播系统中的信令逻辑
-12.4 实现1V1音视频互动信令服务器
-12.5 再论CreateOffer
-12.6 WebRTC客户端状态机
-12.7 WebRTC客户端实现-基本结构
-12.8 WebRTC客户端实现-增加PeerConnection逻辑-1
-12.9 WebRTC客户端实现-增加PeerConnection逻辑-2
-12.10 WebRTC客户端实现-增加媒体协商逻辑-3
-12.11 实现共享远程桌面 (作业)
-
-## 第13章 WebRTC核心之RTP媒体控制与数据统计
-13.1 RTPReceiver发送器
-13.2 RTPSender发送器
-13.3 传输速率控制-1
-13.4 传输速率控制-2
-13.5 WebRTC统计信息-1
-13.6 WebRTC统计信息-2
-
-## 第14章 WebRTC非音视频数据传输
-14.1 非音视频数据传输基础
-14.2 端到端文本聊天
-14.3 文件实时传输
-
-## 第15章 WebRTC实时数据传输网络协议详解
-15.1 RTP-SRTP协议头讲解
-15.2 RTCP中的SR与RR报文
-15.3 DTLS协议
-15.4 Wireshark分析RTP-RTCP包
-15.5 DTLS与SRTP关系 (作业)
-
-## 第16章 Android端与浏览器互通
-16.1 Android与浏览器互通基础
-16.2 WebRTC Native开发逻辑
-16.3 权限申请与界面布局
-16.4 通过socket.io实现信令收发
-16.5 Android与浏览器互通实战
-
-## 第17章 iOS端与浏览器互通
-17.1 iOS权限获取
-17.2 引入WebRTC库
-17.3 iOS端SocketIO使用
-17.4 iOS界面布局
-17.5 iOS本地视频采集与展示
-17.6 iOS端RTCPeerConnection
-17.7 iOS媒体协商
-17.8 iOS远端视频渲染
-17.9 HTTPS服务 (作业)
-
-## 第18章 课程总结
-18.1 课程总结与回顾
-
-# WebRTC源码剖析课程
-
-## 第1章 课程介绍与学习指南
-1.1 课前必读
-1.2 WebRTC源码剖析课程导学
-
-## 第2章 WebRTC的整体架构
-2.1 WebRTC整体架构分析
-2.2 音视频直播的由来
-2.3 直播技术的方向
-2.4 实时互动直播的难点
-2.5 几个重要指标和评测方法
-2.6 为什么要使用WebRTC
-2.7 WebRTC整体架构详解
-
-## 第3章 WebRTC源码分析环境的搭建
-3.1 WebRTC开发环境搭建概述
-3.2 获取WebRTC源码
-3.3 编译WebRTC的必备工具
-3.4 编译WebRTC源码
-3.5 WebRTC中的重要Demo
-
-## 第4章 开启WebRTC源码分析之路
-4.1 分析WebRTC必经之路章节概述
-4.2 一对一实时通信架构
-4.3 peerconnection_client的构成
-4.4 几个重要的信令
-4.5 WebRTC中的媒体协商
-4.6 完美协商
-4.7 Windows窗口与消息
-4.8 实战-实现一个最简单的Windows应用程序
-4.9 peerconnection-client界面实现
-4.10 源码分析-client界面
-4.11 信令逻辑
-4.12 源码分析-信令的实现
-4.13 WebRTC-Native开发过程
-4.14 源码分析-媒体协商
-4.15 源码分析-视频渲染
-
-## 第5章 抓住WebRTC的脉络（线程模型）
-5.1 WebRTC线程模型概述
-5.2 线程基础知识
-5.3 常见的线程模型
-5.4 WebRTC中的线程
-5.5 WebRTC中的线程管理
-5.6 WebRTC三大线程
-5.7 WebRTC线程的启动与运行
-5.8 WebRTC事件处理基础知识
-5.9 WebRTC线程事件处理
-5.10 WebRTC接口宏
-5.11 WebRTC接口的设计原理
-5.12 WebRTC接口调用过程
-5.13 Post方法进行线程切换
-
-## 第6章 开始“聊天”之前先认识一下（媒体协商）
-6.1 WebRTC媒体协商--综述
-6.2 SDP协议
-6.3 WebRTC中的SDP类结构
-6.4 如何生成SDP
-6.5 编解码器信息的收集
-6.6 编解码器信息的收集之二
-6.7 源码分析-CreateOffer之一
-6.8 CreateOffer源码分析之二
-6.9 源码分析-SetLocalDescription之一
-6.10 源码分析-SetLocalDescription之二
-6.11 收集Candidate的过程
-6.12 生成SDP文本信息
-6.13 解析SDP文本信息
-6.14 源码分析-CreateAnswer
-6.15 源码分析-SetRemoteDescription
-
-## 第7章 音频数据采集
-7.1 音频数据采集与播放概述
-7.2 ADM的创建
-7.3 CoreAudio基本概念
-7.4 CoreAudio-API
-7.5 AudioDeviceWindowsCore的构造函数
-7.6 ADM初始化
-7.7 源码分析-ADM初始化之枚举音频设备
-7.8 ADM初始化之InitSpeaker
-7.9 ADM初始化之设置通道数
-7.10 ADM初始化之InitMicrophone
-7.11 AudioState
-7.12 Engine_PeerConnection_Call等对象之间的关系
-7.13 打开播放设备
-7.14 InitPlay基础知识
-7.15 InitPlayout源码分析
-7.16 播放声音的基础API
-7.17 播放声音的具体流程
-7.18 源码分析-StartPlayout
-7.19 再论音频DMO
-7.20 源码分析-InitRecording
-7.21 StartRecording处理逻辑
-7.22 源码分析-StartRecording
-
-## 第8章 视频数据采集
-8.1 视频采集概述
-8.2 DirectShow基础知识
-8.3 WebRTC视频采集整体架构
-8.4 视频处理流程的建立
-8.5 源码分析-视频处理流程的建立
-8.6 构造设备信息对象
-8.7 获音视频设备信息基础知识
-8.8 源码分析-获取视频设备信息
-8.9 创建并初始化VideoCapture
-8.10 源码分析-构造并初始化VideoCapture
-8.11 获取CaptureFilter
-8.12 获取CaptureFilter的输出Pin
-8.13 构造SinkFilter
-8.14 源码分析-SinkFilter的构造
-8.15 获取SinkFilter的输入Pin
-8.16 Filter之间的连接
-8.17 SetCameraOutput
-8.18 源码分析-连接Filter（一）
-8.19 源码分析-连接Filter（二）
-8.20 输出采集后的视频数据
-
-## 第9章 音频引擎（音频编解码）
-9.1 音频引擎章节概述
-9.2 音频引擎架构
-9.3 创建音频引擎
-9.4 音频初始化之编解码器的收集
-9.5 音频初始化之AudioState对象的创建
-9.6 音频引擎初始化之获取音频数据
-9.7 Channel-Stream与编解码器
-9.8 创建音频编码器之一
-9.9 创建Opus编码器
-9.10 音频编码
-9.11 音频解码器的创建
-9.12 音频解码
-
-## 第10章 视频引擎（视频编解码）
-10.1 视频引擎章节概述
-10.2 视频数据采集的时间
-10.3 视频分发器VideoBroadcaster
-10.4 视频数据是如何进入视频分发器的
-10.5 视频引擎及其作用
-10.6 视频编码器的创建与视频编码流程
-10.7 VideoStreamEncoder的创建
-10.8 获取编解码器参数
-10.9 应用视频编码参数
-10.10 创建WebRtcVideoSendStream的时机
-10.11 创建内部VideoSendStream
-10.12 VP8编码器的创建及编码
-10.13 应用视频解码器参数
-10.14 编解码器CodecID的设置
-10.15 SessionDescription
-10.16 创建WebRtcVideoReceiveStream
-10.17 创建解码器及初始化
-10.18 视频解码
-
-## 第11章 深入理解WebRTC网络传输
-11.1 深入理解WebRTC网络传输-概述
-11.2 网络设备管理
-11.3 读取网卡信息的重要API
-11.4 源码分析-CreateNetworks
-11.5 获得本地默认IP地址和端口
-11.6 获得本地默认IP地址
-11.7 ICE
-11.8 Candidate
-11.9 创建PortAllocator
-11.10 创建PortAllocatorSession
-11.11 创建AllocationSequence
-11.12 收集Candidate
-11.13 获得本地Candidate
-11.14 STUN协议
-11.15 发送StunBindingRequest消息
-11.16 收集Srflx类型的Candidate
-11.17 TURN协议基本原理
-11.18 TurnClient与TurnServer的连接过程
-11.19 Turn协议数据传输机制
-11.20 收集Turn类型Candidate（一）
-11.21 收集Turn类型Candidate（二）
-11.22 收集TCP类型的Candidate
-11.23 将获得的Candidate上抛给应用层
-11.24 WebRTC网络连接的建立
-11.25 Connection排序
-11.26 选择Connection
-11.27 Connection的裁剪
-11.28 ICE提名
-11.29 ICE-FULL与ICE-LITE
-11.30 连通性检测
-11.31 网络传输对象的创建与数据传输
-
-## 第12章 WebRTC服务质量（QoS）
-12.1 WebRTC服务质量概述
-12.2 WebRTC服务质量综述
-12.3 RTP协议
-12.4 RTP扩展头
-12.5 RTCP协议一
-12.6 RTCP协议二-SDES作用和报文格式
-12.7 RTCP协议三-其他类型的RTCP报文
-12.8 RTCP协议四-CompoundRTCP
-12.9 丢包重传NACK与RTX
-12.10 判断包位置的关键算法
-12.11 WebRTC中NACK的处理流程
-12.12 判断是否丢包的逻辑
-12.13 找到真正的丢包
-12.14 VP8关键帧的判断
-12.15 NACK格式
-12.16 WebRTC接收NACK消息的过程
-12.17 RTX协议
-12.18 WebRTC发送RTX包的过程
-12.19 Pacer
-12.20 RoundRobinPacketQueue
-12.21 IntervalBudget
-12.22 向Pacer中插入数据
-12.23 JitterBuffer整体架构
-12.24 PacketBuffer的实现
-12.25 查找完整的帧
-12.26 ReferenceFinder的作用及创建
-12.27 查找参考帧
-12.28 FrameBuffer
-12.29 FEC基础知识和原理
-12.30 WebRTC中FEC的创建
-12.31 为媒体包产生冗余数据
-12.32 FEC保护因子的计算
-
-## 第13章 NetEQ
-13.1 NetEq在WebRTC中的位置
-13.2 抖动消除的基本原理
-13.3 NetEq整体架构
-13.4 NetEq中的几种缓冲区
-13.5 新版NetEq中的MCU和DSP
-
-## 第14章 Simulcast与SVC
-14.1 什么是Simulcast
-14.2 开启Simulcast的三种方法
-14.3 Simulcast在WebRTC中的实现
-14.4 什么是SVC
-14.5 WebRTC开启SVC的方式
-14.6 VP9RTP包结构
-
-## 第15章 课程总结
-15.1 WebRTC深入剖析总结
-
-# WebRTC流媒体服务器开发课程
-
-## 第1章 课程导学与准备工作
-1.1 课前必读
-1.2 导学
-
-## 第2章 C++语言基础回顾【已掌握，可略过】
-2.1 C++知识回顾之helloworld
-2.2 类的定义和实现
-2.3 类的使用
-2.4 命名空间
-2.5 继承1
-2.6 继承2
-2.7 多态
-2.8 内存地址空间与指针
-2.9 堆空间与栈空间
-2.10 深拷贝与浅拷贝
-
-## 第3章 服务器基础编程
-3.1 一个最简单的服务器
-3.2 Linux系统下的信号
-3.3 几个重要的信号
-3.4 信号的发送与处理
-3.5 通过sigaction安装信号
-3.6 以fork的方式创建后台进程
-3.7 以daemon方式切换到后台
-
-## 第4章 网络编程基础
-4.1 TCPServer实现原理
-4.2 TCPServer的实现1
-4.3 TCPServer的实现2
-4.4 TCP客户端的实现
-4.5 作业-UDP服务端与客户端的实现
-4.6 作业-实现一个TCP/UDP网络服务器
-
-## 第5章 异步I/O事件处理
-5.1 通过fork的方式实现高性能网络服务器
-5.2 通过select实现高性能服务器
-5.3 再论select函数
-
-## 第6章 epoll实现高性能服务器
-6.1 epoll基本知识
-6.2 epoll高性能服务器的实现1
-6.3 epoll高性能服务器的实现2
-6.4 epoll+fork进行性能优化
-
-## 第7章 libevent实现高性能网络服务器
-7.1 比较有名的异步IO处理库的介绍
-7.2 libevent实现高性能服务器
-7.3 作业-libuv实现对UDP的处理
-
-## 第8章 TCP/IP详解
-8.1 IP协议详解
-8.2 TCP协议详解
-8.3 TCP三次握手
-8.4 TCP四次挥手
-8.5 TCP_ACK_机制
-8.6 TCP滑动窗口
-8.7 UDP与RTP
-8.8 实时通信TCP_UDP的选择
-8.9 TCP在实时通信中的作用
-
-## 第9章 UDP/RTP/RTCP详解
-9.1 RTP包的使用
-9.2 RTCP协议头的分析
-9.3 RTCP PayloadType介绍
-9.4 RTCP SR包文详解
-9.5 RTCP RR SDES报文介绍
-9.6 BYE APP报文介绍
-9.7 RTCP FB协议介绍
-
-## 第10章 WebRTC协议
-10.1 STUN协议介绍
-10.2 STUN MessageType消息
-10.3 STUN MessageType详解
-10.4 STUN body详解
-10.5 ICE工作原理
-10.6 加密解密基本概念
-10.7 OpenSSL概念及使用
-10.8 DTLS协议详解
-10.9 TLS-SRTP协议讲解
-
-## 第11章 SDP协议与WebRTC媒体协商【需花大力气牢牢掌握】
-11.1 媒体协商过程
-11.2 SDP协议简介
-11.3 SDP描述信息
-11.4 SDP关键字段的含义及其使用
-11.5 WebRTC中的SDP
-11.6 WebRTC中SDP各字段含义详解
-
-## 第12章 各流媒体服务器的比较
-12.1 多人互动架构方案
-12.2 Mesh架构模型详解
-12.3 MCU架构模型详解
-12.4 SFU架构模型详解
-12.5 Licode流媒体服务器架构和特点
-12.6 Janus流媒体服务器的架构及特点
-12.7 Medooze流媒体服务器架构及特点
-12.8 Mediasoup流媒体服务器架构及特点
-
-## 第13章 mediasoup服务器的布署与使用
-13.1 Mediasoup的运行环境
-13.2 Mediasoup Demo的布署
-13.3 通过Nodejs实现HTTP服务
-13.4 HTTPS基本知识
-13.5 通过WWW服务发布mediasoup客户端代码
-13.6 作业-客户端是如何与信令服务建立连接的
-
-## 第14章 mediasoup的信令系统
-14.1 mediasoup-demo整体分析
-14.2 JavaScript基本语法一
-14.3 JavaScript基本语法二
-14.4 JavaScript ES6高级特性
-14.5 Promise与EventEmitter详解
-14.6 剖析server.js
-14.7 剖析room.js
-14.8 如何调试MediasoupDemo
-14.9 运行时查看Mediasoup的核心信息
-
-## 第15章 mediasoup源码分析
-15.1 mediasoup库的架构讲解
-15.2 Mediasoup_JS的作用
-15.3 WebRTC中的C++类关系图
-15.4 Mediasoup启动详解
-15.5 匿名管道进程间通信的原理
-15.6 实战通过socketpair进行进程间通信
-15.7 mediasoup下channel创建的详细过程
-15.8 mediasoup中的消息确信与发送事件机制
-15.9 mediasoup的主业务流程1
-15.10 mediasoup的主业务流程2
-15.11 mediasoup连接的创建1
-15.12 mediasoup连接的创建2
-15.13 mediasoup数据流转1
-15.14 mediasoup数据流转2
-15.15 WebRTC流媒体服务器大规模布署方案
-15.16 哪种服务器性能好？ (作业)
-15.17 mediasoup在Centos下该如何安装？ (作业)
-15.18 mediasoup安装好后看不对远端视频 (作业)
-15.19 mediasoup在Ubuntu18.04上安装报错 (作业)
-15.20 单台mediasoup流媒体服务器能承载多少路流？ (作业)
-
-## 第16章 课程总结
-16.1 小结
+### 起步
+- 快速入门
+- 教程：井字棋游戏
+- React 哲学
+- 安装
+- 创建一个 React 应用
+- 从零构建一个 React 应用
+- 将 React 添加到现有项目中
+- 配置
+- 编辑器设置
+- 使用 TypeScript
+- React 开发者工具
+- React Compiler
+### 学习 React
+- 描述 UI
+- 你的第一个组件
+- 组件的导入与导出
+- 使用 JSX 书写标签语言
+- 在 JSX 中通过大括号使用 JavaScript
+- 将 Props 传递给组件
+- 条件渲染
+- 渲染列表
+- 保持组件纯粹
+- 将 UI 视为树
+- 添加交互
+- 响应事件
+- state：组件的记忆
+- 渲染和提交
+- state 如同一张快照
+- 把一系列 state 更新加入队列
+- 更新 state 中的对象
+- 更新 state 中的数组
+- 状态管理
+- 用 State 响应输入
+- 选择 State 结构
+- 在组件间共享状态
+- 对 state 进行保留和重置
+- 迁移状态逻辑至 Reducer 中
+- 使用 Context 深层传递参数
+- 使用 Reducer 和 Context 拓展你的应用
+- 脱围机制
+- 使用 ref 引用值
+- 使用 ref 操作 DOM
+- 使用 Effect 进行同步
+- 你可能不需要 Effect
+- 响应式 Effect 的生命周期
+- 将事件从 Effect 中分开
+- 移除 Effect 依赖
+- 使用自定义 Hook 复用逻辑
+以下是整理后的目录结构：
+### react@19
+- 总览
+- Hook
+- useActionState
+- useCallback
+- useContext
+- useDebugValue
+- useDeferredValue
+- useEffect
+- useId
+- useImperativeHandle
+- useInsertionEffect
+- useLayoutEffect
+- useMemo
+- useOptimistic
+- useReducer
+- useRef
+- useState
+- useSyncExternalStore
+- useTransition
+- 组件
+- `<Fragment> (<>)`
+- `<Profiler>`
+- `<StrictMode>`
+- `<Suspense>`
+- API
+- act
+- cache
+- createContext
+- lazy
+- memo
+- startTransition
+- use
+- experimental_taintObjectReference
+- experimental_taintUniqueValue
+- captureOwnerStack
+### react-dom@19
+- Hook
+- useFormStatus
+- 组件
+- Common (e.g. `<div>`)
+- `<form>`
+- `<input>`
+- `<option>`
+- `<progress>`
+- `<select>`
+- `<textarea>`
+- `<link>`
+- `<meta>`
+- `<script>`
+- `<style>`
+- `<title>`
+- API
+- createPortal
+- flushSync
+- preconnect
+- prefetchDNS
+- preinit
+- preinitModule
+- preload
+- preloadModule
+- 客户端 API
+- createRoot
+- hydrateRoot
+- 服务端 API
+- renderToPipeableStream
+- renderToReadableStream
+- renderToStaticMarkup
+- renderToString
+- Static APIs
+- prerender
+- prerenderToNodeStream
+### React 规则
+- 概述
+- 组件和 Hook 必须是纯粹的
+- React 调用组件和 Hook
+- Hook 的规则
+### React 服务器组件
+- 服务器组件
+- Server Functions
+- Directives
+- 'use client'
+- 'use server'
+### 过时的 API
+- 过时的 React API
+- Children
+- cloneElement
+- Component
+- createElement
+- createRef
+- forwardRef
+- isValidElement
+- PureComponent
+生态系统
+https://juejin.cn/post/7473817521433657363
