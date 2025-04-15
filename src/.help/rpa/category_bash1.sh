@@ -1,4 +1,4 @@
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -235,9 +235,8 @@ order: 5
 - 文件读写的NIO方式
 - NIO与传统IO的比较
 EOF
-我将为您创建Java后端开发知识体系的目录创建脚本和文档内容脚本。
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -321,7 +320,7 @@ order: 1
 - 云服务和微服务架构
 - 金融、电信等关键业务系统
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -522,7 +521,7 @@ order: 4
 - 内存管理模型的优化
 - AOT编译与GraalVM
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -750,7 +749,7 @@ order: 3
 - 大型企业应用升级案例分析
 - 微服务架构中的渐进式JDK升级
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -979,7 +978,7 @@ order: 7
 - 消息中间件：Kafka vs RabbitMQ vs ActiveMQ
 - 缓存技术：Redis vs Hazelcast vs Ehcache
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1122,7 +1121,7 @@ order: 2
 - 逃逸分析与栈上分配
 - 并行与并发垃圾回收算法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1354,7 +1353,7 @@ order: 6
 - 安全沙箱的性能影响与优化
 - 安全漏洞防范与最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1583,7 +1582,7 @@ order: 5
 - 应用健康检查与监控
 - 灾备与高可用部署策略
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1740,7 +1739,7 @@ order: 3
 
 本节详细介绍Java中的基本数据类型及其对应的包装类，包括它们的特性、使用方法以及相互转换的机制，帮助读者掌握Java中数据类型的基础知识。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1969,7 +1968,7 @@ order: 4
 - 性能敏感场景中的装箱拆箱优化
 - 集合框架中的装箱拆箱处理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2199,9 +2198,8 @@ order: 3
 - 第三方高精度计算库对比
 - 测试驱动开发在精度问题中的应用
 EOF
-我将为您创建Java后端开发知识体系中关于基本数据类型与包装类的目录和文档内容脚本。
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2430,7 +2428,7 @@ order: 7
 - 数据局部性与缓存友好设计
 - 实时性能监控与自适应优化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2573,7 +2571,7 @@ order: 2
 - 设计模式中的三大特性应用
 - 实际项目中的最佳实践案例
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2802,7 +2800,7 @@ order: 6
 - 函数式接口与Lambda表达式中的多态
 - 多态在框架设计中的应用案例
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -3031,7 +3029,7 @@ order: 5
 - 函数式接口与Lambda表达式
 - 接口默认方法与多态扩展
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -3188,7 +3186,7 @@ order: 5
 
 本节详细介绍Java中接口与抽象类的概念、特性及应用场景，帮助读者理解这两种抽象机制的异同点，以及如何在面向对象设计中合理使用它们来提高代码的灵活性和可维护性。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -3417,7 +3415,7 @@ order: 4
 - 适配器模式中的接口与抽象类配合
 - 实际项目中的选择案例与经验总结
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -3646,7 +3644,7 @@ order: 3
 - Lambda表达式友好的接口设计
 - 函数式接口与方法引用的配合
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -3875,7 +3873,7 @@ order: 7
 - 框架版本升级与抽象层兼容性
 - 自定义框架组件的最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -4018,7 +4016,7 @@ order: 2
 - 异常参数与上下文信息传递
 - 业务异常体系的分层设计
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -4247,7 +4245,7 @@ order: 6
 - 性能关键路径的异常处理优化
 - 日志记录对异常性能的影响
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -4476,7 +4474,7 @@ order: 5
 - 异常统计与趋势报告
 - 异常日志与APM系统集成
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -4633,7 +4631,7 @@ order: 7
 
 本节详细介绍Java集合框架的核心组件、设计原理及使用技巧，包括各种集合类型的特性、内部实现机制以及性能分析，帮助读者掌握如何在不同场景下选择和使用合适的集合类，提高代码的效率和质量。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -4878,7 +4876,7 @@ order: 4
 - 复合数据结构的性能特点
 - 特定场景下的数据结构选择
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -5139,7 +5137,7 @@ order: 3
 - 集合选择的权衡与折中
 - 实际项目中的集合选择案例
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -5400,7 +5398,7 @@ order: 7
 - 内存数据网格技术
 - 选择策略与迁移路径
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -5559,7 +5557,7 @@ order: 2
 - 泛型重载与类型推断的限制
 - 不同语言泛型实现的比较
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -5820,7 +5818,7 @@ order: 6
 - 编译器对重载泛型方法的处理
 - 泛型重载设计中的最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -6081,7 +6079,7 @@ order: 5
 - 通配符嵌套的复杂性控制
 - 通配符相关编译错误的解读
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -6254,7 +6252,7 @@ order: 9
 
 本节详细介绍Java的输入输出(I/O)系统，包括传统的阻塞式I/O和新I/O(NIO)，涵盖文件操作、网络通信、缓冲区管理等内容，帮助读者理解Java I/O的工作原理和使用方法，以实现高效的数据处理和传输。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -6515,7 +6513,7 @@ order: 4
 - 避免缓冲区碎片化
 - 大数据量传输的优化方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -6776,7 +6774,7 @@ order: 3
 - 同步与异步处理的平衡
 - 性能瓶颈的识别与优化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -7037,7 +7035,7 @@ order: 7
 - NUMA架构下的IO优化
 - IO调度与优先级控制
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -7196,7 +7194,7 @@ order: 2
 - 反射在Android中的特殊处理
 - 反射实现的未来发展趋势
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -7457,7 +7455,7 @@ order: 6
 - 性能关键应用的反射策略
 - 反射性能问题的诊断方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -7718,7 +7716,7 @@ order: 5
 - 配置文件的自动生成
 - 样板代码的消除技术
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -7891,7 +7889,7 @@ order: 2
 
 本节深入探讨Java的高级特性和机制，包括并发编程、函数式编程、模块化系统等内容，帮助读者掌握Java的高级用法和设计思想，提升代码质量和系统性能。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -8050,7 +8048,7 @@ order: 2
 - Try-Success-Failure模式
 - 函数式异常处理的最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -8311,7 +8309,7 @@ order: 6
 - 回调函数中的闭包应用
 - 闭包在并发编程中的应用
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -8572,7 +8570,7 @@ order: 5
 - 大集合的性能优化策略
 - 集合操作的单元测试方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -8745,7 +8743,7 @@ order: 2
 
 本节详细介绍Java 8引入的Stream API，包括流的创建、转换、聚合等操作，以及并行流的使用和性能优化，帮助读者掌握现代Java编程中处理集合数据的高效方式。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -9006,7 +9004,7 @@ order: 4
 - 有状态操作的并行处理策略
 - 并行流的性能监控与调优
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -9267,7 +9265,7 @@ order: 3
 - 分区与条件分组的区别
 - 分组结果的后处理技巧
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -9528,7 +9526,7 @@ order: 7
 - 不当的并行化决策
 - 大型流水线的内存压力
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -9687,7 +9685,7 @@ order: 2
 - Swift的可选类型
 - C#的可空值类型与Nullable<T>
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -9948,7 +9946,7 @@ order: 6
 - 错误处理的单元测试
 - 与现有代码的集成方式
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -10209,7 +10207,7 @@ order: 5
 - API设计中的选择考量
 - 新旧代码的互操作性
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -10382,7 +10380,7 @@ order: 4
 
 本节详细介绍Java 8引入的CompletableFuture类，包括异步编程的基本概念、CompletableFuture的核心API、异步任务的组合与编排、异常处理机制以及实际应用场景，帮助读者掌握现代Java中的异步编程模型，提高系统的响应性和吞吐量。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -10643,7 +10641,7 @@ order: 4
 - 资源限制下的调度
 - 工作流的监控与可视化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -10904,7 +10902,7 @@ order: 3
 - 任务吞吐量的度量
 - 异步任务的日志记录
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -11165,7 +11163,7 @@ order: 7
 - 请求限流与负载均衡
 - 性能测试与调优
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -11324,7 +11322,7 @@ order: 2
 - 类路径的持续支持
 - 迁移工具的提供
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -11585,7 +11583,7 @@ order: 6
 - 第三方库依赖的处理
 - 持续集成中的兼容性测试
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -11846,7 +11844,7 @@ order: 5
 - 性能指标的对比监控
 - 模块化架构的文档维护
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -12019,9 +12017,8 @@ order: 6
 
 本节系统地介绍Java 9到Java 21各个版本引入的重要新特性，包括语言特性、API增强、性能优化和工具改进等方面，帮助读者了解Java平台的演进历程，掌握最新的Java技术，提升开发效率和代码质量。
 EOF
-我将为您创建Java后端开发知识库中关于JDK新特性解析的目录结构和文档内容脚本。
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -12282,7 +12279,7 @@ order: 4
 - 文本格式化的新功能
 - 多语言处理的优化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -12543,7 +12540,7 @@ order: 3
 - 大数据处理的性能提升
 - 云原生环境的JDK优化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -12804,7 +12801,7 @@ order: 7
 - 启动时间的版本对比
 - 内存占用的演进分析
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -12861,7 +12858,7 @@ order: 1
 
 本节介绍设计模式的基础概念、分类方法和设计原则，帮助读者建立对设计模式的整体认识，为后续学习具体的设计模式奠定基础。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -13122,7 +13119,7 @@ order: 4
 - 领域特定模式的价值
 - 反模式的识别与避免
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -13383,9 +13380,8 @@ order: 3
 - 原型验证在模式选择中的作用
 - 模式决策的文档化与回顾
 EOF
-我将为您创建Java后端开发知识库中关于设计模式基础概念的目录结构和文档内容脚本。
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -13646,7 +13642,7 @@ order: 7
 - 云原生存储的访问模式
 - DevOps实践中的自动化模式
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -13805,7 +13801,7 @@ order: 2
 - 单例的测试技巧
 - 单例模式的重构方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -14066,7 +14062,7 @@ order: 6
 - 代码可维护性的权衡
 - 混合使用模式的设计策略
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -14327,7 +14323,7 @@ order: 5
 - UI组件的流式构建API
 - 测试数据构建器的流式设计
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -14500,7 +14496,7 @@ order: 3
 
 本节详细介绍结构型设计模式在Java中的实现方式和应用场景，包括适配器模式、桥接模式、组合模式、装饰器模式、外观模式、享元模式和代理模式，帮助读者掌握对象结构组织的各种设计技巧，提高代码的灵活性和可维护性。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -14761,7 +14757,7 @@ order: 4
 - 缓存代理的性能优化
 - 智能引用代理的资源管理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -15022,7 +15018,7 @@ order: 3
 - JSON处理库的统一接口
 - 云服务SDK的适配层设计
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -15283,7 +15279,7 @@ order: 7
 - 消息处理的桥接模式应用
 - 大型应用的外观模式重构
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -15442,7 +15438,7 @@ order: 2
 - 验证框架的校验策略
 - 缓存系统的淘汰策略
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -15703,7 +15699,7 @@ order: 6
 - 游戏开发中的状态管理
 - 表达式计算器的解释器设计
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -15964,7 +15960,7 @@ order: 5
 - 日志框架的日志级别处理
 - 支付处理流程的责任链设计
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -16137,7 +16133,7 @@ order: 5
 
 本节详细介绍Java企业级应用中常用的设计模式，包括MVC模式、前端控制器模式、业务代表模式、数据访问对象模式、传输对象模式等，帮助读者掌握企业级应用开发的架构设计技巧，提高系统的可维护性、可扩展性和可重用性。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -16398,7 +16394,7 @@ order: 4
 - 分库分表环境下的DAO
 - 混合持久化的DAO策略
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -16659,7 +16655,7 @@ order: 3
 - 观察者模式在事件处理中的应用
 - 装饰器模式在请求响应包装中的应用
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -16920,7 +16916,7 @@ order: 7
 - 实时推荐系统的架构模式
 - 大规模日志处理的设计模式
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -17079,7 +17075,7 @@ order: 2
 - 部分不变性的实现技术
 - 不变模式在框架设计中的应用
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -17340,7 +17336,7 @@ order: 6
 - 大数据处理的并行计算
 - 响应式编程中的Future模式
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -17601,7 +17597,7 @@ order: 5
 - 特定场景的线程池定制
 - 分布式环境的线程池管理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -17774,7 +17770,7 @@ order: 2
 
 本章节深入探讨Java并发编程的核心概念、基础理论和实践技术，包括线程基础、锁机制、并发容器、线程池、异步编程等内容，帮助读者全面掌握Java多线程编程技能，构建高性能、可靠的并发应用。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -17831,7 +17827,7 @@ order: 1
 
 本节详细介绍Java线程的基本概念、创建方式、生命周期状态以及状态转换机制，帮助读者深入理解线程的本质和运行机制，为掌握复杂的并发编程技术奠定基础。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -18094,7 +18090,7 @@ order: 4
 - 线程调度与系统性能的平衡
 - 线程优先级在实际应用中的限制
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -18355,7 +18351,7 @@ order: 3
 - 线程池性能的监控指标
 - 基于线程状态的性能优化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -18616,7 +18612,7 @@ order: 7
 - 线程池参数的调优技巧
 - 使用并发工具类解决常见问题
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -18775,7 +18771,7 @@ order: 2
 - 线程复用的实现机制
 - 轻量级线程的探索与实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -19036,7 +19032,7 @@ order: 6
 - 线程分组的管理策略
 - 在框架设计中的应用模式
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -19297,7 +19293,7 @@ order: 5
 - 周期性任务的异常恢复
 - 线程池异常监控与报警
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -19470,7 +19466,7 @@ order: 3
 
 本节深入分析多线程环境下的线程安全问题，包括竞态条件、原子性、可见性、有序性等核心概念，帮助读者理解并发问题的本质，掌握识别和解决线程安全问题的方法，为构建可靠的并发应用奠定基础。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -19731,7 +19727,7 @@ order: 4
 - 不可变对象消除原子性问题
 - 非阻塞算法的原子性保证
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -19992,7 +19988,7 @@ order: 3
 - 状态依赖方法的线程安全
 - 资源池的线程安全问题
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -20253,7 +20249,7 @@ order: 7
 - 压力测试与稳定性
 - 代码审查与评估
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -20412,7 +20408,7 @@ order: 2
 - 锁优化的JVM参数
 - 逃逸分析与锁优化的关系
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -20673,7 +20669,7 @@ order: 6
 - 锁优化与其他并发优化的结合
 - 实际项目中的锁优化案例
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -20934,7 +20930,7 @@ order: 5
 - 文件操作的锁粒度控制
 - 锁粒度优化的案例分析
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -21107,7 +21103,7 @@ order: 5
 
 本节详细介绍Java中的volatile关键字，包括其内存语义、可见性保证、有序性保证以及适用场景，帮助读者理解这一轻量级同步机制的特性与局限，正确应用于并发程序设计中。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -21368,7 +21364,7 @@ order: 4
 - 可见性保证的性能考量
 - 可见性问题的诊断与修复
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -21629,7 +21625,7 @@ order: 3
 - 常见并发Bug的volatile修复
 - 实际项目中的经验教训
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -21890,7 +21886,7 @@ order: 7
 - 状态检查的常见错误
 - 错误修正的最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -22049,7 +22045,7 @@ order: 2
 - 内存占用与访问速度的平衡
 - JDK版本演进中的优化改进
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -22310,7 +22306,7 @@ order: 6
 - 分布式系统中的应用扩展
 - 自定义线程工厂的配合使用
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -22571,7 +22567,7 @@ order: 5
 - 事务监控与统计的实现
 - 自定义事务管理器的ThreadLocal应用
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -22744,7 +22740,7 @@ order: 7
 
 本节详细介绍Java中的等待/通知机制，包括Object类中的wait/notify/notifyAll方法的使用、线程间协作的基本模式、生产者-消费者模式的实现以及常见问题的解决方案，帮助读者掌握线程间通信的核心技术，实现复杂的并发协作。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -23005,7 +23001,7 @@ order: 4
 - 超时等待的合理设置
 - 避免过度唤醒的策略
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -23266,7 +23262,7 @@ order: 3
 - 消息中间件的核心机制
 - 大数据处理的流水线模式
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -23527,7 +23523,7 @@ order: 7
 - 异步回调的协作机制
 - 响应式框架的选择与应用
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -23584,7 +23580,7 @@ order: 1
 
 本节深入讲解Java并发包中的原子类，包括基本类型原子类、数组原子类、引用原子类以及字段更新器等，分析其内部实现原理、性能特性和适用场景，帮助读者掌握无锁并发编程的核心技术，实现高性能的线程安全操作。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -23845,7 +23841,7 @@ order: 4
 - 版本兼容性问题
 - 替代方案与未来趋势
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -24106,7 +24102,7 @@ order: 3
 - 无锁链表的设计思路
 - 复杂数据结构的原子操作组合
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -24367,7 +24363,7 @@ order: 7
 - 重置操作的正确使用
 - 与其他并发工具的结合应用
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -24526,7 +24522,7 @@ order: 2
 - 函数式编程对锁的影响
 - 分布式环境下的锁扩展
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -24787,7 +24783,7 @@ order: 6
 - 锁与条件的配合使用
 - 常见错误与调试技巧
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -25048,7 +25044,7 @@ order: 5
 - 性能监控与优化方法
 - 常见错误与解决方案
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -25221,7 +25217,7 @@ order: 3
 
 本节深入剖析Java并发包的核心框架AbstractQueuedSynchronizer(AQS)，包括其设计思想、实现原理、内部结构以及在各种同步器中的应用，帮助读者理解Java并发工具的底层机制，为实现自定义同步器打下坚实基础。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -25482,7 +25478,7 @@ order: 4
 - 条件谓词的正确使用
 - 条件变量的性能考量
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -25743,7 +25739,7 @@ order: 3
 - 调试与测试的方法
 - 性能优化的实践经验
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -26004,7 +26000,7 @@ order: 7
 - 调试与问题排查
 - 框架设计的最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -26163,7 +26159,7 @@ order: 2
 - 条件变量的支持机制
 - AQS功能的扩展使用
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -26424,7 +26420,7 @@ order: 6
 - 可重入设计的优化空间
 - 实际应用中的最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -26685,7 +26681,7 @@ order: 5
 - 超时后的资源清理
 - 测试与调试的方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -26858,7 +26854,7 @@ order: 5
 
 本节详细介绍Java并发包中的读写锁机制，包括ReentrantReadWriteLock和Java 8引入的StampedLock，分析它们的实现原理、性能特性和适用场景，帮助读者掌握这些高级锁机制的使用方法，优化读多写少场景下的并发性能。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -27119,7 +27115,7 @@ order: 4
 - 死锁风险与预防措施
 - CPU缓存伪共享的优化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -27380,7 +27376,7 @@ order: 3
 - 性能测试方法与工具
 - 不同锁策略的对比分析
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -27641,7 +27637,7 @@ order: 7
 - 混合使用的设计模式
 - 性能测试驱动的选型方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -27800,7 +27796,7 @@ order: 2
 - 资源隔离的并发控制
 - 可伸缩性测试与评估
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -28061,7 +28057,7 @@ order: 6
 - 功能需求的匹配
 - 实际项目中的应用策略
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -28322,7 +28318,7 @@ order: 5
 - 与其他容器的混合使用
 - 实际项目中的调优经验
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -28495,7 +28491,7 @@ order: 7
 
 本节详细介绍Java并发包中的阻塞队列，包括ArrayBlockingQueue、LinkedBlockingQueue、PriorityBlockingQueue等实现，分析它们的特性、使用方法和应用场景，帮助读者掌握阻塞队列在生产者-消费者模式、线程池、任务调度等场景中的应用技巧，构建高效可靠的并发系统。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -28756,7 +28752,7 @@ order: 4
 - 多级反馈队列的设计
 - 实时系统中的应用
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -29017,7 +29013,7 @@ order: 3
 - 监控与告警的实现
 - 性能测试与调优方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -29278,7 +29274,7 @@ order: 7
 - 请求超时的处理机制
 - 系统吞吐量的优化方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -29437,7 +29433,7 @@ order: 2
 - 内存使用的优化考量
 - 可伸缩性的设计原则
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -29704,7 +29700,7 @@ order: 6
 - 监控驱动的优化策略
 - 实际项目中的监控案例
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md

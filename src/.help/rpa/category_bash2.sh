@@ -1,4 +1,4 @@
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -171,7 +171,7 @@ order: 9
 
 本节详细介绍Java并发包中的ForkJoin框架，包括其设计思想、核心组件、工作原理和使用方法，帮助读者理解分治算法在并行计算中的应用，掌握ForkJoinPool的工作窃取机制和任务调度策略，提升处理大规模计算任务的能力，构建高效的并行处理系统。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -432,7 +432,7 @@ order: 4
 - completeExceptionally()的异常处理
 - 取消任务的实现方式
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -693,7 +693,7 @@ order: 3
 - 任务执行过程的可视化
 - 常见问题的诊断与解决
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -954,7 +954,7 @@ order: 7
 - 实时流处理的并行设计
 - 与Hadoop/Spark的集成方案
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1113,7 +1113,7 @@ order: 2
 - 并发度的控制策略
 - 性能与安全性的权衡
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1374,7 +1374,7 @@ order: 6
 - 批量结果处理的优化
 - 自定义结果处理器的设计
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1635,7 +1635,7 @@ order: 5
 - 分布式事务的超时管理
 - 实时系统的超时保障机制
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1808,7 +1808,7 @@ order: 3
 
 本节深入探讨Java并发编程的高级主题，包括并发设计模式、性能优化技术、并发编程最佳实践、并发数据结构的实现原理等内容，帮助读者掌握复杂并发场景的解决方案，提升并发程序的可靠性、可维护性和性能，应对各种高并发挑战。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -1971,7 +1971,7 @@ order: 2
 - 并发集合的内存语义
 - 原子类的内存一致性保证
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2241,7 +2241,7 @@ order: 6
 - 不同JVM中重排序的差异
 - 跨平台重排序行为的一致性保证
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2502,7 +2502,7 @@ order: 5
 - 安全的状态转换设计
 - 高性能场景的可见性优化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2675,7 +2675,7 @@ order: 2
 
 本节深入探讨并发编程的三大特性：可见性、有序性和原子性，详细分析这些特性的本质、实现机制和应用方法，帮助读者理解并发问题的根源，掌握保证并发正确性的核心技术，为构建高质量的并发程序提供理论基础和实践指导。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -2936,7 +2936,7 @@ order: 4
 - final字段的重排序规则
 - happens-before规则对重排序的约束
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -3197,7 +3197,7 @@ order: 8
 - Unsafe类的内存屏障方法
 - 自定义可见性保证的实现
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -3458,7 +3458,7 @@ order: 7
 - 分布式系统的平衡策略
 - 金融系统的平衡策略
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -3617,7 +3617,7 @@ order: 2
 - 减少CAS失败的策略
 - 自适应自旋的实现
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -3878,7 +3878,7 @@ order: 6
 - 锁消除与CAS的结合
 - 混合策略的设计原则
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -4139,7 +4139,7 @@ order: 5
 - ABA解决方案的性能优化
 - ABA问题的预防策略
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -4312,7 +4312,7 @@ order: 4
 
 本节深入探讨Java内存模型中的Happens-Before规则，包括其定义、各项具体规则及其应用，帮助读者理解Java并发编程中的内存可见性保证机制，掌握正确使用并发工具的理论基础，为编写高质量的并发程序提供指导。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -4597,7 +4597,7 @@ order: 4
 - 性能优化中的传递性考量
 - 分布式系统中的传递性挑战
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -4859,10 +4859,9 @@ order: 8
 - 微服务架构中的规则应用
 EOF
 
-我将为您创建Java后端开发知识体系中第2章并发编程下的2.3并发高级主题中的2.3.4 Happens-Before规则的目录创建脚本和文档内容脚本。
 
 ```
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题"
@@ -4935,7 +4934,7 @@ order: 3
 本节介绍Java并发编程中的高级主题，包括内存模型、原子性、可见性、有序性等核心概念，以及线程池调优、锁优化等高级技术。
 EOF
 ```
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.4-Happens-Before规则"
@@ -5117,7 +5116,7 @@ order: 4
 - 规则违反导致的问题
 - 基于规则优化并发代码
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.5-CPU缓存架构"
@@ -5223,7 +5222,7 @@ order: 5
 - 缓存相关的性能问题与优化策略
 - Java内存模型与CPU缓存的关系
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.5-CPU缓存架构"
@@ -5409,7 +5408,7 @@ order: 5
 - 存储缓冲区与失效队列的工作原理
 - 内存排序模型与Java内存模型的关系
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.5-CPU缓存架构"
@@ -5591,7 +5590,7 @@ order: 5
 - 缓存行填充技术的实际应用
 - 基于缓存特性的并发程序优化方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.5-CPU缓存架构"
@@ -5720,7 +5719,7 @@ order: 5
 - NUMA架构的特性与编程考量
 - 内存访问模式的优化技术
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.6-Disruptor高性能队列"
@@ -5904,7 +5903,7 @@ order: 6
 - 多生产者-多消费者模式的实现
 - 事件处理与依赖关系管理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.6-Disruptor高性能队列"
@@ -6090,7 +6089,7 @@ order: 6
 - 实际应用场景与最佳实践
 - 性能调优与问题排查方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.6-Disruptor高性能队列"
@@ -6139,7 +6138,7 @@ order: 4
 EOF
 
 # 创建2.3.6.5文件
-cat > "$BASE_DIR/第2章-并发高级主题/2.3.6-Disruptor高性能队列/2.3.6.5-等待策略选择与优化.md" << 'EOF'
+cat > "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.6-Disruptor高性能队列/2.3.6.5-等待策略选择与优化.md" << 'EOF'
 ---
 title: 等待策略选择与优化
 icon: strategy
@@ -6292,7 +6291,7 @@ order: 6
 - 实际业务场景中的应用案例
 - 性能调优与问题排查方法
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.7-并发编程最佳实践"
@@ -6406,7 +6405,7 @@ order: 7
 - 并发设计原则与常用模式
 - 模式选择的权衡考量
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.7-并发编程最佳实践"
@@ -6606,7 +6605,7 @@ order: 7
 - 并发编程常见陷阱
 - 死锁、活锁与饥饿问题分析
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.7-并发编程最佳实践"
@@ -6804,7 +6803,7 @@ order: 7
 - 性能测试与调优技术
 - 实际项目中的并发编程案例分析
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第2章-并发编程/2.3-并发高级主题/2.3.7-并发编程最佳实践"
@@ -6940,7 +6939,7 @@ order: 7
 - 高并发系统设计策略
 - 实际项目中的并发问题案例分析
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.1-JVM整体架构"
@@ -7207,7 +7206,7 @@ order: 5
 - 特定场景适用性分析
 - 未来发展趋势展望
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.1-JVM整体架构"
@@ -7405,7 +7404,7 @@ order: 1
 - JVM核心子系统的工作原理与交互
 - 不同JVM实现的架构比较与选型
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.1-JVM整体架构"
@@ -7605,7 +7604,7 @@ order: 1
 - 不同JVM实现的架构比较与选型
 - JVM参数配置与问题排查实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.1-JVM整体架构"
@@ -7803,7 +7802,7 @@ order: 1
 - 自定义JVM参数调优方法
 - 不同应用场景的JVM配置最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.2-类加载机制详解"
@@ -8054,7 +8053,7 @@ order: 5
 - Java Agent技术
 - 字节码框架的类加载机制
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.2-类加载机制详解"
@@ -8252,7 +8251,7 @@ order: 2
 - 字节码技术与类加载的结合应用
 - 破坏双亲委派模型的场景与实现
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.2-类加载机制详解"
@@ -8450,7 +8449,7 @@ order: 2
 - 热部署与热加载的实现原理与最佳实践
 - 类加载在各种框架与容器中的应用
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.2-类加载机制详解"
@@ -8631,7 +8630,7 @@ order: 2
 - OSGi类加载机制的设计与应用
 - 类加载问题的排查方法与实战案例
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.3-运行时数据区"
@@ -8831,7 +8830,7 @@ order: 3
 - 线程私有与线程共享的内存区域特点
 - JDK版本演进中的内存结构变化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.3-运行时数据区"
@@ -9031,7 +9030,7 @@ order: 3
 - 内存问题诊断与优化实践
 - 内存区域参数配置与调优
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.3-运行时数据区"
@@ -9230,7 +9229,7 @@ order: 3
 - 不同内存区域的参数配置与调优
 - 内存问题诊断与性能优化实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.4-对象创建与内存分配"
@@ -9514,7 +9513,7 @@ order: 6
 - 微服务架构下的优化
 - 长时间运行应用的对象管理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.4-对象创建与内存分配"
@@ -9712,10 +9711,9 @@ order: 4
 - 对象访问定位方式与性能影响
 - 对象创建与内存分配的优化实践
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
 ```
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.4-对象创建与内存分配"
@@ -9914,7 +9912,7 @@ order: 4
 - 高并发环境下的内存分配优化
 EOF
 ```
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.4-对象创建与内存分配"
@@ -10092,7 +10090,7 @@ order: 4
 - 内存碎片问题的诊断与处理
 - 逃逸分析与栈上分配优化
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.5-堆内存与堆外内存"
@@ -10376,9 +10374,8 @@ order: 5
 - 堆内存与堆外内存的性能对比与选择策略
 - Unsafe类在内存操作中的应用与实践
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.5-堆内存与堆外内存"
@@ -10619,9 +10616,8 @@ order: 5
 - 堆外内存的监控方法与调优技巧
 - 不同应用场景下的内存管理策略
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.5-堆内存与堆外内存"
@@ -10862,9 +10858,8 @@ order: 5
 - 内存分层与分区管理技术
 - 内存管理相关的框架与工具应用
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.6-方法区与元空间"
@@ -11148,9 +11143,8 @@ order: 6
 - 类共享与复用机制
 - 监控与预警类加载情况
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.6-方法区与元空间"
@@ -11391,9 +11385,8 @@ order: 6
 - 运行时常量池的工作机制与应用
 - 方法区GC与类卸载的关系
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.6-方法区与元空间"
@@ -11634,9 +11627,8 @@ order: 6
 - 类加载与元空间的关系及优化
 - 不同应用场景下的元空间管理策略
 EOF
-根据您提供的目录内容，以下是创建知识库目录和文档内容的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.6-方法区与元空间"
@@ -11835,9 +11827,8 @@ order: 2
 - 平台相关性处理
 - 性能优化技术
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.7-直接内存"
@@ -12121,9 +12112,8 @@ order: 7
 - 直接内存的实战应用与性能优化
 - 直接内存问题的排查与解决方案
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.7-直接内存"
@@ -12364,9 +12354,8 @@ order: 7
 - 直接内存回收机制与内存泄漏防范
 - Unsafe类在直接内存操作中的应用
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.1-JVM架构与内存模型/3.1.7-直接内存"
@@ -12607,9 +12596,8 @@ order: 7
 - 直接内存池化技术的实现与优化
 - 实际案例分析与性能调优建议
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.1-垃圾判定算法"
@@ -12880,9 +12868,8 @@ order: 5
 - 资源关闭的保证机制
 - 代码审查中的内存关注点
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.1-垃圾判定算法"
@@ -13131,9 +13118,8 @@ order: 1
 - Java引用类型在垃圾回收中的应用
 - 垃圾判定算法的性能对比与实际应用
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.1-垃圾判定算法"
@@ -13382,17 +13368,14 @@ order: 1
 - 引用队列在资源回收中的作用与实现
 - 内存泄漏的识别与分析方法
 EOF
-以下是根据您提供的目录内容创建的bash脚本：
 
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 确保目录存在
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.1-垃圾判定算法"
 
-我将为您创建Java后端开发知识体系中第3章JVM核心技术下的垃圾收集机制相关脚本和内容。
 
-```
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.1-垃圾判定算法"
@@ -13516,7 +13499,7 @@ order: 3
 Java中引入了四种引用类型，通过不同的引用类型，可以更灵活地控制对象的生命周期和回收时机。
 
 ## 强引用(Strong Reference)
-- 最常见的引用类型，如`Object obj = new Object()`
+- 最常见的引用类型，如Object obj = new Object()
 - 只要强引用存在，对象就不会被回收
 - 即使内存不足，JVM宁愿抛出OOM异常也不会回收强引用对象
 
@@ -13583,8 +13566,7 @@ order: 4
 - 资源释放应在使用完毕后立即进行
 - 使用AutoCloseable接口实现自动资源管理
 EOF
-```
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.1-垃圾判定算法"
@@ -13738,7 +13720,7 @@ order: 5
 - 微服务架构中的对象引用分析
 - 长时间运行系统的GC问题诊断
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.1-垃圾判定算法"
@@ -13865,7 +13847,7 @@ order: 1
 - 标记-清除在老年代中的应用
 - 与其他算法的结合使用
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建目录结构
 mkdir -p "$BASE_DIR/第3章-JVM核心技术/3.2-垃圾收集机制/3.2.2-垃圾收集算法"

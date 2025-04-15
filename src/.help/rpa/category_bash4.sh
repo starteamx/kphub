@@ -1,4 +1,4 @@
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.7.6延迟敏感业务处理文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.7-读写分离实现/5.2.7.6-延迟敏感业务处理.md" << 'EOF'
@@ -242,7 +242,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.8.4分布式事务协调机制文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.8-多数据源管理/5.2.8.4-分布式事务协调机制.md" << 'EOF'
@@ -565,7 +565,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.2.8.6跨库事务处理方案文件
 cat > "$BASE_DIR/第5章-数据库技术/5.2-分库分表与数据库中间件/5.2.8-多数据源管理/5.2.8.6-跨库事务处理方案.md" << 'EOF'
@@ -730,7 +730,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.1.2MongoDB架构设计理念文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.1-MongoDB快速入门/5.3.1.2-MongoDB架构设计理念.md" << 'EOF'
@@ -1053,7 +1053,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.1.4基础CRUD操作实践文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.1-MongoDB快速入门/5.3.1.4-基础CRUD操作实践.md" << 'EOF'
@@ -1297,7 +1297,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.2.2聚合管道处理机制文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.2-MongoDB聚合操作与索引/5.3.2.2-聚合管道处理机制.md" << 'EOF'
@@ -1620,7 +1620,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.2.4聚合性能优化技巧文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.2-MongoDB聚合操作与索引/5.3.2.4-聚合性能优化技巧.md" << 'EOF'
@@ -1864,7 +1864,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.3.2复制集架构与选举机制文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.3-MongoDB复制集与分片集群/5.3.3.2-复制集架构与选举机制.md" << 'EOF'
@@ -2187,7 +2187,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.3.4故障转移测试与处理文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.3-MongoDB复制集与分片集群/5.3.3.4-故障转移测试与处理.md" << 'EOF'
@@ -2431,7 +2431,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.4.2存储引擎架构分析文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.4-MongoDB存储原理与事务/5.3.4.2-存储引擎架构分析.md" << 'EOF'
@@ -2754,7 +2754,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.4.4事务操作实现方法文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.4-MongoDB存储原理与事务/5.3.4.4-事务操作实现方法.md" << 'EOF'
@@ -2998,7 +2998,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.5.2文档模型设计原则文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.5-MongoDB建模与调优/5.3.5.2-文档模型设计原则.md" << 'EOF'
@@ -3321,7 +3321,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.5.4大数据量集合优化文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.5-MongoDB建模与调优/5.3.5.4-大数据量集合优化.md" << 'EOF'
@@ -3565,7 +3565,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.6.2图数据库核心概念文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.6-图数据库Neo4j/5.3.6.2-图数据库核心概念.md" << 'EOF'
@@ -3888,7 +3888,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.6.4图数据建模方法文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.6-图数据库Neo4j/5.3.6.4-图数据建模方法.md" << 'EOF'
@@ -4132,7 +4132,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.7.2HBase架构设计文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.7-列式数据库HBase/5.3.7.2-HBase架构设计.md" << 'EOF'
@@ -4455,7 +4455,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.7.4表设计最佳实践文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.7-列式数据库HBase/5.3.7.4-表设计最佳实践.md" << 'EOF'
@@ -4699,7 +4699,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.8.2时序数据特性与挑战文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.8-时序数据库InfluxDB/5.3.8.2-时序数据特性与挑战.md" << 'EOF'
@@ -5022,7 +5022,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.3.8.4数据写入与查询实践文件
 cat > "$BASE_DIR/第5章-数据库技术/5.3-NoSQL数据库/5.3.8-时序数据库InfluxDB/5.3.8.4-数据写入与查询实践.md" << 'EOF'
@@ -5233,7 +5233,7 @@ order: 1
 
 本节介绍TiDB分布式数据库的基础知识和入门指南。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.1.1TiDB基础入门原理篇文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.1-TiDB基础入门/5.4.1.1-TiDB基础入门原理篇.md" << 'EOF'
@@ -5556,7 +5556,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.1.3TiDB快速安装与配置文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.1-TiDB基础入门/5.4.1.3-TiDB快速安装与配置.md" << 'EOF'
@@ -5800,7 +5800,7 @@ order: 2
 
 本节详细介绍TiDB的架构设计和核心原理。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.2.1TiDB架构与原理原理篇文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.2-TiDB架构与原理/5.4.2.1-TiDB架构与原理原理篇.md" << 'EOF'
@@ -6123,7 +6123,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.2.3TiDB集群部署架构文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.2-TiDB架构与原理/5.4.2.3-TiDB集群部署架构.md" << 'EOF'
@@ -6367,7 +6367,7 @@ order: 3
 
 本节详细介绍TiDB的分布式事务实现原理和应用。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.3.1TiDB分布式事务原理篇文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.3-TiDB分布式事务/5.4.3.1-TiDB分布式事务原理篇.md" << 'EOF'
@@ -6690,7 +6690,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.3.3事务模型选择策略文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.3-TiDB分布式事务/5.4.3.3-事务模型选择策略.md" << 'EOF'
@@ -6934,7 +6934,7 @@ order: 4
 
 本节详细介绍TiDB的SQL优化技术和最佳实践。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.4.1TiDBSQL优化原理篇文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.4-TiDBSQL优化/5.4.4.1-TiDBSQL优化原理篇.md" << 'EOF'
@@ -7257,7 +7257,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.4.3执行计划分析方法文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.4-TiDBSQL优化/5.4.4.3-执行计划分析方法.md" << 'EOF'
@@ -7501,7 +7501,7 @@ order: 5
 
 本节详细介绍TiDB的数据迁移和同步技术。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.5.1TiDB数据迁移与同步原理篇文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.5-TiDB数据迁移与同步/5.4.5.1-TiDB数据迁移与同步原理篇.md" << 'EOF'
@@ -7824,7 +7824,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.5.3MySQL到TiDB迁移实践文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.5-TiDB数据迁移与同步/5.4.5.3-MySQL到TiDB迁移实践.md" << 'EOF'
@@ -8068,7 +8068,7 @@ order: 6
 
 本节详细介绍TiDB的运维管理和监控技术。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.6.1TiDB运维与监控原理篇文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.6-TiDB运维与监控/5.4.6.1-TiDB运维与监控原理篇.md" << 'EOF'
@@ -8391,7 +8391,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.6.3Prometheus监控配置文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.6-TiDB运维与监控/5.4.6.3-Prometheus监控配置.md" << 'EOF'
@@ -8635,7 +8635,7 @@ order: 7
 
 本节详细介绍TiDB的HTAP（混合事务分析处理）应用技术。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.7.1TiDBHTAP应用原理篇文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.7-TiDBHTAP应用/5.4.7.1-TiDBHTAP应用原理篇.md" << 'EOF'
@@ -8958,7 +8958,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.7.3HTAP场景识别与设计文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.7-TiDBHTAP应用/5.4.7.3-HTAP场景识别与设计.md" << 'EOF'
@@ -9202,7 +9202,7 @@ order: 8
 
 本节详细介绍TiDB的生态工具链及其应用。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.8.1TiDB生态工具链原理篇文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.8-TiDB生态工具链/5.4.8.1-TiDB生态工具链原理篇.md" << 'EOF'
@@ -9525,7 +9525,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建5.4.8.3TiUP日常运维操作文件
 cat > "$BASE_DIR/第5章-数据库技术/5.4-分布式数据库TiDB/5.4.8-TiDB生态工具链/5.4.8.3-TiUP日常运维操作.md" << 'EOF'
@@ -9756,7 +9756,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建第6章目录的README.md
 cat > "$BASE_DIR/第6章-中间件技术/README.md" << 'EOF'
@@ -9934,7 +9934,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.1.4列表(List)底层实现机制文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.1-Redis核心数据结构/6.1.1.4-列表(List)底层实现机制.md" << 'EOF'
@@ -10257,7 +10257,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.1.6数据结构性能对比与测试文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.1-Redis核心数据结构/6.1.1.6-数据结构性能对比与测试.md" << 'EOF'
@@ -10501,7 +10501,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.2.4混合持久化设计文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.2-Redis持久化机制/6.1.2.4-混合持久化设计.md" << 'EOF'
@@ -10824,7 +10824,7 @@ order: 5
 - 监控方案
 - 处理建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.2.6数据备份与恢复操作文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.2-Redis持久化机制/6.1.2.6-数据备份与恢复操作.md" << 'EOF'
@@ -11068,7 +11068,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.3.4哨兵架构设计与选举机制文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.3-Redis主从与哨兵架构/6.1.3.4-哨兵架构设计与选举机制.md" << 'EOF'
@@ -11391,7 +11391,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.3.6监控与告警体系建设文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.3-Redis主从与哨兵架构/6.1.3.6-监控与告警体系建设.md" << 'EOF'
@@ -11635,7 +11635,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.4.4集群一致性保证机制文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.4-RedisCluster集群/6.1.4.4-集群一致性保证机制.md" << 'EOF'
@@ -11958,7 +11958,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.4.6客户端集成最佳实践文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.4-RedisCluster集群/6.1.4.6-客户端集成最佳实践.md" << 'EOF'
@@ -12202,7 +12202,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.5.4Redlock算法设计文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.5-Redis分布式锁实现/6.1.5.4-Redlock算法设计.md" << 'EOF'
@@ -12525,7 +12525,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.5.6与Zookeeper锁对比文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.5-Redis分布式锁实现/6.1.5.6-与Zookeeper锁对比.md" << 'EOF'
@@ -12769,7 +12769,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.6.4Read/WriteThrough模式文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.6-缓存更新策略/6.1.6.4-ReadWriteThrough模式.md" << 'EOF'
@@ -13092,7 +13092,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.6.6缓存预热与更新机制文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.6-缓存更新策略/6.1.6.6-缓存预热与更新机制.md" << 'EOF'
@@ -13336,7 +13336,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.7.4缓存雪崩触发机制文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.7-缓存穿透击穿雪崩/6.1.7.4-缓存雪崩触发机制.md" << 'EOF'
@@ -13659,7 +13659,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.7.6缓存预热与降级方案文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.7-缓存穿透击穿雪崩/6.1.7.6-缓存预热与降级方案.md" << 'EOF'
@@ -13903,7 +13903,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.8.4Lua脚本执行机制文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.8-Redis高级特性与应用/6.1.8.4-Lua脚本执行机制.md" << 'EOF'
@@ -14226,7 +14226,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.1.8.6批量操作性能优化文件
 cat > "$BASE_DIR/第6章-中间件技术/6.1-缓存技术/6.1.8-Redis高级特性与应用/6.1.8.6-批量操作性能优化.md" << 'EOF'
@@ -14437,7 +14437,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.1.3消息通信模型详解文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.1-消息队列基础入门/6.2.1.3-消息通信模型详解.md" << 'EOF'
@@ -14760,7 +14760,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.1.5简单队列模型实现文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.1-消息队列基础入门/6.2.1.5-简单队列模型实现.md" << 'EOF'
@@ -15004,7 +15004,7 @@ order: 2
 - 运维评估
 - 发展趋势
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.2.3消息队列性能指标分析文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.2-消息中间件对比/6.2.2.3-消息队列性能指标分析.md" << 'EOF'
@@ -15327,7 +15327,7 @@ order: 4
 - 优化策略
 - 维护方案
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.2.5性能测试与对比方法文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.2-消息中间件对比/6.2.2.5-性能测试与对比方法.md" << 'EOF'
@@ -15571,7 +15571,7 @@ order: 2
 - 客户端支持
 - 运维工具
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.3.3AMQP协议基础文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.3-RabbitMQ基础入门/6.2.3.3-AMQP协议基础.md" << 'EOF'
@@ -15894,7 +15894,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.3.5简单队列模型实现文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.3-RabbitMQ基础入门/6.2.3.5-简单队列模型实现.md" << 'EOF'
@@ -16138,7 +16138,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.4.3RabbitMQ整体架构设计文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.4-RabbitMQ架构与原理/6.2.4.3-RabbitMQ整体架构设计.md" << 'EOF'
@@ -16461,7 +16461,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.4.5队列属性与消息特性文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.4-RabbitMQ架构与原理/6.2.4.5-队列属性与消息特性.md" << 'EOF'
@@ -16705,7 +16705,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.5.3延迟队列设计原理文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.5-RabbitMQ高级特性/6.2.5.3-延迟队列设计原理.md" << 'EOF'
@@ -17028,7 +17028,7 @@ order: 4
 - 维护成本
 - 扩展性
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.5.5死信处理与重试机制文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.5-RabbitMQ高级特性/6.2.5.5-死信处理与重试机制.md" << 'EOF'
@@ -17272,7 +17272,7 @@ order: 2
 - 生态扩展
 - 应用方向
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.6.3Kafka核心概念介绍文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.6-Kafka基础入门/6.2.6.3-Kafka核心概念介绍.md" << 'EOF'
@@ -17595,7 +17595,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.6.5简单生产者与消费者实现文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.6-Kafka基础入门/6.2.6.5-简单生产者与消费者实现.md" << 'EOF'
@@ -17839,7 +17839,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.7.3主题与分区模型文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.7-Kafka架构设计/6.2.7.3-主题与分区模型.md" << 'EOF'
@@ -18162,7 +18162,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.7.5生产者与消费者配置文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.7-Kafka架构设计/6.2.7.5-生产者与消费者配置.md" << 'EOF'
@@ -18406,7 +18406,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.8.3分段日志与索引机制文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.8-Kafka存储机制/6.2.8.3-分段日志与索引机制.md" << 'EOF'
@@ -18729,7 +18729,7 @@ order: 4
 - 监控方案
 - 应急预案
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.8.5存储性能调优方法文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.8-Kafka存储机制/6.2.8.5-存储性能调优方法.md" << 'EOF'
@@ -18973,7 +18973,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.9.3ISR模型与Leader选举文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.9-Kafka高可用实现/6.2.9.3-ISR模型与Leader选举.md" << 'EOF'
@@ -19296,7 +19296,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.9.5可靠性参数调优文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.9-Kafka高可用实现/6.2.9.5-可靠性参数调优.md" << 'EOF'
@@ -19540,7 +19540,7 @@ order: 2
 - 运维方案
 - 经验总结
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.10.3RocketMQ核心概念介绍文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.10-RocketMQ基础入门/6.2.10.3-RocketMQ核心概念介绍.md" << 'EOF'
@@ -19864,7 +19864,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.10.5控制台使用与管理文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.10-RocketMQ基础入门/6.2.10.5-控制台使用与管理.md" << 'EOF'
@@ -20108,7 +20108,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.11.3消息存储设计文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.11-RocketMQ核心概念/6.2.11.3-消息存储设计.md" << 'EOF'
@@ -20431,7 +20431,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.11.5消息过滤应用文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.11-RocketMQ核心概念/6.2.11.5-消息过滤应用.md" << 'EOF'
@@ -20675,7 +20675,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.12.3消息重试与死信队列文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.12-RocketMQ高级特性/6.2.12.3-消息重试与死信队列.md" << 'EOF'
@@ -20998,7 +20998,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.12.5消息轨迹追踪实现文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.12-RocketMQ高级特性/6.2.12.5-消息轨迹追踪实现.md" << 'EOF'
@@ -21242,7 +21242,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.13.3文件存储与索引设计文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.13-RocketMQ高性能原理/6.2.13.3-文件存储与索引设计.md" << 'EOF'
@@ -21565,7 +21565,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.13.5消费者性能优化文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.13-RocketMQ高性能原理/6.2.13.5-消费者性能优化.md" << 'EOF'
@@ -21809,7 +21809,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.14.3消息幂等性保证机制文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.14-消息队列最佳实践/6.2.14.3-消息幂等性保证机制.md" << 'EOF'
@@ -22132,7 +22132,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.2.14.5消息积压处理策略文件
 cat > "$BASE_DIR/第6章-中间件技术/6.2-消息队列/6.2.14-消息队列最佳实践/6.2.14.5-消息积压处理策略.md" << 'EOF'
@@ -22297,7 +22297,7 @@ order: 1
 
 本节介绍Elasticsearch的基础知识，包括核心概念、基本操作和入门实践。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.1.1Elasticsearch基础入门原理篇文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.1-Elasticsearch基础入门/6.3.1.1-Elasticsearch基础入门原理篇.md" << 'EOF'
@@ -22620,7 +22620,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.1.3Elasticsearch环境搭建文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.1-Elasticsearch基础入门/6.3.1.3-Elasticsearch环境搭建.md" << 'EOF'
@@ -22864,7 +22864,7 @@ order: 2
 
 本节详细介绍Elasticsearch的索引设计原则和管理方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.2.1索引设计与管理原理篇文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.2-索引设计与管理/6.3.2.1-索引设计与管理原理篇.md" << 'EOF'
@@ -23187,7 +23187,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.2.3索引设计最佳实践文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.2-索引设计与管理/6.3.2.3-索引设计最佳实践.md" << 'EOF'
@@ -23431,7 +23431,7 @@ order: 3
 
 本节详细介绍Elasticsearch的查询DSL语言，包括各种查询类型和使用场景。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.3.1查询DSL原理篇文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.3-查询DSL/6.3.3.1-查询DSL原理篇.md" << 'EOF'
@@ -23754,7 +23754,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.3.3精确查询与全文检索文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.3-查询DSL/6.3.3.3-精确查询与全文检索.md" << 'EOF'
@@ -23998,7 +23998,7 @@ order: 4
 
 本节详细介绍Elasticsearch的聚合分析功能，包括各种聚合类型和应用场景。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.4.1聚合分析原理篇文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.4-聚合分析/6.3.4.1-聚合分析原理篇.md" << 'EOF'
@@ -24321,7 +24321,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.4.3数据统计聚合实现文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.4-聚合分析/6.3.4.3-数据统计聚合实现.md" << 'EOF'
@@ -24565,7 +24565,7 @@ order: 5
 
 本节详细介绍Elasticsearch的集群架构设计和工作原理。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.5.1集群架构与原理原理篇文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.5-集群架构与原理/6.3.5.1-集群架构与原理原理篇.md" << 'EOF'
@@ -24888,7 +24888,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.5.3集群规划与部署文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.5-集群架构与原理/6.3.5.3-集群规划与部署.md" << 'EOF'
@@ -25132,7 +25132,7 @@ order: 6
 
 本节详细介绍Elasticsearch的性能优化策略和实践方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.6.1性能优化原理篇文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.6-性能优化/6.3.6.1-性能优化原理篇.md" << 'EOF'
@@ -25455,7 +25455,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.6.3索引性能调优策略文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.6-性能优化/6.3.6.3-索引性能调优策略.md" << 'EOF'
@@ -25699,7 +25699,7 @@ order: 7
 
 本节详细介绍ELK日志分析平台的架构设计和实践应用。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.7.1ELK日志分析平台原理篇文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.7-ELK日志分析平台/6.3.7.1-ELK日志分析平台原理篇.md" << 'EOF'
@@ -26022,7 +26022,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.7.3ELK环境搭建与配置文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.7-ELK日志分析平台/6.3.7.3-ELK环境搭建与配置.md" << 'EOF'
@@ -26266,7 +26266,7 @@ order: 8
 
 本节通过实际案例详细介绍Elasticsearch在不同场景下的应用实践。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.8.1搜索引擎应用案例原理篇文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.8-搜索引擎应用案例/6.3.8.1-搜索引擎应用案例原理篇.md" << 'EOF'
@@ -26589,7 +26589,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.3.8.3电商搜索系统实现文件
 cat > "$BASE_DIR/第6章-中间件技术/6.3-搜索引擎/6.3.8-搜索引擎应用案例/6.3.8.3-电商搜索系统实现.md" << 'EOF'
@@ -26833,7 +26833,7 @@ order: 4
 
 本节详细介绍分布式协调服务的原理和实践应用。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.1ZooKeeper基础入门目录的README.md
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.1-ZooKeeper基础入门/README.md" << 'EOF'
@@ -27077,7 +27077,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.1.6ZooKeeper服务角色文件
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.1-ZooKeeper基础入门/6.4.1.6-ZooKeeper服务角色.md" << 'EOF'
@@ -27400,7 +27400,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.2ZooKeeper特性与数据模型目录的README.md
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.2-ZooKeeper特性与数据模型/README.md" << 'EOF'
@@ -27644,7 +27644,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.2.6数据模型与存储结构文件
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.2-ZooKeeper特性与数据模型/6.4.2.6-数据模型与存储结构.md" << 'EOF'
@@ -27967,7 +27967,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.3ZooKeeper典型应用场景目录的README.md
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.3-ZooKeeper典型应用场景/README.md" << 'EOF'
@@ -28211,7 +28211,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.3.6分布式队列实现文件
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.3-ZooKeeper典型应用场景/6.4.3.6-分布式队列实现.md" << 'EOF'
@@ -28534,7 +28534,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.4ZooKeeper集群与选举机制目录的README.md
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.4-ZooKeeper集群与选举机制/README.md" << 'EOF'
@@ -28778,7 +28778,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.4.6崩溃恢复处理文件
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.4-ZooKeeper集群与选举机制/6.4.4.6-崩溃恢复处理.md" << 'EOF'
@@ -29101,7 +29101,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.5ZooKeeperWatcher机制目录的README.md
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.5-ZooKeeperWatcher机制/README.md" << 'EOF'
@@ -29345,7 +29345,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.5.6网络延迟与超时处理文件
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.5-ZooKeeperWatcher机制/6.4.5.6-网络延迟与超时处理.md" << 'EOF'
@@ -29668,7 +29668,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.6Curator框架使用目录的README.md
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.6-Curator框架使用/README.md" << 'EOF'
@@ -29912,7 +29912,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.6.6分布式原语实现原理文件
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.6-Curator框架使用/6.4.6.6-分布式原语实现原理.md" << 'EOF'
@@ -30235,7 +30235,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.7etcd基础与应用目录的README.md
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.7-etcd基础与应用/README.md" << 'EOF'
@@ -30479,7 +30479,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.7.6与ZooKeeper对比分析文件
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.7-etcd基础与应用/6.4.7.6-与ZooKeeper对比分析.md" << 'EOF'
@@ -30802,7 +30802,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.8Consul服务发现目录的README.md
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.8-Consul服务发现/README.md" << 'EOF'
@@ -31046,7 +31046,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.8.6多数据中心设计文件
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.8-Consul服务发现/6.4.8.6-多数据中心设计.md" << 'EOF'
@@ -31369,7 +31369,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.9分布式协调最佳实践目录的README.md
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.9-分布式协调最佳实践/README.md" << 'EOF'
@@ -31613,7 +31613,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建6.4.9.6性能与可扩展性权衡文件
 cat > "$BASE_DIR/第6章-中间件技术/6.4-分布式协调服务/6.4.9-分布式协调最佳实践/6.4.9.6-性能与可扩展性权衡.md" << 'EOF'
@@ -31936,7 +31936,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建第7章分布式架构目录的README.md
 cat > "$BASE_DIR/第7章-分布式架构/README.md" << 'EOF'
@@ -32068,7 +32068,7 @@ order: 2
 - 监控方案
 - 运维管理
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.1.3分布式系统设计挑战文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.1-分布式系统理论/7.1.1.3-分布式系统设计挑战.md" << 'EOF'
@@ -32391,7 +32391,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.1.5分布式系统评估指标文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.1-分布式系统理论/7.1.1.5-分布式系统评估指标.md" << 'EOF'
@@ -32635,7 +32635,7 @@ order: 2
 - 优化策略
 - 运维建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.2.3一致性模型详解文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.2-CAP与BASE理论/7.1.2.3-一致性模型详解.md" << 'EOF'
@@ -32958,7 +32958,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.2.5不同场景下的一致性选择文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.2-CAP与BASE理论/7.1.2.5-不同场景下的一致性选择.md" << 'EOF'
@@ -33202,7 +33202,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.3.3Paxos算法原理文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.3-一致性算法/7.1.3.3-Paxos算法原理.md" << 'EOF'
@@ -33525,7 +33525,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.3.5分布式共识性能优化文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.3-一致性算法/7.1.3.5-分布式共识性能优化.md" << 'EOF'
@@ -33769,7 +33769,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.4.3UUID实现原理与局限文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.4-分布式ID生成/7.1.4.3-UUID实现原理与局限.md" << 'EOF'
@@ -34092,7 +34092,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.4.5基于数据库的ID生成方案文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.4-分布式ID生成/7.1.4.5-基于数据库的ID生成方案.md" << 'EOF'
