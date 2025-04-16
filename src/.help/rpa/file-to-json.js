@@ -29,9 +29,9 @@ function findRootDir(startDir) {
 
 const rootDir = findRootDir(__dirname);
 
-const projectDir = "C:\\project\\kphub\\";
-const defaultTargetDir = path.join(projectDir, "src\\vue3");
-const defaultOutputFile = path.join(projectDir, "src\\.help\\rpa\\files-map.json");
+const projectDir = "/Users/guanrunbai/my/kphub";
+const defaultTargetDir = path.join(projectDir, "src/java-backend");
+const defaultOutputFile = path.join(projectDir, "src/.help/rpa/files-map.json");
 // 解析命令行参数
 const args = process.argv.slice(2);
 const targetDir = args[0] || defaultTargetDir; // 默认为当前目录下的src文件夹
