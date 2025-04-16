@@ -1,4 +1,4 @@
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.3.3单机限流实现方法文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.3-流量控制与限流/8.1.3.3-单机限流实现方法.md" << 'EOF'
@@ -207,7 +207,7 @@ order: 4
 
 本节详细介绍异步处理机制的原理和实践方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.4.1异步处理机制原理篇文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.4-异步处理机制/8.1.4.1-异步处理机制原理篇.md" << 'EOF'
@@ -481,7 +481,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.4.3异步框架选型与应用文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.4-异步处理机制/8.1.4.3-异步框架选型与应用.md" << 'EOF'
@@ -690,7 +690,7 @@ order: 5
 
 本节详细介绍缓存架构设计的原理和实践方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.5.1缓存架构设计原理篇文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.5-缓存架构设计/8.1.5.1-缓存架构设计原理篇.md" << 'EOF'
@@ -964,7 +964,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.5.3多级缓存实现方案文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.5-缓存架构设计/8.1.5.3-多级缓存实现方案.md" << 'EOF'
@@ -1173,7 +1173,7 @@ order: 6
 
 本节详细介绍数据库优化策略的原理和实践方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.6.1数据库优化策略原理篇文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.6-数据库优化策略/8.1.6.1-数据库优化策略原理篇.md" << 'EOF'
@@ -1447,7 +1447,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.6.3数据库性能诊断方法文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.6-数据库优化策略/8.1.6.3-数据库性能诊断方法.md" << 'EOF'
@@ -1656,7 +1656,7 @@ order: 7
 
 本节详细介绍读写分离与分库分表的原理和实践方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.7.1读写分离与分库分表原理篇文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.7-读写分离与分库分表/8.1.7.1-读写分离与分库分表原理篇.md" << 'EOF'
@@ -1930,7 +1930,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.7.3读写分离实现方案文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.7-读写分离与分库分表/8.1.7.3-读写分离实现方案.md" << 'EOF'
@@ -2139,7 +2139,7 @@ order: 8
 
 本节详细介绍高并发系统案例分析的原理和实践方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.8.1高并发系统案例分析原理篇文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.8-高并发系统案例分析/8.1.8.1-高并发系统案例分析原理篇.md" << 'EOF'
@@ -2413,7 +2413,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.8.3秒杀系统实现与优化文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.8-高并发系统案例分析/8.1.8.3-秒杀系统实现与优化.md" << 'EOF'
@@ -2622,7 +2622,7 @@ order: 2
 
 本节详细介绍高可用架构的原理和实践方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.1高可用设计原则目录的README.md
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.1-高可用设计原则/README.md" << 'EOF'
@@ -2831,7 +2831,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.1.6高可用架构评估方法文件
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.1-高可用设计原则/8.2.1.6-高可用架构评估方法.md" << 'EOF'
@@ -3105,7 +3105,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.2服务降级与熔断目录的README.md
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.2-服务降级与熔断/README.md" << 'EOF'
@@ -3314,7 +3314,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.2.6熔断恢复机制设计文件
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.2-服务降级与熔断/8.2.2.6-熔断恢复机制设计.md" << 'EOF'
@@ -3588,7 +3588,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.3超时与重试机制目录的README.md
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.3-超时与重试机制/README.md" << 'EOF'
@@ -3797,7 +3797,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.3.6重试风暴防范设计文件
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.3-超时与重试机制/8.2.3.6-重试风暴防范设计.md" << 'EOF'
@@ -4071,7 +4071,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.4集群容错目录的README.md
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.4-集群容错/README.md" << 'EOF'
@@ -4280,7 +4280,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.4.6集群自愈设计文件
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.4-集群容错/8.2.4.6-集群自愈设计.md" << 'EOF'
@@ -4554,7 +4554,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.5灾备设计目录的README.md
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.5-灾备设计/README.md" << 'EOF'
@@ -4763,7 +4763,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.5.6灾难恢复流程设计文件
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.5-灾备设计/8.2.5.6-灾难恢复流程设计.md" << 'EOF'
@@ -5037,7 +5037,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.6多活架构目录的README.md
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.6-多活架构/README.md" << 'EOF'
@@ -5246,7 +5246,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.6.6多活架构挑战与解决方案文件
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.6-多活架构/8.2.6.6-多活架构挑战与解决方案.md" << 'EOF'
@@ -5520,7 +5520,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.7故障转移策略目录的README.md
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.7-故障转移策略/README.md" << 'EOF'
@@ -5729,7 +5729,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.7.6故障恢复流程设计文件
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.7-故障转移策略/8.2.7.6-故障恢复流程设计.md" << 'EOF'
@@ -6003,7 +6003,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.8高可用最佳实践目录的README.md
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.8-高可用最佳实践/README.md" << 'EOF'
@@ -6212,7 +6212,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.2.8.6高可用运维体系文件
 cat > "$BASE_DIR/第8章-高性能架构/8.2-高可用架构/8.2.8-高可用最佳实践/8.2.8.6-高可用运维体系.md" << 'EOF'
@@ -6486,7 +6486,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3性能优化目录的README.md
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/README.md" << 'EOF'
@@ -6630,7 +6630,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.1.4性能测试类型与方法论文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.1-性能测试方法/8.3.1.4-性能测试类型与方法论.md" << 'EOF'
@@ -6904,7 +6904,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.1.6性能测试报告编写文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.1-性能测试方法/8.3.1.6-性能测试报告编写.md" << 'EOF'
@@ -7113,7 +7113,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.2.4JIT编译优化机制文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.2-JVM性能调优/8.3.2.4-JIT编译优化机制.md" << 'EOF'
@@ -7387,7 +7387,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.2.6JVM性能监控工具应用文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.2-JVM性能调优/8.3.2.6-JVM性能监控工具应用.md" << 'EOF'
@@ -7596,7 +7596,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.3.4查询优化器工作机制文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.3-数据库性能优化/8.3.3.4-查询优化器工作机制.md" << 'EOF'
@@ -7870,7 +7870,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.3.6慢查询分析与优化文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.3-数据库性能优化/8.3.3.6-慢查询分析与优化.md" << 'EOF'
@@ -8079,7 +8079,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.4.4线程池与连接池机制文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.4-Web服务器优化/8.3.4.4-线程池与连接池机制.md" << 'EOF'
@@ -8353,7 +8353,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.4.6连接池参数调优文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.4-Web服务器优化/8.3.4.6-连接池参数调优.md" << 'EOF'
@@ -8562,7 +8562,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.5.4HTTP协议优化原理文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.5-网络性能优化/8.3.5.4-HTTP协议优化原理.md" << 'EOF'
@@ -8836,7 +8836,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.5.6CDN加速实施策略文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.5-网络性能优化/8.3.5.6-CDN加速实施策略.md" << 'EOF'
@@ -9045,7 +9045,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.6.4缓存穿透击穿雪崩原理文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.6-缓存优化策略/8.3.6.4-缓存穿透击穿雪崩原理.md" << 'EOF'
@@ -9319,7 +9319,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.6.6热点数据缓存优化文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.6-缓存优化策略/8.3.6.6-热点数据缓存优化.md" << 'EOF'
@@ -9528,7 +9528,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.7.4分布式压测协同机制文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.7-全链路压测/8.3.7.4-分布式压测协同机制.md" << 'EOF'
@@ -9802,7 +9802,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.7.6压测数据分析技术文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.7-全链路压测/8.3.7.6-压测数据分析技术.md" << 'EOF'
@@ -10011,7 +10011,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.8.4性能优化决策框架文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.8-性能优化案例分析/8.3.8.4-性能优化决策框架.md" << 'EOF'
@@ -10285,7 +10285,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.3.8.6视频服务性能优化经验文件
 cat > "$BASE_DIR/第8章-高性能架构/8.3-性能优化/8.3.8-性能优化案例分析/8.3.8.6-视频服务性能优化经验.md" << 'EOF'
@@ -10429,7 +10429,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.1.2TCP/IP协议栈架构文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.1-TCP-IP协议详解/8.4.1.2-TCP-IP协议栈架构.md" << 'EOF'
@@ -10703,7 +10703,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.1.4网络抓包分析技术文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.1-TCP-IP协议详解/8.4.1.4-网络抓包分析技术.md" << 'EOF'
@@ -10912,7 +10912,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.2.2JavaIO演进历史文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.2-BIO-NIO-AIO模型/8.4.2.2-JavaIO演进历史.md" << 'EOF'
@@ -11186,7 +11186,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.2.4NIO编程模型应用文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.2-BIO-NIO-AIO模型/8.4.2.4-NIO编程模型应用.md" << 'EOF'
@@ -11395,7 +11395,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.3.2传统IO数据拷贝流程文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.3-零拷贝技术/8.4.3.2-传统IO数据拷贝流程.md" << 'EOF'
@@ -11669,7 +11669,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.3.4MappedByteBuffer应用文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.3-零拷贝技术/8.4.3.4-MappedByteBuffer应用.md" << 'EOF'
@@ -11878,7 +11878,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.4.2select/poll/epoll演进历史文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.4-epoll事件轮询机制/8.4.4.2-select-poll-epoll演进历史.md" << 'EOF'
@@ -12152,7 +12152,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.4.4JavaNIO与epoll的结合文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.4-epoll事件轮询机制/8.4.4.4-JavaNIO与epoll的结合.md" << 'EOF'
@@ -12361,7 +12361,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.5.2Netty架构设计原理文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.5-Netty核心组件/8.4.5.2-Netty架构设计原理.md" << 'EOF'
@@ -12635,7 +12635,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.5.4Netty客户端编程模型文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.5-Netty核心组件/8.4.5.4-Netty客户端编程模型.md" << 'EOF'
@@ -12844,7 +12844,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.6.2Reactor模式设计原理文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.6-Netty线程模型/8.4.6.2-Reactor模式设计原理.md" << 'EOF'
@@ -13118,7 +13118,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.6.4主从Reactor模式实现文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.6-Netty线程模型/8.4.6.4-主从Reactor模式实现.md" << 'EOF'
@@ -13327,7 +13327,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.7.2编解码器设计原理文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.7-Netty编解码器/8.4.7.2-编解码器设计原理.md" << 'EOF'
@@ -13601,7 +13601,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.7.4常用编解码器应用文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.7-Netty编解码器/8.4.7.4-常用编解码器应用.md" << 'EOF'
@@ -13810,7 +13810,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.8.2高性能网络框架设计原则文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.8-手写高性能网络框架/8.4.8.2-高性能网络框架设计原则.md" << 'EOF'
@@ -14084,7 +14084,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.8.4高性能线程模型构建文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.8-手写高性能网络框架/8.4.8.4-高性能线程模型构建.md" << 'EOF'
@@ -14293,7 +14293,7 @@ order: 1
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.9.2网络编程模型选择策略文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.9-网络编程最佳实践/8.4.9.2-网络编程模型选择策略.md" << 'EOF'
@@ -14567,7 +14567,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.4.9.4高并发网络服务开发文件
 cat > "$BASE_DIR/第8章-高性能架构/8.4-网络编程/8.4.9-网络编程最佳实践/8.4.9.4-高并发网络服务开发.md" << 'EOF'
@@ -14756,7 +14756,7 @@ order: 1
 
 本节详细介绍容器技术的基本概念、核心原理和实践应用。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.1Docker基础目录
 mkdir -p "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.1-Docker基础"
@@ -15007,7 +15007,7 @@ order: 6
 - 故障处理
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.1.2Docker基础实战篇文件
 cat > "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.1-Docker基础/9.1.1.2-Docker基础实战篇.md" << 'EOF'
@@ -15242,7 +15242,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.2镜像与容器管理目录
 mkdir -p "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.2-镜像与容器管理"
@@ -15493,7 +15493,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.2.2镜像与容器管理实战篇文件
 cat > "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.2-镜像与容器管理/9.1.2.2-镜像与容器管理实战篇.md" << 'EOF'
@@ -15728,7 +15728,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.3Dockerfile最佳实践目录
 mkdir -p "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.3-Dockerfile最佳实践"
@@ -15979,7 +15979,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.3.2Dockerfile最佳实践实战篇文件
 cat > "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.3-Dockerfile最佳实践/9.1.3.2-Dockerfile最佳实践实战篇.md" << 'EOF'
@@ -16214,7 +16214,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.4DockerCompose目录
 mkdir -p "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.4-DockerCompose"
@@ -16465,7 +16465,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.4.2DockerCompose实战篇文件
 cat > "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.4-DockerCompose/9.1.4.2-DockerCompose实战篇.md" << 'EOF'
@@ -16700,7 +16700,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.5Docker网络目录
 mkdir -p "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.5-Docker网络"
@@ -16951,7 +16951,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.5.2Docker网络实战篇文件
 cat > "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.5-Docker网络/9.1.5.2-Docker网络实战篇.md" << 'EOF'
@@ -17186,7 +17186,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.6Docker存储目录
 mkdir -p "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.6-Docker存储"
@@ -17437,7 +17437,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.6.2Docker存储实战篇文件
 cat > "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.6-Docker存储/9.1.6.2-Docker存储实战篇.md" << 'EOF'
@@ -17672,7 +17672,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.7Docker安全目录
 mkdir -p "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.7-Docker安全"
@@ -17923,7 +17923,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.7.2Docker安全实战篇文件
 cat > "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.7-Docker安全/9.1.7.2-Docker安全实战篇.md" << 'EOF'
@@ -18158,7 +18158,7 @@ order: 7
 - 报告方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.8容器化应用实践目录
 mkdir -p "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.8-容器化应用实践"
@@ -18409,7 +18409,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.8.2容器化应用实践实战篇文件
 cat > "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.8-容器化应用实践/9.1.8.2-容器化应用实践实战篇.md" << 'EOF'
@@ -18644,7 +18644,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.9容器编排与集群目录
 mkdir -p "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.9-容器编排与集群"
@@ -18895,7 +18895,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.1.9.2容器编排与集群实战篇文件
 cat > "$BASE_DIR/第9章-云原生技术/9.1-容器技术/9.1.9-容器编排与集群/9.1.9.2-容器编排与集群实战篇.md" << 'EOF'
@@ -19130,7 +19130,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2Kubernetes目录
 mkdir -p "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes"
@@ -19319,7 +19319,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.1.5核心API资源模型文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.1-Kubernetes架构/9.2.1.5-核心API资源模型.md" << 'EOF'
@@ -19593,7 +19593,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.1.7多集群管理方案文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.1-Kubernetes架构/9.2.1.7-多集群管理方案.md" << 'EOF'
@@ -19805,7 +19805,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.2.5Pod调度原理文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.2-Pod与容器编排/9.2.2.5-Pod调度原理.md" << 'EOF'
@@ -20079,7 +20079,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.2.7Pod故障排查方法文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.2-Pod与容器编排/9.2.2.7-Pod故障排查方法.md" << 'EOF'
@@ -20291,7 +20291,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.3.5DaemonSet与守护进程文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.3-控制器详解/9.2.3.5-DaemonSet与守护进程.md" << 'EOF'
@@ -20565,7 +20565,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.3.7控制器选择与应用场景文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.3-控制器详解/9.2.3.7-控制器选择与应用场景.md" << 'EOF'
@@ -20777,7 +20777,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.4.5负载均衡实现原理文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.4-服务发现与负载均衡/9.2.4.5-负载均衡实现原理.md" << 'EOF'
@@ -21051,7 +21051,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.4.7服务网格集成实践文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.4-服务发现与负载均衡/9.2.4.7-服务网格集成实践.md" << 'EOF'
@@ -21263,7 +21263,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.5.5存储驱动实现机制文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.5-存储管理/9.2.5.5-存储驱动实现机制.md" << 'EOF'
@@ -21537,7 +21537,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.5.7存储性能优化实践文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.5-存储管理/9.2.5.7-存储性能优化实践.md" << 'EOF'
@@ -21749,7 +21749,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.6.5配置热更新原理文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.6-配置与密钥管理/9.2.6.5-配置热更新原理.md" << 'EOF'
@@ -22023,7 +22023,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.6.7GitOps配置管理实践文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.6-配置与密钥管理/9.2.6.7-GitOps配置管理实践.md" << 'EOF'
@@ -22235,7 +22235,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.7.5Pod安全策略原理文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.7-安全机制/9.2.7.5-Pod安全策略原理.md" << 'EOF'
@@ -22509,7 +22509,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.7.7安全扫描与合规检查文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.7-安全机制/9.2.7.7-安全扫描与合规检查.md" << 'EOF'
@@ -22721,7 +22721,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.8.5Hook与生命周期事件文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.8-Helm包管理/9.2.8.5-Hook与生命周期事件.md" << 'EOF'
@@ -22995,7 +22995,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.8.7Chart版本管理与更新文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.8-Helm包管理/9.2.8.7-Chart版本管理与更新.md" << 'EOF'
@@ -23207,7 +23207,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.9.5灾备与高可用策略文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.9-Kubernetes运维实践/9.2.9.5-灾备与高可用策略.md" << 'EOF'
@@ -23481,7 +23481,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.9.7集群升级与迁移实践文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.9-Kubernetes运维实践/9.2.9.7-集群升级与迁移实践.md" << 'EOF'
@@ -23693,7 +23693,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.10.5API聚合层实现文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.10-Kubernetes扩展开发/9.2.10.5-API聚合层实现.md" << 'EOF'
@@ -23967,7 +23967,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.2.10.7扩展API服务器构建文件
 cat > "$BASE_DIR/第9章-云原生技术/9.2-Kubernetes/9.2.10-Kubernetes扩展开发/9.2.10.7-扩展API服务器构建.md" << 'EOF'
@@ -24117,7 +24117,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.0.3CNCF技术全景图解析文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.0-云原生基础入门/9.3.0.3-CNCF技术全景图解析.md" << 'EOF'
@@ -24391,7 +24391,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.0.5云原生应用开发流程文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.0-云原生基础入门/9.3.0.5-云原生应用开发流程.md" << 'EOF'
@@ -24603,7 +24603,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.1.3十二要素应用方法论文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.1-云原生架构设计/9.3.1.3-十二要素应用方法论.md" << 'EOF'
@@ -24877,7 +24877,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.1.5弹性伸缩实现策略文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.1-云原生架构设计/9.3.1.5-弹性伸缩实现策略.md" << 'EOF'
@@ -25089,7 +25089,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.2.3容器化技术基础理论文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.2-微服务与容器化/9.3.2.3-容器化技术基础理论.md" << 'EOF'
@@ -25363,7 +25363,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.2.5微服务测试策略实现文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.2-微服务与容器化/9.3.2.5-微服务测试策略实现.md" << 'EOF'
@@ -25575,7 +25575,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.3.3Istio核心组件原理文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.3-服务网格(Istio)/9.3.3.3-Istio核心组件原理.md" << 'EOF'
@@ -25849,7 +25849,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.3.5服务网格安全策略应用文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.3-服务网格(Istio)/9.3.3.5-服务网格安全策略应用.md" << 'EOF'
@@ -26061,7 +26061,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.4.3FaaS与BaaS技术原理文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.4-Serverless架构/9.3.4.3-FaaS与BaaS技术原理.md" << 'EOF'
@@ -26335,7 +26335,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.4.5事件源与触发器配置文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.4-Serverless架构/9.3.4.5-事件源与触发器配置.md" << 'EOF'
@@ -26547,7 +26547,7 @@ order: 2
 - 评估方案
 - 持续改进
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.5.3持续集成与持续交付原理文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.5-DevOps实践/9.3.5.3-持续集成与持续交付原理.md" << 'EOF'
@@ -26821,7 +26821,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.5.5基础设施自动化配置文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.5-DevOps实践/9.3.5.5-基础设施自动化配置.md" << 'EOF'
@@ -27033,7 +27033,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.6.3流水线设计原则文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.6-持续集成与部署/9.3.6.3-流水线设计原则.md" << 'EOF'
@@ -27307,7 +27307,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.6.5容器化应用CI/CD实现文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.6-持续集成与部署/9.3.6.5-容器化应用CI_CD实现.md" << 'EOF'
@@ -27519,7 +27519,7 @@ order: 2
 - 分析方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.7.3分布式监控系统设计文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.7-可观测性/9.3.7.3-分布式监控系统设计.md" << 'EOF'
@@ -27793,7 +27793,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.7.5Jaeger分布式追踪应用文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.7-可观测性/9.3.7.5-Jaeger分布式追踪应用.md" << 'EOF'
@@ -28005,7 +28005,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.8.3容器安全威胁分析文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.8-云原生安全/9.3.8.3-容器安全威胁分析.md" << 'EOF'
@@ -28279,7 +28279,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.8.5服务网格安全策略实施文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.8-云原生安全/9.3.8.5-服务网格安全策略实施.md" << 'EOF'
@@ -28491,7 +28491,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.9.3有状态应用挑战与解决方案文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.9-云原生存储与数据管理/9.3.9.3-有状态应用挑战与解决方案.md" << 'EOF'
@@ -28765,7 +28765,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.9.5有状态应用云原生化实践文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.9-云原生存储与数据管理/9.3.9.5-有状态应用云原生化实践.md" << 'EOF'
@@ -28977,7 +28977,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.10.3遗留系统现代化路径文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.10-云原生应用案例分析/9.3.10.3-遗留系统现代化路径.md" << 'EOF'
@@ -29251,7 +29251,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建9.3.10.5大型企业云原生转型经验文件
 cat > "$BASE_DIR/第9章-云原生技术/9.3-云原生应用/9.3.10-云原生应用案例分析/9.3.10.5-大型企业云原生转型经验.md" << 'EOF'
@@ -29398,7 +29398,7 @@ order: 1
 
 本节详细介绍软件架构设计的基本方法和原则。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.1架构设计原则目录
 mkdir -p "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.1-架构设计原则"
@@ -29656,7 +29656,7 @@ order: 6
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.1.2架构设计原则实战篇文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.1-架构设计原则/10.1.1.2-架构设计原则实战篇.md" << 'EOF'
@@ -29891,7 +29891,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.2DDD领域驱动设计目录
 mkdir -p "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.2-DDD领域驱动设计"
@@ -30142,7 +30142,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.2.2DDD领域驱动设计实战篇文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.2-DDD领域驱动设计/10.1.2.2-DDD领域驱动设计实战篇.md" << 'EOF'
@@ -30377,7 +30377,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.3微服务拆分策略目录
 mkdir -p "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.3-微服务拆分策略"
@@ -30628,7 +30628,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.3.2微服务拆分策略实战篇文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.3-微服务拆分策略/10.1.3.2-微服务拆分策略实战篇.md" << 'EOF'
@@ -30863,7 +30863,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.4API设计最佳实践目录
 mkdir -p "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.4-API设计最佳实践"
@@ -31114,7 +31114,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.4.2API设计最佳实践实战篇文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.4-API设计最佳实践/10.1.4.2-API设计最佳实践实战篇.md" << 'EOF'
@@ -31349,7 +31349,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.5技术选型方法论目录
 mkdir -p "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.5-技术选型方法论"
@@ -31600,7 +31600,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.5.2技术选型方法论实战篇文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.5-技术选型方法论/10.1.5.2-技术选型方法论实战篇.md" << 'EOF'
@@ -31835,7 +31835,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.6架构评估与演进目录
 mkdir -p "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.6-架构评估与演进"
@@ -32086,7 +32086,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.6.2架构评估与演进实战篇文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.6-架构评估与演进/10.1.6.2-架构评估与演进实战篇.md" << 'EOF'
@@ -32321,7 +32321,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.7架构文档化目录
 mkdir -p "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.7-架构文档化"
@@ -32572,7 +32572,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.7.2架构文档化实战篇文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.7-架构文档化/10.1.7.2-架构文档化实战篇.md" << 'EOF'
@@ -32807,7 +32807,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.8可扩展架构设计目录
 mkdir -p "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.8-可扩展架构设计"
@@ -33058,7 +33058,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.1.8.2可扩展架构设计实战篇文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.1-架构设计方法/10.1.8-可扩展架构设计/10.1.8.2-可扩展架构设计实战篇.md" << 'EOF'
@@ -33293,7 +33293,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2设计模式目录
 mkdir -p "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式"
@@ -33482,7 +33482,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.1.5原型模式核心思想文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.1-创建型模式/10.2.1.5-原型模式核心思想.md" << 'EOF'
@@ -33756,7 +33756,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.1.7创建型模式实际应用案例文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.1-创建型模式/10.2.1.7-创建型模式实际应用案例.md" << 'EOF'
@@ -33968,7 +33968,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.2.5组合模式设计思路文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.2-结构型模式/10.2.2.5-组合模式设计思路.md" << 'EOF'
@@ -34242,7 +34242,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.2.7结构型模式在框架中的应用文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.2-结构型模式/10.2.2.7-结构型模式在框架中的应用.md" << 'EOF'
@@ -34454,7 +34454,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.3.5模板方法模式设计思路文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.3-行为型模式/10.2.3.5-模板方法模式设计思路.md" << 'EOF'
@@ -34728,7 +34728,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.3.7状态机实现与应用文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.3-行为型模式/10.2.3.7-状态机实现与应用.md" << 'EOF'
@@ -34940,7 +34940,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.4.5业务代表模式思想文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.4-J2EE设计模式/10.2.4.5-业务代表模式思想.md" << 'EOF'
@@ -35214,7 +35214,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.4.7微服务中的J2EE模式演进文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.4-J2EE设计模式/10.2.4.7-微服务中的J2EE模式演进.md" << 'EOF'
@@ -35426,7 +35426,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.5.5读写锁模式实现机制文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.5-并发设计模式/10.2.5.5-读写锁模式实现机制.md" << 'EOF'
@@ -35700,7 +35700,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.5.7CompletableFuture异步编程文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.5-并发设计模式/10.2.5.7-CompletableFuture异步编程.md" << 'EOF'
@@ -35912,7 +35912,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.6.5聚合器模式实现机制文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.6-微服务设计模式/10.2.6.5-聚合器模式实现机制.md" << 'EOF'
@@ -36186,7 +36186,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.6.7事件驱动微服务实践文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.6-微服务设计模式/10.2.6.7-事件驱动微服务实践.md" << 'EOF'
@@ -36398,7 +36398,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.7.5反模式识别与避免文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.7-设计模式实战案例/10.2.7.5-反模式识别与避免.md" << 'EOF'
@@ -36672,7 +36672,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.7.7大型项目设计模式实践文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.7-设计模式实战案例/10.2.7.7-大型项目设计模式实践.md" << 'EOF'
@@ -36884,7 +36884,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.8.5不变性与纯函数原则文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.8-函数式编程设计模式/10.2.8.5-不变性与纯函数原则.md" << 'EOF'
@@ -37158,7 +37158,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.2.8.7响应式编程模式应用文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.2-设计模式/10.2.8-函数式编程设计模式/10.2.8.7-响应式编程模式应用.md" << 'EOF'
@@ -37308,7 +37308,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.1.3商品管理领域模型设计文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.1-电商系统架构设计/10.3.1.3-商品管理领域模型设计.md" << 'EOF'
@@ -37582,7 +37582,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.1.5商品管理系统构建文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.1-电商系统架构设计/10.3.1.5-商品管理系统构建.md" << 'EOF'
@@ -37794,7 +37794,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.2.3支付交易流程与状态管理文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.2-支付系统设计与实现/10.3.2.3-支付交易流程与状态管理.md" << 'EOF'
@@ -38068,7 +38068,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.2.5支付风控系统构建文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.2-支付系统设计与实现/10.3.2.5-支付风控系统构建.md" << 'EOF'
@@ -38280,7 +38280,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.3.3消息路由与推送机制文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.3-IM即时通讯系统/10.3.3.3-消息路由与推送机制.md" << 'EOF'
@@ -38554,7 +38554,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.3.5客户端SDK设计与实现文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.3-IM即时通讯系统/10.3.3.5-客户端SDK设计与实现.md" << 'EOF'
@@ -38766,7 +38766,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.4.3内容模型与元数据设计文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.4-内容管理平台/10.3.4.3-内容模型与元数据设计.md" << 'EOF'
@@ -39040,7 +39040,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.4.5媒体资源管理系统构建文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.4-内容管理平台/10.3.4.5-媒体资源管理系统构建.md" << 'EOF'
@@ -39252,7 +39252,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.5.3用户认证与授权模型文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.5-用户中心设计/10.3.5.3-用户认证与授权模型.md" << 'EOF'
@@ -39526,7 +39526,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.5.5第三方登录集成开发文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.5-用户中心设计/10.3.5.5-第三方登录集成开发.md" << 'EOF'
@@ -39738,7 +39738,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.6.3权限粒度与继承机制文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.6-权限管理系统/10.3.6.3-权限粒度与继承机制.md" << 'EOF'
@@ -40012,7 +40012,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.6.5权限管理前端实现文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.6-权限管理系统/10.3.6.5-权限管理前端实现.md" << 'EOF'
@@ -40224,7 +40224,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.7.3日志收集与传输机制文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.7-日志监控系统/10.3.7.3-日志收集与传输机制.md" << 'EOF'
@@ -40498,7 +40498,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.7.5监控指标体系构建文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.7-日志监控系统/10.3.7.5-监控指标体系构建.md" << 'EOF'
@@ -40710,7 +40710,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.8.3路由与负载均衡机制文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.8-API网关实现/10.3.8.3-路由与负载均衡机制.md" << 'EOF'
@@ -40984,7 +40984,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.8.5网关安全策略实现文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.8-API网关实现/10.3.8.5-网关安全策略实现.md" << 'EOF'
@@ -41196,7 +41196,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.9.3任务分发与执行机制文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.9-分布式任务调度系统/10.3.9.3-任务分发与执行机制.md" << 'EOF'
@@ -41470,7 +41470,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.9.5工作流引擎开发与集成文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.9-分布式任务调度系统/10.3.9.5-工作流引擎开发与集成.md" << 'EOF'
@@ -41682,7 +41682,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.10.3数据采集与ETL设计文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.10-数据中台建设/10.3.10.3-数据采集与ETL设计.md" << 'EOF'
@@ -41956,7 +41956,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建10.3.10.5数据服务层开发文件
 cat > "$BASE_DIR/第10章-架构设计与实践/10.3-项目实战/10.3.10-数据中台建设/10.3.10.5-数据服务层开发.md" << 'EOF'
@@ -42106,7 +42106,7 @@ order: 1
 
 本节详细介绍各种软件开发方法论和最佳实践。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.1敏捷开发目录
 mkdir -p "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.1-敏捷开发"
@@ -42356,7 +42356,7 @@ order: 6
 - 效能优化
 - 持续改进
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.1.2敏捷开发实战篇文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.1-敏捷开发/11.1.1.2-敏捷开发实战篇.md" << 'EOF'
@@ -42591,7 +42591,7 @@ order: 7
 - 效果评估
 - 持续改进
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.2Scrum框架目录
 mkdir -p "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.2-Scrum框架"
@@ -42842,7 +42842,7 @@ order: 6
 - 评估方案
 - 经验总结
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.2.2Scrum框架实战篇文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.2-Scrum框架/11.1.2.2-Scrum框架实战篇.md" << 'EOF'
@@ -43077,7 +43077,7 @@ order: 7
 - 评估方案
 - 经验总结
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.3看板方法目录
 mkdir -p "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.3-看板方法"
@@ -43328,7 +43328,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.3.2看板方法实战篇文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.3-看板方法/11.1.3.2-看板方法实战篇.md" << 'EOF'
@@ -43563,7 +43563,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.4极限编程目录
 mkdir -p "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.4-极限编程"
@@ -43814,7 +43814,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.4.2极限编程实战篇文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.4-极限编程/11.1.4.2-极限编程实战篇.md" << 'EOF'
@@ -44049,7 +44049,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.5DevOps文化目录
 mkdir -p "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.5-DevOps文化"
@@ -44300,7 +44300,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.5.2DevOps文化实战篇文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.5-DevOps文化/11.1.5.2-DevOps文化实战篇.md" << 'EOF'
@@ -44535,7 +44535,7 @@ order: 7
 - 解决方案
 - 最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.6持续集成/持续部署目录
 mkdir -p "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.6-持续集成持续部署"
@@ -44786,7 +44786,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.6.2持续集成/持续部署实战篇文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.6-持续集成持续部署/11.1.6.2-持续集成持续部署实战篇.md" << 'EOF'
@@ -45021,7 +45021,7 @@ order: 7
 - 解决方案
 - 最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.7测试驱动开发目录
 mkdir -p "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.7-测试驱动开发"
@@ -45272,7 +45272,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.7.2测试驱动开发实战篇文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.7-测试驱动开发/11.1.7.2-测试驱动开发实战篇.md" << 'EOF'
@@ -45507,7 +45507,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.8行为驱动开发目录
 mkdir -p "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.8-行为驱动开发"
@@ -45758,7 +45758,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.8.2行为驱动开发实战篇文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.8-行为驱动开发/11.1.8.2-行为驱动开发实战篇.md" << 'EOF'
@@ -45993,7 +45993,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.9精益软件开发目录
 mkdir -p "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.9-精益软件开发"
@@ -46246,7 +46246,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.9.2精益软件开发实战篇文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.9-精益软件开发/11.1.9.2-精益软件开发实战篇.md" << 'EOF'
@@ -46481,7 +46481,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.10项目管理方法论目录
 mkdir -p "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.10-项目管理方法论"
@@ -46732,7 +46732,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.1.10.2项目管理方法论实战篇文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.1-软件开发方法/11.1.10-项目管理方法论/11.1.10.2-项目管理方法论实战篇.md" << 'EOF'
@@ -46967,7 +46967,7 @@ order: 7
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2代码质量与规范目录
 mkdir -p "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范"
@@ -47156,7 +47156,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.1.5注释与文档化策略文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.1-代码规范与风格/11.2.1.5-注释与文档化策略.md" << 'EOF'
@@ -47430,7 +47430,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.1.7代码规范落地与审计文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.1-代码规范与风格/11.2.1.7-代码规范落地与审计.md" << 'EOF'
@@ -47642,7 +47642,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.2.5审查反馈与改进机制文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.2-代码审查/11.2.2.5-审查反馈与改进机制.md" << 'EOF'
@@ -47916,7 +47916,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.2.7代码审查文化建设文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.2-代码审查/11.2.2.7-代码审查文化建设.md" << 'EOF'
@@ -48128,7 +48128,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.3.5误报与漏报处理策略文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.3-静态代码分析/11.2.3.5-误报与漏报处理策略.md" << 'EOF'
@@ -48402,7 +48402,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.3.7静态分析结果管理与改进文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.3-静态代码分析/11.2.3.7-静态分析结果管理与改进.md" << 'EOF'
@@ -48614,7 +48614,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.4.5参数化测试设计文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.4-单元测试/11.2.4.5-参数化测试设计.md" << 'EOF'
@@ -48888,7 +48888,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.4.7单元测试维护与重构文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.4-单元测试/11.2.4.7-单元测试维护与重构.md" << 'EOF'
@@ -49100,7 +49100,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.5.5集成测试范围确定文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.5-集成测试/11.2.5.5-集成测试范围确定.md" << 'EOF'
@@ -49374,7 +49374,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.5.7集成测试环境管理文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.5-集成测试/11.2.5.7-集成测试环境管理.md" << 'EOF'
@@ -49586,7 +49586,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.6.5性能测试环境规划文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.6-性能测试/11.2.6.5-性能测试环境规划.md" << 'EOF'
@@ -49860,7 +49860,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.6.7性能优化实施方法文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.6-性能测试/11.2.6.7-性能优化实施方法.md" << 'EOF'
@@ -50072,7 +50072,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.7.5安全编码原则文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.7-安全测试/11.2.7.5-安全编码原则.md" << 'EOF'
@@ -50346,7 +50346,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.7.7安全缺陷修复与验证文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.7-安全测试/11.2.7.7-安全缺陷修复与验证.md" << 'EOF'
@@ -50558,7 +50558,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.8.5重构与设计模式关系文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.8-代码重构/11.2.8.5-重构与设计模式关系.md" << 'EOF'
@@ -50832,7 +50832,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.8.7重构案例分析与实践文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.8-代码重构/11.2.8.7-重构案例分析与实践.md" << 'EOF'
@@ -51044,7 +51044,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.9.5技术债务决策框架文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.9-技术债务管理/11.2.9.5-技术债务决策框架.md" << 'EOF'
@@ -51318,7 +51318,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.9.7技术债务沟通与管理文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.9-技术债务管理/11.2.9.7-技术债务沟通与管理.md" << 'EOF'
@@ -51530,7 +51530,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.10.5复杂度控制原则文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.10-代码复杂度控制/11.2.10.5-复杂度控制原则.md" << 'EOF'
@@ -51804,7 +51804,7 @@ order: 6
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.2.10.7复杂度治理实践案例文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.2-代码质量与规范/11.2.10-代码复杂度控制/11.2.10.7-复杂度治理实践案例.md" << 'EOF'
@@ -51954,7 +51954,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.1.3Git对象模型与存储机制文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.1-版本控制(Git)/11.3.1.3-Git对象模型与存储机制.md" << 'EOF'
@@ -52228,7 +52228,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.1.5复杂冲突解决技巧文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.1-版本控制(Git)/11.3.1.5-复杂冲突解决技巧.md" << 'EOF'
@@ -52440,7 +52440,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.2.3权限模型与访问控制文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.2-代码托管平台/11.3.2.3-权限模型与访问控制.md" << 'EOF'
@@ -52714,7 +52714,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.2.5代码审查最佳实践文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.2-代码托管平台/11.3.2.5-代码审查最佳实践.md" << 'EOF'
@@ -52926,7 +52926,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.3.3流水线模型与DSL设计文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.3-CI_CD工具/11.3.3.3-流水线模型与DSL设计.md" << 'EOF'
@@ -53200,7 +53200,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.3.5构建性能优化策略文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.3-CI_CD工具/11.3.3.5-构建性能优化策略.md" << 'EOF'
@@ -53412,7 +53412,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.4.3敏捷与看板工具实现文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.4-项目管理工具/11.3.4.3-敏捷与看板工具实现.md" << 'EOF'
@@ -53686,7 +53686,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.4.5需求分解与任务管理文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.4-项目管理工具/11.3.4.5-需求分解与任务管理.md" << 'EOF'
@@ -53898,7 +53898,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.5.3实时协作技术原理文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.5-文档协作工具/11.3.5.3-实时协作技术原理.md" << 'EOF'
@@ -54172,7 +54172,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.5.5API文档工具应用文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.5-文档协作工具/11.3.5.5-API文档工具应用.md" << 'EOF'
@@ -54384,7 +54384,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.6.3知识分类与标签体系文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.6-知识管理系统/11.3.6.3-知识分类与标签体系.md" << 'EOF'
@@ -54658,7 +54658,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.6.5知识分享机制建立文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.6-知识管理系统/11.3.6.5-知识分享机制建立.md" << 'EOF'
@@ -54870,7 +54870,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.7.3即时通讯技术原理文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.7-沟通协作工具/11.3.7.3-即时通讯技术原理.md" << 'EOF'
@@ -55144,7 +55144,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.7.5沟通工具集成与自动化文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.7-沟通协作工具/11.3.7.5-沟通工具集成与自动化.md" << 'EOF'
@@ -55356,7 +55356,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.8.3关键绩效指标设计文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.8-团队效能度量/11.3.8.3-关键绩效指标设计.md" << 'EOF'
@@ -55630,7 +55630,7 @@ order: 4
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.8.5效能分析与改进实践文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.8-团队效能度量/11.3.8.5-效能分析与改进实践.md" << 'EOF'
@@ -55842,7 +55842,7 @@ order: 2
 - 评估方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建11.3.9.3分布式团队组织结构文件
 cat > "$BASE_DIR/第11章-软件工程与团队协作/11.3-团队协作工具/11.3.9-远程协作实践/11.3.9.3-分布式团队组织结构.md" << 'EOF'

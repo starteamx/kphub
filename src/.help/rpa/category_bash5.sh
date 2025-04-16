@@ -1,4 +1,4 @@
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.5.3基于数据库的分布式锁原理文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.5-分布式锁实现/7.1.5.3-基于数据库的分布式锁原理.md" << 'EOF'
@@ -321,7 +321,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.5.5ZooKeeper分布式锁实现文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.5-分布式锁实现/7.1.5.5-ZooKeeper分布式锁实现.md" << 'EOF'
@@ -565,7 +565,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.6.3刚性事务(XA)实现原理文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.6-分布式事务/7.1.6.3-刚性事务(XA)实现原理.md" << 'EOF'
@@ -888,7 +888,7 @@ order: 4
 - 效果评估
 - 经验总结
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.6.5TCC事务设计与实现文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.6-分布式事务/7.1.6.5-TCC事务设计与实现.md" << 'EOF'
@@ -1132,7 +1132,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.7.3会话复制机制文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.7-分布式会话/7.1.7.3-会话复制机制.md" << 'EOF'
@@ -1455,7 +1455,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.7.5无状态认证设计(JWT)文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.7-分布式会话/7.1.7.5-无状态认证设计(JWT).md" << 'EOF'
@@ -1699,7 +1699,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.8.3调用链数据模型文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.8-分布式链路追踪/7.1.8.3-调用链数据模型.md" << 'EOF'
@@ -2022,7 +2022,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.8.5Jaeger使用指南文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.8-分布式链路追踪/7.1.8.5-Jaeger使用指南.md" << 'EOF'
@@ -2266,7 +2266,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.9.3配置变更推送机制文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.9-分布式配置管理/7.1.9.3-配置变更推送机制.md" << 'EOF'
@@ -2589,7 +2589,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.9.5SpringCloudConfig使用文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.9-分布式配置管理/7.1.9.5-SpringCloudConfig使用.md" << 'EOF'
@@ -2833,7 +2833,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.10.3任务分片与负载均衡文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.10-分布式调度与任务/7.1.10.3-任务分片与负载均衡.md" << 'EOF'
@@ -3156,7 +3156,7 @@ order: 4
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.1.10.5Quartz集群配置文件
 cat > "$BASE_DIR/第7章-分布式架构/7.1-分布式基础/7.1.10-分布式调度与任务/7.1.10.5-Quartz集群配置.md" << 'EOF'
@@ -3321,7 +3321,7 @@ order: 1
 
 本节详细介绍微服务架构的核心设计原则。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.1.1微服务设计原则原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.1-微服务设计原则/7.2.1.1-微服务设计原则原理篇.md" << 'EOF'
@@ -3644,7 +3644,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.1.3微服务拆分实践方法文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.1-微服务设计原则/7.2.1.3-微服务拆分实践方法.md" << 'EOF'
@@ -3888,7 +3888,7 @@ order: 2
 
 本节详细介绍SpringCloud的基础概念和核心组件。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.2.1SpringCloud概述原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.2-SpringCloud概述/7.2.2.1-SpringCloud概述原理篇.md" << 'EOF'
@@ -4211,7 +4211,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.2.3SpringCloud环境搭建文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.2-SpringCloud概述/7.2.2.3-SpringCloud环境搭建.md" << 'EOF'
@@ -4455,7 +4455,7 @@ order: 3
 
 本节详细介绍服务注册与发现的原理和实现方案。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.3.1服务注册与发现原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.3-服务注册与发现/7.2.3.1-服务注册与发现原理篇.md" << 'EOF'
@@ -4778,7 +4778,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.3.3Eureka服务端部署与配置文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.3-服务注册与发现/7.2.3.3-Eureka服务端部署与配置.md" << 'EOF'
@@ -5022,7 +5022,7 @@ order: 4
 
 本节详细介绍服务调用与负载均衡的原理和实现方案。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.4.1服务调用与负载均衡原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.4-服务调用与负载均衡/7.2.4.1-服务调用与负载均衡原理篇.md" << 'EOF'
@@ -5345,7 +5345,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.4.3RestTemplate与Ribbon整合文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.4-服务调用与负载均衡/7.2.4.3-RestTemplate与Ribbon整合.md" << 'EOF'
@@ -5589,7 +5589,7 @@ order: 5
 
 本节详细介绍服务熔断与降级的原理和实现方案。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.5.1服务熔断与降级原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.5-服务熔断与降级/7.2.5.1-服务熔断与降级原理篇.md" << 'EOF'
@@ -5912,7 +5912,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.5.3Hystrix断路器配置与使用文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.5-服务熔断与降级/7.2.5.3-Hystrix断路器配置与使用.md" << 'EOF'
@@ -6156,7 +6156,7 @@ order: 6
 
 本节详细介绍API网关的原理和实现方案。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.6.1API网关原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.6-API网关/7.2.6.1-API网关原理篇.md" << 'EOF'
@@ -6479,7 +6479,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.6.3Zuul网关配置与部署文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.6-API网关/7.2.6.3-Zuul网关配置与部署.md" << 'EOF'
@@ -6723,7 +6723,7 @@ order: 7
 
 本节详细介绍配置中心的原理和实现方案。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.7.1配置中心原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.7-配置中心/7.2.7.1-配置中心原理篇.md" << 'EOF'
@@ -7046,7 +7046,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.7.3ConfigServer搭建与配置文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.7-配置中心/7.2.7.3-ConfigServer搭建与配置.md" << 'EOF'
@@ -7290,7 +7290,7 @@ order: 8
 
 本节详细介绍消息总线的原理和实现方案。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.8.1消息总线原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.8-消息总线/7.2.8.1-消息总线原理篇.md" << 'EOF'
@@ -7613,7 +7613,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.8.3SpringCloudBus整合RabbitMQ文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.8-消息总线/7.2.8.3-SpringCloudBus整合RabbitMQ.md" << 'EOF'
@@ -7857,7 +7857,7 @@ order: 9
 
 本节详细介绍链路追踪的原理和实现方案。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.9.1链路追踪原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.9-链路追踪/7.2.9.1-链路追踪原理篇.md" << 'EOF'
@@ -8180,7 +8180,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.9.3Sleuth与Zipkin整合配置文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.9-链路追踪/7.2.9.3-Sleuth与Zipkin整合配置.md" << 'EOF'
@@ -8424,7 +8424,7 @@ order: 10
 
 本节详细介绍服务网格的原理和实现方案。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.10.1服务网格原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.10-服务网格/7.2.10.1-服务网格原理篇.md" << 'EOF'
@@ -8747,7 +8747,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.10.3Istio环境搭建与配置文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.10-服务网格/7.2.10.3-Istio环境搭建与配置.md" << 'EOF'
@@ -8991,7 +8991,7 @@ order: 11
 
 本节详细介绍微服务安全架构的原理和实现方案。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.11.1微服务安全架构原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.11-微服务安全架构/7.2.11.1-微服务安全架构原理篇.md" << 'EOF'
@@ -9314,7 +9314,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.11.3SpringSecurityOAuth2配置文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.11-微服务安全架构/7.2.11.3-SpringSecurityOAuth2配置.md" << 'EOF'
@@ -9558,7 +9558,7 @@ order: 12
 
 本节详细介绍微服务测试策略的原理和实现方案。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.12.1微服务测试策略原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.12-微服务测试策略/7.2.12.1-微服务测试策略原理篇.md" << 'EOF'
@@ -9881,7 +9881,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.12.3单元测试框架应用文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.12-微服务测试策略/7.2.12.3-单元测试框架应用.md" << 'EOF'
@@ -10090,7 +10090,7 @@ order: 13
 
 本节详细介绍微服务监控与运维的原理和实现方案。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.13.1微服务监控与运维原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.13-微服务监控与运维/7.2.13.1-微服务监控与运维原理篇.md" << 'EOF'
@@ -10371,7 +10371,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.13.3SpringBootActuator应用文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.13-微服务监控与运维/7.2.13.3-SpringBootActuator应用.md" << 'EOF'
@@ -10580,7 +10580,7 @@ order: 14
 
 本节详细介绍微服务架构的最佳实践方案和经验总结。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.14.1微服务架构最佳实践原理篇文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.14-微服务架构最佳实践/7.2.14.1-微服务架构最佳实践原理篇.md" << 'EOF'
@@ -10854,7 +10854,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.2.14.3微服务架构落地方法论文件
 cat > "$BASE_DIR/第7章-分布式架构/7.2-微服务架构/7.2.14-微服务架构最佳实践/7.2.14.3-微服务架构落地方法论.md" << 'EOF'
@@ -11063,7 +11063,7 @@ order: 3
 
 本节详细介绍SpringCloudAlibaba的核心组件和最佳实践。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.1Nacos服务注册与发现目录的README.md
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.1-Nacos服务注册与发现/README.md" << 'EOF'
@@ -11272,7 +11272,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.1.6Nacos与Eureka对比分析文件
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.1-Nacos服务注册与发现/7.3.1.6-Nacos与Eureka对比分析.md" << 'EOF'
@@ -11546,7 +11546,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.2Nacos配置中心目录的README.md
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.2-Nacos配置中心/README.md" << 'EOF'
@@ -11755,7 +11755,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.2.6配置加密与安全机制文件
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.2-Nacos配置中心/7.3.2.6-配置加密与安全机制.md" << 'EOF'
@@ -12029,7 +12029,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.3Sentinel流量控制目录的README.md
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.3-Sentinel流量控制/README.md" << 'EOF'
@@ -12238,7 +12238,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.3.6规则持久化与动态配置文件
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.3-Sentinel流量控制/7.3.3.6-规则持久化与动态配置.md" << 'EOF'
@@ -12512,7 +12512,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.4Seata分布式事务目录的README.md
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.4-Seata分布式事务/README.md" << 'EOF'
@@ -12728,7 +12728,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.4.6全局锁与并发控制文件
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.4-Seata分布式事务/7.3.4.6-全局锁与并发控制.md" << 'EOF'
@@ -13002,7 +13002,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.5RocketMQ消息目录的README.md
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.5-RocketMQ消息/README.md" << 'EOF'
@@ -13211,7 +13211,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.5.6事务消息实现机制文件
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.5-RocketMQ消息/7.3.5.6-事务消息实现机制.md" << 'EOF'
@@ -13485,7 +13485,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.6SpringCloudGateway目录的README.md
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.6-SpringCloudGateway/README.md" << 'EOF'
@@ -13694,7 +13694,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.6.6网关性能与扩展设计文件
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.6-SpringCloudGateway/7.3.6.6-网关性能与扩展设计.md" << 'EOF'
@@ -13968,7 +13968,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.7SpringCloudStream目录的README.md
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.7-SpringCloudStream/README.md" << 'EOF'
@@ -14177,7 +14177,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.7.6消息转换与处理流程文件
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.7-SpringCloudStream/7.3.7.6-消息转换与处理流程.md" << 'EOF'
@@ -14451,7 +14451,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.8SpringCloudSecurity目录的README.md
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.8-SpringCloudSecurity/README.md" << 'EOF'
@@ -14660,7 +14660,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.8.6分布式会话管理原理文件
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.8-SpringCloudSecurity/7.3.8.6-分布式会话管理原理.md" << 'EOF'
@@ -14934,7 +14934,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.9SpringCloudAlibaba生态整合目录的README.md
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.9-SpringCloudAlibaba生态整合/README.md" << 'EOF'
@@ -15143,7 +15143,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.3.9.6微服务平台演进路线文件
 cat > "$BASE_DIR/第7章-分布式架构/7.3-SpringCloudAlibaba/7.3.9-SpringCloudAlibaba生态整合/7.3.9.6-微服务平台演进路线.md" << 'EOF'
@@ -15417,7 +15417,7 @@ order: 7
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4领域驱动设计目录的README.md
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/README.md" << 'EOF'
@@ -15561,7 +15561,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.1.4通用语言与限界上下文文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.1-DDD基础概念/7.4.1.4-通用语言与限界上下文.md" << 'EOF'
@@ -15835,7 +15835,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.1.6限界上下文识别技巧文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.1-DDD基础概念/7.4.1.6-限界上下文识别技巧.md" << 'EOF'
@@ -16044,7 +16044,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.2.4聚合与聚合根设计文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.2-领域模型设计/7.4.2.4-聚合与聚合根设计.md" << 'EOF'
@@ -16318,7 +16318,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.2.6领域服务划分策略文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.2-领域模型设计/7.4.2.6-领域服务划分策略.md" << 'EOF'
@@ -16527,7 +16527,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.3.4聚合间引用与关系处理文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.3-聚合与边界/7.4.3.4-聚合间引用与关系处理.md" << 'EOF'
@@ -16801,7 +16801,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.3.6聚合持久化策略文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.3-聚合与边界/7.4.3.6-聚合持久化策略.md" << 'EOF'
@@ -17010,7 +17010,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.4.4事件发布与订阅机制文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.4-领域事件/7.4.4.4-事件发布与订阅机制.md" << 'EOF'
@@ -17284,7 +17284,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.4.6事件驱动微服务实现文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.4-领域事件/7.4.4.6-事件驱动微服务实现.md" << 'EOF'
@@ -17493,7 +17493,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.5.4查询模型优化策略文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.5-CQRS模式/7.4.5.4-查询模型优化策略.md" << 'EOF'
@@ -17767,7 +17767,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.5.6读写模型同步策略文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.5-CQRS模式/7.4.5.6-读写模型同步策略.md" << 'EOF'
@@ -17976,7 +17976,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.6.4快照机制与性能优化文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.6-事件溯源/7.4.6.4-快照机制与性能优化.md" << 'EOF'
@@ -18250,7 +18250,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.6.6快照实现与优化文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.6-事件溯源/7.4.6.6-快照实现与优化.md" << 'EOF'
@@ -18459,7 +18459,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.7.4微服务间通信模式设计文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.7-DDD与微服务结合/7.4.7.4-微服务间通信模式设计.md" << 'EOF'
@@ -18733,7 +18733,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.7.6微服务API设计最佳实践文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.7-DDD与微服务结合/7.4.7.6-微服务API设计最佳实践.md" << 'EOF'
@@ -18942,7 +18942,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.8.4库存管理领域建模文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.8-DDD实战案例/7.4.8.4-库存管理领域建模.md" << 'EOF'
@@ -19216,7 +19216,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.8.6订单系统CQRS实现文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.8-DDD实战案例/7.4.8.6-订单系统CQRS实现.md" << 'EOF'
@@ -19425,7 +19425,7 @@ order: 3
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.9.4仓储模式(Repository)文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.9-DDD设计模式/7.4.9.4-仓储模式(Repository).md" << 'EOF'
@@ -19699,7 +19699,7 @@ order: 5
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建7.4.9.6领域服务设计技巧文件
 cat > "$BASE_DIR/第7章-分布式架构/7.4-领域驱动设计/7.4.9-DDD设计模式/7.4.9.6-领域服务设计技巧.md" << 'EOF'
@@ -19817,7 +19817,7 @@ order: 1
 
 本节详细介绍高并发系统常用的架构模式和实践方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.1.1高并发架构模式原理篇文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.1-高并发架构模式/8.1.1.1-高并发架构模式原理篇.md" << 'EOF'
@@ -20091,7 +20091,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.1.3高并发系统架构演进路径文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.1-高并发架构模式/8.1.1.3-高并发系统架构演进路径.md" << 'EOF'
@@ -20300,7 +20300,7 @@ order: 2
 
 本节详细介绍负载均衡的原理和实践方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.2.1负载均衡策略原理篇文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.2-负载均衡策略/8.1.2.1-负载均衡策略原理篇.md" << 'EOF'
@@ -20574,7 +20574,7 @@ order: 2
 - 监控方案
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.2.3Nginx负载均衡配置实践文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.2-负载均衡策略/8.1.2.3-Nginx负载均衡配置实践.md" << 'EOF'
@@ -20783,7 +20783,7 @@ order: 3
 
 本节详细介绍流量控制与限流的原理和实践方法。
 EOF
-BASE_DIR="c:\project\kphub\src\java-backend"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 # 创建8.1.3.1流量控制与限流原理篇文件
 cat > "$BASE_DIR/第8章-高性能架构/8.1-高并发系统设计/8.1.3-流量控制与限流/8.1.3.1-流量控制与限流原理篇.md" << 'EOF'

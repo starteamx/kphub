@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCRIPT_FILE="/Users/guanrunbai/my/kphub/src/.help/rpa/category_bash4.sh"
+SCRIPT_FILE="/Users/guanrunbai/my/kphub/src/.help/rpa/category_bash7.sh"
 BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
 
 if [ ! -f "$SCRIPT_FILE" ]; then
