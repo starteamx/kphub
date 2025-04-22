@@ -1,4 +1,4 @@
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建主README.md
 cat > "$BASE_DIR/README.md" << 'EOF'
@@ -196,7 +196,7 @@ order: 4
 - 维护策略
 - 优化建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建1.1.5对象的属性文件
 cat > "$BASE_DIR/第1章-面向对象的编程/1.1-对象的概念/1.1.5-对象的属性.md" << 'EOF'
@@ -445,7 +445,7 @@ order: 2
 - 维护方法
 - 优化建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建1.2.3模块的信息隐蔽文件
 cat > "$BASE_DIR/第1章-面向对象的编程/1.2-模块和对象/1.2.3-模块的信息隐蔽.md" << 'EOF'
@@ -669,7 +669,7 @@ order: 1
 - 错误处理
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建2.1.2消息选择器文件
 cat > "$BASE_DIR/第2章-Objective-C程序设计/2.1-对象和消息/2.1.2-消息选择器.md" << 'EOF'
@@ -918,7 +918,7 @@ order: 4
 - 错误处理
 - 调试技巧
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建2.2.3一个遥控器的例子文件
 cat > "$BASE_DIR/第2章-Objective-C程序设计/2.2-类的定义/2.2.3-一个遥控器的例子.md" << 'EOF'
@@ -1142,7 +1142,7 @@ order: 2
 - 测试方法
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建2.4.3静态变量的定义文件
 cat > "$BASE_DIR/第2章-Objective-C程序设计/2.4-程序的书写风格/2.4.3-静态变量的定义.md" << 'EOF'
@@ -1366,7 +1366,7 @@ order: 1
 - 维护策略
 - 重构技巧
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建3.1.2类的层次结构文件
 cat > "$BASE_DIR/第3章-类和继承/3.1-继承的概念/3.1.2-类的层次结构.md" << 'EOF'
@@ -1615,7 +1615,7 @@ order: 5
 - 内存管理
 - 文档规范
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建3.3使用继承的程序示例目录及其README
 mkdir -p "$BASE_DIR/第3章-类和继承/3.3-使用继承的程序示例"
@@ -1839,7 +1839,7 @@ order: 3
 - 持续集成
 - 维护策略
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建3.5方法定义时的注意事项目录及其README
 mkdir -p "$BASE_DIR/第3章-类和继承/3.5-方法定义时的注意事项"
@@ -2038,7 +2038,7 @@ order: 1
 - 错误处理
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建4.1.2多态文件
 cat > "$BASE_DIR/第4章-对象的类型和动态绑定/4.1-动态绑定/4.1.2-多态.md" << 'EOF'
@@ -2287,7 +2287,7 @@ order: 5
 - 维护建议
 - 优化方案
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建4.3编程中的类型定义目录及其README
 mkdir -p "$BASE_DIR/第4章-对象的类型和动态绑定/4.3-编程中的类型定义"
@@ -2511,7 +2511,7 @@ order: 1
 - 文档要求
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建4.4.2访问器文件
 cat > "$BASE_DIR/第4章-对象的类型和动态绑定/4.4-实例变量的数据封装/4.4.2-访问器.md" << 'EOF'
@@ -2760,7 +2760,7 @@ order: 3
 - 测试策略
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建4.5.4类变量文件
 cat > "$BASE_DIR/第4章-对象的类型和动态绑定/4.5-类对象/4.5.4-类变量.md" << 'EOF'
@@ -2984,7 +2984,7 @@ order: 2
 - 工具使用
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建5.2手动引用计数内存管理目录及其README
 mkdir -p "$BASE_DIR/第5章-基于引用计数的内存管理/5.2-手动引用计数内存管理"
@@ -3233,7 +3233,7 @@ order: 6
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建5.2.6使用自动释放池时需要注意的地方文件
 cat > "$BASE_DIR/第5章-基于引用计数的内存管理/5.2-手动引用计数内存管理/5.2.6-使用自动释放池时需要注意的地方.md" << 'EOF'
@@ -3482,7 +3482,7 @@ order: 2
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建5.3.3主函数和执行示例文件
 cat > "$BASE_DIR/第5章-基于引用计数的内存管理/5.3-分数计算器的例子/5.3.3-主函数和执行示例.md" << 'EOF'
@@ -3731,7 +3731,7 @@ order: 5
 - 测试策略
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建5.4.6方法dealloc的定义文件
 cat > "$BASE_DIR/第5章-基于引用计数的内存管理/5.4-ARC概要/5.4.6-方法dealloc的定义.md" << 'EOF'
@@ -3980,7 +3980,7 @@ order: 2
 - 性能优化
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建5.5.3弱引用文件
 cat > "$BASE_DIR/第5章-基于引用计数的内存管理/5.5-循环引用和弱引用/5.5.3-弱引用.md" << 'EOF'
@@ -4229,7 +4229,7 @@ order: 3
 - 测试策略
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建5.6.4C语言数组保存Objective-C对象文件
 cat > "$BASE_DIR/第5章-基于引用计数的内存管理/5.6-ARC编程时其他一些注意事项/5.6.4-C语言数组保存Objective-C对象.md" << 'EOF'
@@ -4453,7 +4453,7 @@ order: 2
 - 调试方法
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建6.1.3垃圾收集器文件
 cat > "$BASE_DIR/第6章-垃圾回收/6.1-垃圾回收的概要/6.1.3-垃圾收集器.md" << 'EOF'
@@ -4702,7 +4702,7 @@ order: 1
 - 问题诊断
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建6.2.2弱引用文件
 cat > "$BASE_DIR/第6章-垃圾回收/6.2-垃圾回收的详细功能/6.2.2-弱引用.md" << 'EOF'
@@ -4976,7 +4976,7 @@ order: 3
 - 调试方法
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建6.3.1引用计数和垃圾回收文件
 cat > "$BASE_DIR/第6章-垃圾回收/6.3-内存管理方式的比较/6.3.1-引用计数和垃圾回收.md" << 'EOF'
@@ -5200,7 +5200,7 @@ order: 2
 - 调试方法
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建专栏内省文件
 cat > "$BASE_DIR/第7章-属性声明/7.1-属性是什么/专栏-内省.md" << 'EOF'
@@ -5449,7 +5449,7 @@ order: 5
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建7.2.6赋值时的选项文件
 cat > "$BASE_DIR/第7章-属性声明/7.2-属性的声明和功能/7.2.6-赋值时的选项.md" << 'EOF'
@@ -5698,7 +5698,7 @@ order: 2
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建7.3.3何时使用点操作符文件
 cat > "$BASE_DIR/第7章-属性声明/7.3-通过点操作符访问属性/7.3.3-何时使用点操作符.md" << 'EOF'
@@ -5922,7 +5922,7 @@ order: 4
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建8.1.5对象的比较文件
 cat > "$BASE_DIR/第8章-类NSObject和运行时系统/8.1-类NSObject/8.1.5-对象的比较.md" << 'EOF'
@@ -6171,7 +6171,7 @@ order: 4
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建8.2.4对self进行赋值文件
 cat > "$BASE_DIR/第8章-类NSObject和运行时系统/8.2-消息发送机制/8.2.4-对self进行赋值.md" << 'EOF'
@@ -6420,7 +6420,7 @@ order: 1
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建8.3.2CocoaTouch和iOS文件
 cat > "$BASE_DIR/第8章-类NSObject和运行时系统/8.3-Objective-C和Cocoa环境/8.3.2-CocoaTouch和iOS.md" << 'EOF'
@@ -6669,7 +6669,7 @@ order: 3
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建8.4.4CoreGraphics的浮点数类型文件
 cat > "$BASE_DIR/第8章-类NSObject和运行时系统/8.4-全新的运行时系统/8.4.4-CoreGraphics的浮点数类型.md" << 'EOF'
@@ -6893,7 +6893,7 @@ order: 2
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建9.2字符串类NSString目录及其README
 mkdir -p "$BASE_DIR/第9章-Foundation框架中常用的类/9.2-字符串类NSString"
@@ -7117,7 +7117,7 @@ order: 2
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建9.4数组类目录及其README
 mkdir -p "$BASE_DIR/第9章-Foundation框架中常用的类/9.4-数组类"
@@ -7366,7 +7366,7 @@ order: 6
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建9.4.7集合类文件
 cat > "$BASE_DIR/第9章-Foundation框架中常用的类/9.4-数组类/9.4.7-集合类.md" << 'EOF'
@@ -7590,7 +7590,7 @@ order: 4
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建9.7NSURL目录及其README
 mkdir -p "$BASE_DIR/第9章-Foundation框架中常用的类/9.7-NSURL"
@@ -7789,7 +7789,7 @@ order: 1
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建10.1.2范畴和文件的组织文件
 cat > "$BASE_DIR/第10章-范畴/10.1-范畴/10.1.2-范畴和文件的组织.md" << 'EOF'
@@ -8038,7 +8038,7 @@ order: 2
 
 本节介绍如何为现有类添加范畴以扩展功能。
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建10.2.1追加新的方法文件
 cat > "$BASE_DIR/第10章-范畴/10.2-给现有类追加范畴/10.2.1-追加新的方法.md" << 'EOF'
@@ -8287,7 +8287,7 @@ order: 2
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建10.3.3对象的存储方法文件
 cat > "$BASE_DIR/第10章-范畴/10.3-关联引用/10.3.3-对象的存储方法.md" << 'EOF'
@@ -8511,7 +8511,7 @@ order: 2
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建11.2类簇目录及其README
 mkdir -p "$BASE_DIR/第11章-抽象类和类簇/11.2-类簇"
@@ -8735,7 +8735,7 @@ order: 2
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建11.3.3生成字符串的子类文件
 cat > "$BASE_DIR/第11章-抽象类和类簇/11.3-生成类簇的子类/11.3.3-生成字符串的子类.md" << 'EOF'
@@ -8934,7 +8934,7 @@ order: 1
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建12.2.2协议的采用文件
 cat > "$BASE_DIR/第12章-协议/12.2-Objective-C中协议的声明/12.2.2-协议的采用.md" << 'EOF'
@@ -9208,7 +9208,7 @@ order: 8
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建专栏类的多重继承文件
 cat > "$BASE_DIR/第12章-协议/12.2-Objective-C中协议的声明/专栏-类的多重继承.md" << 'EOF'
@@ -9407,7 +9407,7 @@ order: 1
 
 本节介绍对象复制的基本概念和实现方法。
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建13.1.1浅复制和深复制文件
 cat > "$BASE_DIR/第13章-对象的复制及存储/13.1-对象的复制/13.1.1-浅复制和深复制.md" << 'EOF'
@@ -9656,7 +9656,7 @@ order: 1
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建13.2.2Foundation框架的归档功能文件
 cat > "$BASE_DIR/第13章-对象的复制及存储/13.2-归档/13.2.2-Foundation框架的归档功能.md" << 'EOF'
@@ -9905,7 +9905,7 @@ order: 2
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建13.3.3XML格式属性表文件
 cat > "$BASE_DIR/第13章-对象的复制及存储/13.3-属性表/13.3.3-XML格式属性表.md" << 'EOF'
@@ -10129,7 +10129,7 @@ order: 3
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建14.1.4块对象中的变量行为文件
 cat > "$BASE_DIR/第14章-块对象/14.1-什么是块对象/14.1.4-块对象中的变量行为.md" << 'EOF'
@@ -10378,7 +10378,7 @@ order: 4
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建14.3Objective-C和块对象目录及其README
 mkdir -p "$BASE_DIR/第14章-块对象/14.3-Objective-C和块对象"
@@ -10627,7 +10627,7 @@ order: 6
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建14.3.7ARC中使用块对象的注意事项文件
 cat > "$BASE_DIR/第14章-块对象/14.3-Objective-C和块对象/14.3.7-ARC中使用块对象的注意事项.md" << 'EOF'
@@ -10826,7 +10826,7 @@ order: 2
 
 本节介绍委托模式的概念和实现方法。
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建15.2.1委托的概念文件
 cat > "$BASE_DIR/第15章-消息发送模式/15.2-委托/15.2.1-委托的概念.md" << 'EOF'
@@ -11075,7 +11075,7 @@ order: 2
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建15.3.3通知中心文件
 cat > "$BASE_DIR/第15章-消息发送模式/15.3-通知/15.3.3-通知中心.md" << 'EOF'
@@ -11299,7 +11299,7 @@ order: 5
 
 本节介绍消息转送的概念和实现方法。
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建15.5.1消息转送的构成文件
 cat > "$BASE_DIR/第15章-消息发送模式/15.5-消息转送/15.5.1-消息转送的构成.md" << 'EOF'
@@ -11548,7 +11548,7 @@ order: 1
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建15.6.2在撤销管理器中记录操作文件
 cat > "$BASE_DIR/第15章-消息发送模式/15.6-撤销构造/15.6.2-在撤销管理器中记录操作.md" << 'EOF'
@@ -11772,7 +11772,7 @@ order: 4
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建16.1.4通过NSBundle访问资源文件
 cat > "$BASE_DIR/第16章-应用的构造/16.1-应用束/16.1.4-通过NSBundle访问资源.md" << 'EOF'
@@ -12021,7 +12021,7 @@ order: 3
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建16.2.4nib文件内的包含循环文件
 cat > "$BASE_DIR/第16章-应用的构造/16.2-加载nib文件/16.2.4-nib文件内的包含循环.md" << 'EOF'
@@ -12245,7 +12245,7 @@ order: 4
 
 本节介绍用户默认设置的管理和使用方法。
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建16.4.1保存设定值文件
 cat > "$BASE_DIR/第16章-应用的构造/16.4-用户默认/16.4.1-保存设定值.md" << 'EOF'
@@ -12494,7 +12494,7 @@ order: 2
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建专栏本地化应用名文件
 cat > "$BASE_DIR/第16章-应用的构造/16.5-应用的本地化/专栏-本地化应用名.md" << 'EOF'
@@ -12743,7 +12743,7 @@ order: 3
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建专栏沙盒文件
 cat > "$BASE_DIR/第16章-应用的构造/专栏-沙盒（AppSandbox）.md" << 'EOF'
@@ -12967,7 +12967,7 @@ order: 3
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建17.2.4可加载束和本地化文件
 cat > "$BASE_DIR/第17章-实例：简单图像视图/17.2-程序概况/17.2.4-可加载束和本地化.md" << 'EOF'
@@ -13216,7 +13216,7 @@ order: 4
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建17.4.1创建编译和设置文件文件
 cat > "$BASE_DIR/第17章-实例：简单图像视图/17.4-应用束的组织/17.4.1-创建编译和设置文件.md" << 'EOF'
@@ -13440,7 +13440,7 @@ order: 1
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建18.1.2Objective-C中的异常处理文件
 cat > "$BASE_DIR/第18章-异常和错误/18.1-异常/18.1.2-Objective-C中的异常处理.md" << 'EOF'
@@ -13689,7 +13689,7 @@ order: 5
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建18.3异常的发生和传播目录及其README
 mkdir -p "$BASE_DIR/第18章-异常和错误/18.3-异常的发生和传播"
@@ -13938,7 +13938,7 @@ order: 6
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建18.4断言目录及其README
 mkdir -p "$BASE_DIR/第18章-异常和错误/18.4-断言"
@@ -14162,7 +14162,7 @@ order: 2
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建18.5.3获取错误对象的信息文件
 cat > "$BASE_DIR/第18章-异常和错误/18.5-错误处理/18.5.3-获取错误对象的信息.md" << 'EOF'
@@ -14386,7 +14386,7 @@ order: 19
 
 本章介绍Objective-C中的并行编程概念和实现方法。
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建19.1多线程目录及其README
 mkdir -p "$BASE_DIR/第19章-并行编程/19.1-多线程"
@@ -14635,7 +14635,7 @@ order: 6
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建19.2互斥目录及其README
 mkdir -p "$BASE_DIR/第19章-并行编程/19.2-互斥"
@@ -14884,7 +14884,7 @@ order: 6
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建19.2.7@synchronized文件
 cat > "$BASE_DIR/第19章-并行编程/19.2-互斥/19.2.7-@synchronized.md" << 'EOF'
@@ -15133,7 +15133,7 @@ order: 5
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建19.3.6NSInvocationOperation的使用方法文件
 cat > "$BASE_DIR/第19章-并行编程/19.3-操作对象和并行处理/19.3.6-NSInvocationOperation的使用方法.md" << 'EOF'
@@ -15407,7 +15407,7 @@ order: 12
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建19.3.13设置队列调度为中断状态文件
 cat > "$BASE_DIR/第19章-并行编程/19.3-操作对象和并行处理/19.3.13-设置队列调度为中断状态.md" << 'EOF'
@@ -15656,7 +15656,7 @@ order: 5
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建19.5使用连接的通信目录及其README
 mkdir -p "$BASE_DIR/第19章-并行编程/19.5-使用连接的通信"
@@ -15905,7 +15905,7 @@ order: 6
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建19.5.7运行回路的开始文件
 cat > "$BASE_DIR/第19章-并行编程/19.5-使用连接的通信/19.5.7-运行回路的开始.md" << 'EOF'
@@ -16104,7 +16104,7 @@ order: 1
 
 本节介绍键值编码的基本概念和使用方法。
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建20.1.1什么是键值编码文件
 cat > "$BASE_DIR/第20章-键值编码/20.1-键值编码概况/20.1.1-什么是键值编码.md" << 'EOF'
@@ -16353,7 +16353,7 @@ order: 4
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建20.2.5一对一关系和一对多关系文件
 cat > "$BASE_DIR/第20章-键值编码/20.2-访问属性/20.2.5-一对一关系和一对多关系.md" << 'EOF'
@@ -16577,7 +16577,7 @@ order: 1
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建20.4.2键值编码的准则文件
 cat > "$BASE_DIR/第20章-键值编码/20.4-KVC标准/20.4.2-键值编码的准则.md" << 'EOF'
@@ -16801,7 +16801,7 @@ order: 6
 
 本节介绍Cocoa绑定的基本概念和使用方法。
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建20.6.1目标－行为－模式的弱点文件
 cat > "$BASE_DIR/第20章-键值编码/20.6-Cocoa绑定概述/20.6.1-目标－行为－模式的弱点.md" << 'EOF'
@@ -17050,7 +17050,7 @@ order: 1
 - 调试技巧
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建21.2ModernObjective-C特性文件
 cat > "$BASE_DIR/第21章-现代Objective-C开发/21.2-ModernObjective-C特性.md" << 'EOF'
@@ -17278,7 +17278,7 @@ order: 3
 - 效果评估
 - 持续改进
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建22.4持续集成文件
 cat > "$BASE_DIR/第22章-开发工具与调试/22.4-持续集成.md" << 'EOF'
@@ -17467,7 +17467,7 @@ order: 24
 
 本章介绍iOS开发中的测试方法和质量保证体系。
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建24.1单元测试文件
 cat > "$BASE_DIR/第24章-测试与质量保证/24.1-单元测试.md" << 'EOF'
@@ -17674,7 +17674,7 @@ order: 2
 - 应急响应
 - 持续改进
 EOF
-BASE_DIR="c:\project\kphub\src\object-c"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 # 创建25.3加密技术文件
 cat > "$BASE_DIR/第25章-安全开发指南/25.3-加密技术.md" << 'EOF'
@@ -17829,7 +17829,7 @@ order: 3
 - 值修改
 - 最佳实践
 EOF
-BASE_DIR="c:\project\kphub\src\swift"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/swift"
 
 # 创建1.4运算符与表达式文件
 cat > "$BASE_DIR/第1章-Swift基础/1.4-运算符与表达式.md" << 'EOF'
@@ -18036,7 +18036,7 @@ order: 2
 - 代码组织
 - 调试技巧
 EOF
-BASE_DIR="c:\project\kphub\src\swift"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/swift"
 
 # 创建2.3高阶函数文件
 cat > "$BASE_DIR/第2章-函数与闭包/2.3-高阶函数.md" << 'EOF'
@@ -18243,7 +18243,7 @@ order: 4
 - 内存管理
 - 调试技巧
 EOF
-BASE_DIR="c:\project\kphub\src\swift"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/swift"
 
 # 创建3.5下标文件
 cat > "$BASE_DIR/第3章-类型系统/3.5-下标.md" << 'EOF'
@@ -18450,7 +18450,7 @@ order: 4
 
 本章介绍Swift语言的高级特性和使用技巧。
 EOF
-BASE_DIR="c:\project\kphub\src\swift"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/swift"
 
 # 创建4.1可选链式调用文件
 cat > "$BASE_DIR/第4章-高级特性/4.1-可选链式调用.md" << 'EOF'
@@ -18675,7 +18675,7 @@ order: 7
 - 调试方法
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\swift"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/swift"
 
 # 创建4.8协议文件
 cat > "$BASE_DIR/第4章-高级特性/4.8-协议.md" << 'EOF'
@@ -18882,7 +18882,7 @@ order: 1
 - 调试技巧
 - 测试策略
 EOF
-BASE_DIR="c:\project\kphub\src\swift"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/swift"
 
 # 创建5.2Combine框架文件
 cat > "$BASE_DIR/第5章-Swift生态系统/5.2-Combine框架.md" << 'EOF'
@@ -19089,7 +19089,7 @@ order: 2
 - 测试方法
 - 维护策略
 EOF
-BASE_DIR="c:\project\kphub\src\swift"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/swift"
 
 # 创建6.3性能优化技巧文件
 cat > "$BASE_DIR/第6章-实战与最佳实践/6.3-性能优化技巧.md" << 'EOF'
@@ -19296,7 +19296,7 @@ order: 3
 - 内联优化
 - 静态分析
 EOF
-BASE_DIR="c:\project\kphub\src\swift"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/swift"
 
 # 创建7.4Swift演进历史与版本特性文件
 cat > "$BASE_DIR/第7章-高级主题/7.4-Swift演进历史与版本特性.md" << 'EOF'
@@ -19503,7 +19503,7 @@ order: 4
 - 部署策略
 - 维护更新
 EOF
-BASE_DIR="c:\project\kphub\src\swift"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/swift"
 
 # 创建第9章语言参考目录及其README
 mkdir -p "$BASE_DIR/第9章-语言参考"
@@ -19668,7 +19668,7 @@ order: 6
 - 类型转换
 - 类型元数据
 EOF
-BASE_DIR="c:\project\kphub\src\swift"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/swift"
 
 # 创建9.7模式文件
 cat > "$BASE_DIR/第9章-语言参考/9.7-模式.md" << 'EOF'

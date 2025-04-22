@@ -1,6 +1,6 @@
 # Bash脚本：创建知识库目录结构及文档内容
 
-BASE_DIR="c:/project/kphub/src/kotlin"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/kotlin"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md

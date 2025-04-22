@@ -1,4 +1,4 @@
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 mkdir -p "$BASE_DIR"
 
 # 创建主README.md
@@ -109,7 +109,7 @@ order: 2
 
 本章介绍音视频开发的基础环境和核心概念。
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建2.1音视频应用场景文件
 cat > "$BASE_DIR/第2章-音视频环境基础/2.1-音视频应用场景.md" << 'EOF'
@@ -383,7 +383,7 @@ order: 7
 - 调试方法
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第3章目录
 mkdir -p "$BASE_DIR/第3章-在不同系统上编译ffmpeg"
@@ -595,7 +595,7 @@ order: 5
 - 性能调优
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建3.6msys2+mingw编译ffmpeg文件
 cat > "$BASE_DIR/第3章-在不同系统上编译ffmpeg/3.6-msys2+mingw编译ffmpeg.md" << 'EOF'
@@ -807,7 +807,7 @@ order: 3
 - 优化方法
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建4.4指针文件
 cat > "$BASE_DIR/第4章-C语言回顾/4.4-指针.md" << 'EOF'
@@ -1042,7 +1042,7 @@ order: 9
 - 安全考虑
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第5章目录
 mkdir -p "$BASE_DIR/第5章-音频基础知识"
@@ -1254,7 +1254,7 @@ order: 5
 - 格式转换
 - 性能优化
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第6章目录
 mkdir -p "$BASE_DIR/第6章-实战音频采集"
@@ -1505,7 +1505,7 @@ order: 6
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建6.7引入ffmpeg库文件
 cat > "$BASE_DIR/第6章-实战音频采集/6.7-引入ffmpeg库.md" << 'EOF'
@@ -1779,7 +1779,7 @@ order: 13
 - 调试方法
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建6.14打开设备文件
 cat > "$BASE_DIR/第6章-实战音频采集/6.14-打开设备.md" << 'EOF'
@@ -1991,7 +1991,7 @@ order: 1
 - 应用场景
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建7.2音频无损压缩技术文件
 cat > "$BASE_DIR/第7章-音频编码原理/7.2-音频无损压缩技术.md" << 'EOF'
@@ -2203,7 +2203,7 @@ order: 8
 
 本章介绍音频编码的实战应用，包括编码器的使用和优化。
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建8.1音频重采样文件
 cat > "$BASE_DIR/第8章-实战音频编码/8.1-音频重采样.md" << 'EOF'
@@ -2477,7 +2477,7 @@ order: 7
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建8.8AAC编码过程2文件
 cat > "$BASE_DIR/第8章-实战音频编码/8.8-AAC编码过程2.md" << 'EOF'
@@ -2689,7 +2689,7 @@ order: 1
 - 应用场景
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建9.2屏幕显示器文件
 cat > "$BASE_DIR/第9章-视频基础知识/9.2-屏幕显示器.md" << 'EOF'
@@ -2963,7 +2963,7 @@ order: 8
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建9.9实战采集视频数据1文件
 cat > "$BASE_DIR/第9章-视频基础知识/9.9-实战采集视频数据1.md" << 'EOF'
@@ -3175,7 +3175,7 @@ order: 3
 - 应用场景
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建10.4帧内压缩技术文件
 cat > "$BASE_DIR/第10章-H264编码原理/10.4-帧内压缩技术.md" << 'EOF'
@@ -3387,7 +3387,7 @@ order: 1
 - 应用场景
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建11.2SPS重要参数文件
 cat > "$BASE_DIR/第11章-实战视频编码解码/11.2-SPS重要参数.md" << 'EOF'
@@ -3661,7 +3661,7 @@ order: 8
 - 质量控制
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建11.9NV12转YUV420P文件
 cat > "$BASE_DIR/第11章-实战视频编码解码/11.9-NV12转YUV420P.md" << 'EOF'
@@ -3873,7 +3873,7 @@ order: 1
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建12.2创建RTMP流文件
 cat > "$BASE_DIR/第12章-实战RTMP传输/12.2-创建RTMP流.md" << 'EOF'
@@ -4147,7 +4147,7 @@ order: 8
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建12.9连接RTMP服务器文件
 cat > "$BASE_DIR/第12章-实战RTMP传输/12.9-连接RTMP服务器.md" << 'EOF'
@@ -4359,7 +4359,7 @@ order: 13
 
 本章介绍CDN直播系统的实战应用。
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建13.1直播系统架构文件
 cat > "$BASE_DIR/第13章-实战CDN直播/13.1-直播系统架构.md" << 'EOF'
@@ -4633,7 +4633,7 @@ order: 7
 - 问题排查
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建13.8阿里云视频直播文件
 cat > "$BASE_DIR/第13章-实战CDN直播/13.8-阿里云视频直播.md" << 'EOF'
@@ -4780,7 +4780,7 @@ order: 1
 
 本课程系统地介绍了音视频开发的核心知识和技术实践，从音频视频基础知识到编码原理，从流媒体传输到CDN直播系统，全面覆盖音视频开发的各个方面。
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第1章目录
 mkdir -p "$BASE_DIR/第1章-学习指南"
@@ -4992,7 +4992,7 @@ order: 5
 - 调试方法
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建1.6Windows下安装FFmpeg文件
 cat > "$BASE_DIR/第1章-学习指南/1.6-Windows下安装FFmpeg.md" << 'EOF'
@@ -5204,7 +5204,7 @@ order: 3
 - 性能评估
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建2.4录制命令实战文件
 cat > "$BASE_DIR/第2章-FFmpeg常用命令实战/2.4-录制命令实战.md" << 'EOF'
@@ -5478,7 +5478,7 @@ order: 10
 - 问题排查
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第3章目录
 mkdir -p "$BASE_DIR/第3章-FFmpeg开发必备C语言回顾-vim讲解"
@@ -5651,7 +5651,7 @@ order: 4
 - 配置优化
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第4章目录
 mkdir -p "$BASE_DIR/第4章-FFmpeg开发必备C语言回顾"
@@ -5902,7 +5902,7 @@ order: 6
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建4.7for_while循环文件
 cat > "$BASE_DIR/第4章-FFmpeg开发必备C语言回顾/4.7-for_while循环.md" << 'EOF'
@@ -6137,7 +6137,7 @@ order: 12
 - 内存管理
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第5章目录
 mkdir -p "$BASE_DIR/第5章-FFmpeg多媒体文件处理"
@@ -6388,7 +6388,7 @@ order: 6
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建5.7流数据处理基本概念文件
 cat > "$BASE_DIR/第5章-FFmpeg多媒体文件处理/5.7-流数据处理基本概念.md" << 'EOF'
@@ -6662,7 +6662,7 @@ order: 13
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建5.14调试音频抽取程序文件
 cat > "$BASE_DIR/第5章-FFmpeg多媒体文件处理/5.14-调试音频抽取程序.md" << 'EOF'
@@ -6936,7 +6936,7 @@ order: 20
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建5.21作业：实现小咖秀核心逻辑文件
 cat > "$BASE_DIR/第5章-FFmpeg多媒体文件处理/5.21-作业：实现小咖秀核心逻辑.md" << 'EOF'
@@ -7148,7 +7148,7 @@ order: 4
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建6.5视频编码-4文件
 cat > "$BASE_DIR/第6章-FFmpeg编解码实战/6.5-视频编码-4.md" << 'EOF'
@@ -7422,7 +7422,7 @@ order: 11
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建6.12生成带色彩的BMP图片-2文件
 cat > "$BASE_DIR/第6章-FFmpeg编解码实战/6.12-生成带色彩的BMP图片-2.md" << 'EOF'
@@ -7634,7 +7634,7 @@ order: 2
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建7.3SDL窗口渲染文件
 cat > "$BASE_DIR/第7章-FFmpeg SDL音视频渲染实战/7.3-SDL窗口渲染.md" << 'EOF'
@@ -7908,7 +7908,7 @@ order: 9
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建7.10实现PCM播放器-2文件
 cat > "$BASE_DIR/第7章-FFmpeg SDL音视频渲染实战/7.10-实现PCM播放器-2.md" << 'EOF'
@@ -8120,7 +8120,7 @@ order: 2
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建8.3最简单的视频播放器-3文件
 cat > "$BASE_DIR/第8章-FFmpeg播放器核心功能开发/8.3-最简单的视频播放器-3.md" << 'EOF'
@@ -8394,7 +8394,7 @@ order: 9
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建8.10获取音频并解码-1文件
 cat > "$BASE_DIR/第8章-FFmpeg播放器核心功能开发/8.10-获取音频并解码-1.md" << 'EOF'
@@ -8668,7 +8668,7 @@ order: 16
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建8.17播放器核心结构体文件
 cat > "$BASE_DIR/第8章-FFmpeg播放器核心功能开发/8.17-播放器核心结构体.md" << 'EOF'
@@ -8903,7 +8903,7 @@ order: 22
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第9章目录
 mkdir -p "$BASE_DIR/第9章-如何在Android下使用FFmpeg"
@@ -9154,7 +9154,7 @@ order: 6
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建9.7编译Android下的FFmpeg-非工具链方式文件
 cat > "$BASE_DIR/第9章-如何在Android下使用FFmpeg/9.7-编译Android下的FFmpeg-非工具链方式.md" << 'EOF'
@@ -9366,7 +9366,7 @@ order: 1
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建10.2iOS中使用FFmpeg文件
 cat > "$BASE_DIR/第10章-如何在iOS下使用FFmpeg/10.2-iOS中使用FFmpeg.md" << 'EOF'
@@ -9578,7 +9578,7 @@ order: 4
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建11.5使用Filter的步骤-2文件
 cat > "$BASE_DIR/第11章-滤镜Filter的核心原理及实现/11.5-使用Filter的步骤-2.md" << 'EOF'
@@ -9852,7 +9852,7 @@ order: 11
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建11.12使用Filter进行滤镜处理文件
 cat > "$BASE_DIR/第11章-滤镜Filter的核心原理及实现/11.12-使用Filter进行滤镜处理.md" << 'EOF'
@@ -10126,7 +10126,7 @@ order: 18
 - 调试技巧
 - 注意事项
 EOF
-BASE_DIR="c:\project\kphub\src\audio-video"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第12章目录
 mkdir -p "$BASE_DIR/第12章-课程总结"
@@ -10237,7 +10237,7 @@ order: 13
 
 本课程介绍WebRTC实时通信技术的核心原理与开发实践。
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第1章目录
 mkdir -p "$BASE_DIR/第1章-学习指南"
@@ -10426,7 +10426,7 @@ order: 2
 - 文档管理
 - 测试规范
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建2.3WebRTC运行机制文件
 cat > "$BASE_DIR/第2章-WebRTC原理与架构/2.3-WebRTC运行机制.md" << 'EOF'
@@ -10638,7 +10638,7 @@ order: 4
 - 监控告警
 - 维护更新
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建3.5实现一个真正的Web服务器文件
 cat > "$BASE_DIR/第3章-Web服务器原理与Nodejs搭建/3.5-实现一个真正的Web服务器.md" << 'EOF'
@@ -10811,7 +10811,7 @@ order: 3
 - 调试技巧
 - 代码规范
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第5章目录
 mkdir -p "$BASE_DIR/第5章-WebRTC设备管理"
@@ -11000,7 +11000,7 @@ order: 2
 - 调试技巧
 - 错误处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建6.3获取设备访问权限文件
 cat > "$BASE_DIR/第6章-WebRTC音视频数据采集/6.3-获取设备访问权限.md" << 'EOF'
@@ -11274,7 +11274,7 @@ order: 9
 - 调试技巧
 - 错误处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第7章目录
 mkdir -p "$BASE_DIR/第7章-WebRTC音视频录制实战"
@@ -11447,7 +11447,7 @@ order: 4
 - 调试技巧
 - 错误处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第8章目录
 mkdir -p "$BASE_DIR/第8章-WebRTC信令服务器实现"
@@ -11659,7 +11659,7 @@ order: 5
 - 调试技巧
 - 错误处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第9章目录
 mkdir -p "$BASE_DIR/第9章-WebRTC网络基础补充"
@@ -11910,7 +11910,7 @@ order: 6
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建9.7ICE框架文件
 cat > "$BASE_DIR/第9章-WebRTC网络基础补充/9.7-ICE框架.md" << 'EOF'
@@ -12122,7 +12122,7 @@ order: 10
 
 本章介绍WebRTC端对端1V1传输的基本流程和实现方法。
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建10.1媒体能力协商过程一文件
 cat > "$BASE_DIR/第10章-端对端1V1传输基本流程/10.1-媒体能力协商过程一.md" << 'EOF'
@@ -12396,7 +12396,7 @@ order: 7
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第11章目录
 mkdir -p "$BASE_DIR/第11章-WebRTC核心之SDP详解"
@@ -12569,7 +12569,7 @@ order: 4
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第12章目录
 mkdir -p "$BASE_DIR/第12章-实现1V1音视频实时互动直播系统"
@@ -12820,7 +12820,7 @@ order: 6
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建12.7WebRTC客户端实现-基本结构文件
 cat > "$BASE_DIR/第12章-实现1V1音视频实时互动直播系统/12.7-WebRTC客户端实现-基本结构.md" << 'EOF'
@@ -13032,7 +13032,7 @@ order: 13
 
 本章介绍WebRTC中RTP媒体控制和数据统计的核心概念和实现方法。
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建13.1RTPReceiver发送器文件
 cat > "$BASE_DIR/第13章-WebRTC核心之RTP媒体控制与数据统计/13.1-RTPReceiver发送器.md" << 'EOF'
@@ -13267,7 +13267,7 @@ order: 6
 - 调试方法
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第14章目录
 mkdir -p "$BASE_DIR/第14章-WebRTC非音视频数据传输"
@@ -13456,7 +13456,7 @@ order: 1
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建15.2RTCP中的SR与RR报文文件
 cat > "$BASE_DIR/第15章-WebRTC实时数据传输网络协议详解/15.2-RTCP中的SR与RR报文.md" << 'EOF'
@@ -13668,7 +13668,7 @@ order: 1
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建16.2WebRTC Native开发逻辑文件
 cat > "$BASE_DIR/第16章-Android端与浏览器互通/16.2-WebRTC_Native开发逻辑.md" << 'EOF'
@@ -13880,7 +13880,7 @@ order: 1
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建17.2引入WebRTC库文件
 cat > "$BASE_DIR/第17章-iOS端与浏览器互通/17.2-引入WebRTC库.md" << 'EOF'
@@ -14154,7 +14154,7 @@ order: 8
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建17.9HTTPS服务文件
 cat > "$BASE_DIR/第17章-iOS端与浏览器互通/17.9-HTTPS服务.md" << 'EOF'
@@ -14265,7 +14265,7 @@ order: 19
 
 本课程深入剖析WebRTC源码，帮助开发者更好地理解WebRTC的内部实现机制。
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第1章目录
 mkdir -p "$BASE_DIR/第1章-课程介绍与学习指南"
@@ -14454,7 +14454,7 @@ order: 2
 - 挑战机遇
 - 解决方案
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建2.3直播技术的方向文件
 cat > "$BASE_DIR/第2章-WebRTC的整体架构/2.3-直播技术的方向.md" << 'EOF'
@@ -14666,7 +14666,7 @@ order: 3
 
 本章介绍如何搭建WebRTC源码分析的开发环境。
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建3.1WebRTC开发环境搭建概述文件
 cat > "$BASE_DIR/第3章-WebRTC源码分析环境的搭建/3.1-WebRTC开发环境搭建概述.md" << 'EOF'
@@ -14878,7 +14878,7 @@ order: 4
 
 本章开始深入分析WebRTC源码的内部实现机制。
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建4.1分析WebRTC必经之路章节概述文件
 cat > "$BASE_DIR/第4章-开启WebRTC源码分析之路/4.1-分析WebRTC必经之路章节概述.md" << 'EOF'
@@ -15152,7 +15152,7 @@ order: 7
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建4.8实战-实现一个最简单的Windows应用程序文件
 cat > "$BASE_DIR/第4章-开启WebRTC源码分析之路/4.8-实战-实现一个最简单的Windows应用程序.md" << 'EOF'
@@ -15426,7 +15426,7 @@ order: 14
 - 性能考虑
 - 安全机制
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建4.15源码分析-视频渲染文件
 cat > "$BASE_DIR/第4章-开启WebRTC源码分析之路/4.15-源码分析-视频渲染.md" << 'EOF'
@@ -15638,7 +15638,7 @@ order: 4
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建5.5WebRTC中的线程管理文件
 cat > "$BASE_DIR/第5章-抓住WebRTC的脉络（线程模型）/5.5-WebRTC中的线程管理.md" << 'EOF'
@@ -15912,7 +15912,7 @@ order: 11
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建5.12WebRTC接口调用过程文件
 cat > "$BASE_DIR/第5章-抓住WebRTC的脉络（线程模型）/5.12-WebRTC接口调用过程.md" << 'EOF'
@@ -16124,7 +16124,7 @@ order: 3
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建6.4如何生成SDP文件
 cat > "$BASE_DIR/第6章-开始"聊天"之前先认识一下（媒体协商）/6.4-如何生成SDP.md" << 'EOF'
@@ -16398,7 +16398,7 @@ order: 10
 - 问题处理
 - 维护建议
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建6.11收集Candidate的过程文件
 cat > "$BASE_DIR/第6章-开始"聊天"之前先认识一下（媒体协商）/6.11-收集Candidate的过程.md" << 'EOF'
@@ -16610,7 +16610,7 @@ order: 7
 
 本章深入介绍WebRTC的音频数据采集机制和实现。
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建7.1音频数据采集与播放概述文件
 cat > "$BASE_DIR/第7章-音频数据采集/7.1-音频数据采集与播放概述.md" << 'EOF'
@@ -16884,7 +16884,7 @@ order: 7
 - 性能考虑
 - 安全机制
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建7.8ADM初始化之InitSpeaker文件
 cat > "$BASE_DIR/第7章-音频数据采集/7.8-ADM初始化之InitSpeaker.md" << 'EOF'
@@ -17158,7 +17158,7 @@ order: 14
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建7.15InitPlayout源码分析文件
 cat > "$BASE_DIR/第7章-音频数据采集/7.15-InitPlayout源码分析.md" << 'EOF'
@@ -17432,7 +17432,7 @@ order: 21
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建7.22源码分析-StartRecording文件
 cat > "$BASE_DIR/第7章-音频数据采集/7.22-源码分析-StartRecording.md" << 'EOF'
@@ -17644,7 +17644,7 @@ order: 4
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建8.5源码分析-视频处理流程的建立文件
 cat > "$BASE_DIR/第8章-视频数据采集/8.5-源码分析-视频处理流程的建立.md" << 'EOF'
@@ -17918,7 +17918,7 @@ order: 11
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建8.12获取CaptureFilter的输出Pin文件
 cat > "$BASE_DIR/第8章-视频数据采集/8.12-获取CaptureFilter的输出Pin.md" << 'EOF'
@@ -18192,7 +18192,7 @@ order: 18
 - 性能考虑
 - 安全机制
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建8.19源码分析-连接Filter（二）文件
 cat > "$BASE_DIR/第8章-视频数据采集/8.19-源码分析-连接Filter（二）.md" << 'EOF'
@@ -18404,7 +18404,7 @@ order: 3
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建9.4音频初始化之编解码器的收集文件
 cat > "$BASE_DIR/第9章-音频引擎（音频编解码）/9.4-音频初始化之编解码器的收集.md" << 'EOF'
@@ -18678,7 +18678,7 @@ order: 10
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建9.11音频解码器的创建文件
 cat > "$BASE_DIR/第9章-音频引擎（音频编解码）/9.11-音频解码器的创建.md" << 'EOF'
@@ -18890,7 +18890,7 @@ order: 3
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建10.4视频数据是如何进入视频分发器的文件
 cat > "$BASE_DIR/第10章-视频引擎（视频编解码）/10.4-视频数据是如何进入视频分发器的.md" << 'EOF'
@@ -19164,7 +19164,7 @@ order: 10
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建10.11创建内部VideoSendStream文件
 cat > "$BASE_DIR/第10章-视频引擎（视频编解码）/10.11-创建内部VideoSendStream.md" << 'EOF'
@@ -19438,7 +19438,7 @@ order: 17
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建10.18视频解码文件
 cat > "$BASE_DIR/第10章-视频引擎（视频编解码）/10.18-视频解码.md" << 'EOF'
@@ -19650,7 +19650,7 @@ order: 4
 - 性能考虑
 - 安全机制
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建11.5获得本地默认IP地址和端口文件
 cat > "$BASE_DIR/第11章-深入理解WebRTC网络传输/11.5-获得本地默认IP地址和端口.md" << 'EOF'
@@ -19924,7 +19924,7 @@ order: 11
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建11.12收集Candidate文件
 cat > "$BASE_DIR/第11章-深入理解WebRTC网络传输/11.12-收集Candidate.md" << 'EOF'
@@ -20198,7 +20198,7 @@ order: 18
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建11.19Turn协议数据传输机制文件
 cat > "$BASE_DIR/第11章-深入理解WebRTC网络传输/11.19-Turn协议数据传输机制.md" << 'EOF'
@@ -20472,7 +20472,7 @@ order: 25
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建11.26选择Connection文件
 cat > "$BASE_DIR/第11章-深入理解WebRTC网络传输/11.26-选择Connection.md" << 'EOF'
@@ -20707,7 +20707,7 @@ order: 31
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第12章目录
 mkdir -p "$BASE_DIR/第12章-WebRTC服务质量（QoS）"
@@ -20958,7 +20958,7 @@ order: 6
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建12.7RTCP协议三-其他类型的RTCP报文文件
 cat > "$BASE_DIR/第12章-WebRTC服务质量（QoS）/12.7-RTCP协议三-其他类型的RTCP报文.md" << 'EOF'
@@ -21232,7 +21232,7 @@ order: 13
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建12.14VP8关键帧的判断文件
 cat > "$BASE_DIR/第12章-WebRTC服务质量（QoS）/12.14-VP8关键帧的判断.md" << 'EOF'
@@ -21506,7 +21506,7 @@ order: 20
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建12.21IntervalBudget文件
 cat > "$BASE_DIR/第12章-WebRTC服务质量（QoS）/12.21-IntervalBudget.md" << 'EOF'
@@ -21780,7 +21780,7 @@ order: 27
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建12.28FrameBuffer文件
 cat > "$BASE_DIR/第12章-WebRTC服务质量（QoS）/12.28-FrameBuffer.md" << 'EOF'
@@ -21992,7 +21992,7 @@ order: 13
 
 本章深入介绍WebRTC的NetEQ模块，包括其工作原理、实现机制和应用场景。
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建13.1NetEq在WebRTC中的位置文件
 cat > "$BASE_DIR/第13章-NetEQ/13.1-NetEq在WebRTC中的位置.md" << 'EOF'
@@ -22204,7 +22204,7 @@ order: 14
 
 本章深入介绍WebRTC中的Simulcast和SVC技术，包括其原理、实现和应用。
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建14.1什么是Simulcast文件
 cat > "$BASE_DIR/第14章-Simulcast与SVC/14.1-什么是Simulcast.md" << 'EOF'
@@ -22439,7 +22439,7 @@ order: 6
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-source"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第15章目录
 mkdir -p "$BASE_DIR/第15章-课程总结"
@@ -22563,7 +22563,7 @@ order: 1
 - 考核标准
 - 应用实践
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建1.2导学文件
 cat > "$BASE_DIR/第1章-课程导学与准备工作/1.2-导学.md" << 'EOF'
@@ -22775,7 +22775,7 @@ order: 4
 - 解决方案
 - 使用建议
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建2.5继承1文件
 cat > "$BASE_DIR/第2章-C++语言基础回顾/2.5-继承1.md" << 'EOF'
@@ -23010,7 +23010,7 @@ order: 10
 - 调试技巧
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第3章目录
 mkdir -p "$BASE_DIR/第3章-服务器基础编程"
@@ -23261,7 +23261,7 @@ order: 6
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建3.7以daemon方式切换到后台文件
 cat > "$BASE_DIR/第3章-服务器基础编程/3.7-以daemon方式切换到后台.md" << 'EOF'
@@ -23473,7 +23473,7 @@ order: 4
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建4.5作业-UDP服务端与客户端的实现文件
 cat > "$BASE_DIR/第4章-网络编程基础/4.5-作业-UDP服务端与客户端的实现.md" << 'EOF'
@@ -23685,7 +23685,7 @@ order: 3
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第6章目录
 mkdir -p "$BASE_DIR/第6章-epoll实现高性能服务器"
@@ -23858,7 +23858,7 @@ order: 4
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第7章目录
 mkdir -p "$BASE_DIR/第7章-libevent实现高性能网络服务器"
@@ -24047,7 +24047,7 @@ order: 1
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建8.2TCP协议详解文件
 cat > "$BASE_DIR/第8章-TCP_IP详解/8.2-TCP协议详解.md" << 'EOF'
@@ -24321,7 +24321,7 @@ order: 8
 - 监控方案
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建8.9TCP在实时通信中的作用文件
 cat > "$BASE_DIR/第8章-TCP_IP详解/8.9-TCP在实时通信中的作用.md" << 'EOF'
@@ -24533,7 +24533,7 @@ order: 4
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建9.5RTCP RR SDES报文介绍文件
 cat > "$BASE_DIR/第9章-UDP_RTP_RTCP详解/9.5-RTCP_RR_SDES报文介绍.md" << 'EOF'
@@ -24745,7 +24745,7 @@ order: 2
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建10.3STUN MessageType详解文件
 cat > "$BASE_DIR/第10章-WebRTC协议/10.3-STUN_MessageType详解.md" << 'EOF'
@@ -25019,7 +25019,7 @@ order: 9
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建第11章目录
 mkdir -p "$BASE_DIR/第11章-SDP协议与WebRTC媒体协商"
@@ -25231,7 +25231,7 @@ order: 5
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建11.6WebRTC中SDP各字段含义详解文件
 cat > "$BASE_DIR/第11章-SDP协议与WebRTC媒体协商/11.6-WebRTC中SDP各字段含义详解.md" << 'EOF'
@@ -25443,7 +25443,7 @@ order: 4
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建12.5Licode流媒体服务器架构和特点文件
 cat > "$BASE_DIR/第12章-各流媒体服务器的比较/12.5-Licode流媒体服务器架构和特点.md" << 'EOF'
@@ -25655,7 +25655,7 @@ order: 1
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建13.2Mediasoup Demo的布署文件
 cat > "$BASE_DIR/第13章-mediasoup服务器的布署与使用/13.2-Mediasoup_Demo的布署.md" << 'EOF'
@@ -25867,7 +25867,7 @@ order: 14
 
 本章介绍mediasoup的信令系统设计和实现。
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建14.1mediasoup-demo整体分析文件
 cat > "$BASE_DIR/第14章-mediasoup的信令系统/14.1-mediasoup-demo整体分析.md" << 'EOF'
@@ -26141,7 +26141,7 @@ order: 7
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建14.8如何调试MediasoupDemo文件
 cat > "$BASE_DIR/第14章-mediasoup的信令系统/14.8-如何调试MediasoupDemo.md" << 'EOF'
@@ -26353,7 +26353,7 @@ order: 3
 - 性能调优
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建15.4Mediasoup启动详解文件
 cat > "$BASE_DIR/第15章-mediasoup源码分析/15.4-Mediasoup启动详解.md" << 'EOF'
@@ -26627,7 +26627,7 @@ order: 10
 - 安全考虑
 - 问题处理
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建15.11mediasoup连接的创建1文件
 cat > "$BASE_DIR/第15章-mediasoup源码分析/15.11-mediasoup连接的创建1.md" << 'EOF'
@@ -26901,7 +26901,7 @@ order: 17
 - 维护要点
 - 升级策略
 EOF
-BASE_DIR="c:\project\kphub\src\webrtc-server"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/audio-video"
 
 # 创建15.18mediasoup安装好后看不对远端视频(作业)文件
 cat > "$BASE_DIR/第15章-mediasoup源码分析/15.18-mediasoup安装好后看不对远端视频(作业).md" << 'EOF'
