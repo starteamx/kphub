@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SCRIPT_FILE="/Users/guanrunbai/my/kphub/src/.help/rpa/category_bash7.sh"
-BASE_DIR="/Users/guanrunbai/my/kphub/src/java-backend"
+SCRIPT_FILE="/Users/guanrunbai/my/kphub/src/.help/rpa/category_bash_oc.sh"
+BASE_DIR="/Users/guanrunbai/my/kphub/src/object-c"
 
 if [ ! -f "$SCRIPT_FILE" ]; then
     echo "错误: 文件 $SCRIPT_FILE 不存在"
